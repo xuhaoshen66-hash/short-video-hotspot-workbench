@@ -9,31 +9,23 @@
   <body>
     <main id="loginView" class="login-shell">
       <section class="login-panel">
-        <p class="eyebrow">个人版</p>
+        <p class="eyebrow">个人工作台</p>
         <h1>短视频热点选题工作台</h1>
-        <p class="muted">每天筛热点、看角度、备素材。</p>
-        <label class="field">
-          <span>访问密码</span>
-          <input id="passwordInput" type="password" placeholder="默认密码：123456" autocomplete="current-password" />
-        </label>
+        <p class="muted">每天筛热点、看角度、备素材，快速判断今天拍什么。</p>
+        <div class="welcome-points">
+          <span>热点榜单</span>
+          <span>选题判断</span>
+          <span>拍摄资料包</span>
+        </div>
         <button
-          id="loginButton"
+          id="enterButton"
           class="primary-button"
-          type="button"
-          onclick="var v=document.getElementById('passwordInput').value.trim().replace(/[０-９]/g,function(c){return String.fromCharCode(c.charCodeAt(0)-65248)});if(v==='123456'){document.getElementById('loginView').hidden=true;document.getElementById('loginView').style.display='none';document.getElementById('appView').hidden=false;document.getElementById('appView').style.display='grid';}else{document.getElementById('loginError').hidden=false;}"
-        >
-          进入工作台
-        </button>
-        <button
-          id="demoLoginButton"
-          class="secondary-button"
           type="button"
           onclick="document.getElementById('loginView').hidden=true;document.getElementById('loginView').style.display='none';document.getElementById('appView').hidden=false;document.getElementById('appView').style.display='grid';"
         >
-          跳过登录进入演示
+          进入工作台
         </button>
-        <p class="muted login-hint">提示：现在是本地原型，默认密码是 123456。</p>
-        <p id="loginError" class="error-text" hidden>密码不正确，请输入 123456。</p>
+        <p class="muted login-hint">当前是个人试用版，暂不需要登录。</p>
       </section>
     </main>
 
@@ -217,6 +209,6 @@
     <div id="toast" class="toast" hidden></div>
     <script src="data.js?v=20260518-6"></script>
     <script src="timelines.js?v=20260518-1"></script>
-    <script src="app.js?v=20260518-45"></script>
+    <script src="app.js?v=20260518-46"></script>
   </body>
 </html>

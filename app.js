@@ -1,6 +1,4 @@
-﻿const PASSWORD = "123456";
-
-const ranges = ["今日榜", "三天榜", "周榜", "月榜"];
+﻿const ranges = ["今日榜", "三天榜", "周榜", "月榜"];
 const categories = ["全部", "金融", "科技", "民生", "AI", "教育"];
 const platforms = ["全部", "微博", "百度", "抖音", "今日头条"];
 const sorts = ["综合热度", "爆款潜力", "视频化热度", "最新出现"];
@@ -51,12 +49,6 @@ function on(selector, eventName, handler) {
   const element = $(selector);
   if (!element) return;
   element.addEventListener(eventName, handler);
-}
-
-function normalizePassword(value) {
-  return value
-    .trim()
-    .replace(/[０-９]/g, (char) => String.fromCharCode(char.charCodeAt(0) - 65248));
 }
 
 function enterApp() {
@@ -918,17 +910,7 @@ function handleAction(action, id, value, targetElement) {
 }
 
 function bindEvents() {
-  on("#loginButton", "click", () => {
-    if (normalizePassword($("#passwordInput").value) === PASSWORD) {
-      enterApp();
-    } else {
-      $("#loginError").hidden = false;
-    }
-  });
-  on("#demoLoginButton", "click", enterApp);
-  on("#passwordInput", "keydown", (event) => {
-    if (event.key === "Enter") $("#loginButton").click();
-  });
+  on("#enterButton", "click", enterApp);
   document.querySelectorAll(".nav-item").forEach((item) => {
     item.addEventListener("click", () => showView(item.dataset.view));
   });

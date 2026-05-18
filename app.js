@@ -207,11 +207,7 @@ function renderSelect(id, options, stateKey) {
 }
 
 function filteredHotspots() {
-  const filtered = hotspots.filter((item) => {
-    const categoryMatch = state.category === "全部" || item.category === state.category;
-    const platformMatch = state.platform === "全部" || item.platforms.includes(state.platform);
-    return categoryMatch && platformMatch;
-  });
+  const filtered = baseFilteredHotspots();
   const sortMap = {
     值得拍指数: (item) => creatorScore(item),
     综合热度: (item) => item.rangeScore[state.range] || item.heat,
@@ -224,6 +220,14 @@ function filteredHotspots() {
   const categoryMinimum = categoryDisplayMinimums[state.range] || 3;
   const limit = state.category === "全部" ? allLimit : Math.max(categoryMinimum, Math.min(allLimit, sorted.length));
   return sorted.slice(0, limit);
+}
+
+function baseFilteredHotspots() {
+  return hotspots.filter((item) => {
+    const categoryMatch = state.category === "全部" || item.category === state.category;
+    const platformMatch = state.platform === "全部" || item.platforms.includes(state.platform);
+    return categoryMatch && platformMatch;
+  });
 }
 
 function trendClass(trend) {
@@ -247,6 +251,16 @@ function scoreBlock(label, value, tone = "") {
 
 function creatorScore(item) {
   return item.creatorScore || Math.round(item.viral * 0.45 + item.heat * 0.35 + item.videoHeat * 0.2);
+}
+
+function oralScore(item) {
+  return item.oralScore || Math.round(creatorScore(item) * 0.78 + (item.category === "金融" ? 7 : 0) + (item.category === "民生" ? 5 : 0));
+}
+
+function priorityScore(item) {
+  const sourceBonus = item.platforms?.length >= 2 ? 5 : 0;
+  const financeBonus = item.category === "金融" ? 6 : 0;
+  return oralScore(item) * 0.5 + creatorScore(item) * 0.35 + (item.rangeScore?.今日榜 || item.heat) * 0.15 + sourceBonus + financeBonus;
 }
 
 function topicDecision(item) {
@@ -311,7 +325,7 @@ function articleHtml(text) {
 }
 
 function platformLinks(item) {
-  const keywordText = item.searchKeywords || item.originalTitle || item.title;
+  const keywordText = item.recommendedSearchKeywords || item.searchKeywords || item.originalTitle || item.title;
   const keyword = encodeURIComponent(keywordText);
   return [
     ["去微博搜索", `https://s.weibo.com/weibo?q=${keyword}`],
@@ -322,8 +336,14 @@ function platformLinks(item) {
 }
 
 function searchKeywordHtml(item) {
-  const keywordText = item.searchKeywords || item.originalTitle || item.title;
-  return `<p class="muted search-keyword">当前搜索词：${keywordText}</p>`;
+  const recommended = item.recommendedSearchKeywords || item.searchKeywords || item.originalTitle || item.title;
+  const original = item.originalTitle || item.title;
+  return `
+    <div class="search-keyword">
+      <p class="muted">推荐搜索词：<b>${recommended}</b></p>
+      ${original !== recommended ? `<p class="muted">平台原始标题：${original}</p>` : ""}
+    </div>
+  `;
 }
 
 function imageSuggestions(item) {
@@ -446,6 +466,39 @@ function hotspotCard(item, mode = "dashboard") {
   `;
 }
 
+function priorityHotspots() {
+  return baseFilteredHotspots()
+    .filter((item) => creatorScore(item) >= 70 || oralScore(item) >= 70)
+    .sort((a, b) => priorityScore(b) - priorityScore(a))
+    .slice(0, 6);
+}
+
+function priorityCard(item, index) {
+  const decision = topicDecision(item);
+  return `
+    <article class="priority-card">
+      <div class="priority-rank">${index + 1}</div>
+      <div class="priority-body">
+        <div class="priority-title-row">
+          <h3>${item.title}</h3>
+          <span class="decision-pill ${decision.tone}">${decision.label}</span>
+        </div>
+        <div class="tags">
+          <span class="tag">${item.category}</span>
+          <span class="tag platform-tag">口播 ${oralScore(item)}</span>
+          <span class="tag platform-tag">值得拍 ${creatorScore(item)}</span>
+        </div>
+        <p>${item.oralReason || item.creatorReason || decision.reason}</p>
+        <p class="muted priority-search">搜：${item.recommendedSearchKeywords || item.searchKeywords || item.title}</p>
+        <div class="button-row">
+          <button class="secondary-button" data-action="detail" data-id="${item.id}">查看详情</button>
+          <button class="secondary-button" data-action="save" data-id="${item.id}">收藏</button>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
 function statusButtons(id, status) {
   return `
     <select class="compact-select" data-action="status" data-id="${id}">
@@ -472,7 +525,17 @@ function renderHotspots() {
   const list = filteredHotspots();
   $("#resultCount").textContent = `当前显示 ${list.length} 条热点`;
   $("#updatedAt").textContent = formatDate(state.updatedAt);
+  renderPriority();
   $("#hotspotList").innerHTML = list.length ? list.map((item) => hotspotCard(item)).join("") : emptyText("没有符合条件的热点");
+}
+
+function renderPriority() {
+  const list = priorityHotspots();
+  const panel = $(".priority-panel");
+  const wrap = $("#priorityList");
+  if (!panel || !wrap) return;
+  panel.hidden = !list.length;
+  wrap.innerHTML = list.map(priorityCard).join("");
 }
 
 function emptyText(text) {

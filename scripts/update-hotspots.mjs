@@ -62,6 +62,27 @@ function searchKeywords(title) {
     .trim();
 }
 
+function recommendedSearchKeywords(title, desc = "") {
+  const clean = searchKeywords(title)
+    .replace(/^(官方通报|最新通报|多地|多家|专家称|媒体评|网传|曝)\s*/u, "")
+    .replace(/\s*(引发关注|引发讨论|冲上热搜|上热搜|热议)$/u, "")
+    .trim();
+  if (clean.length <= 18) return clean;
+
+  const quoted = title.match(/[“"]([^”"]{4,24})[”"]/);
+  if (quoted?.[1]) return searchKeywords(quoted[1]);
+
+  const numbers = clean.match(/[0-9]+(?:\.[0-9]+)?(?:万|亿|%|人|元|岁|级|个|名|家)?/g) || [];
+  const entities = clean.match(/[\u4e00-\u9fa5A-Za-z0-9]{2,}(?:银行|公司|集团|大学|学校|医院|城市|村|村庄|车企|基金|股票|利率|补贴|政策|工程|套餐|事故|地震|癌|就业|养老|医保|港交所|IPO|AI|Token)/g) || [];
+  const descEntities = desc.match(/[\u4e00-\u9fa5A-Za-z0-9]{2,}(?:银行|公司|集团|大学|学校|医院|城市|村|村庄|车企|基金|股票|利率|补贴|政策|工程|套餐|事故|地震|癌|就业|养老|医保|港交所|IPO|AI|Token)/g) || [];
+  const pieces = [...entities, ...numbers, ...descEntities]
+    .map((item) => searchKeywords(item))
+    .filter(Boolean);
+  const unique = Array.from(new Set(pieces)).slice(0, 4);
+  if (unique.join(" ").length >= 6) return unique.join(" ");
+  return clean.slice(0, 28);
+}
+
 function normalizeKey(title) {
   return searchKeywords(title).replace(/[^\p{Script=Han}\p{Letter}\p{Number}]/gu, "").toLowerCase();
 }
@@ -208,6 +229,8 @@ function isLowValueTopic(item) {
   const text = `${item.title} ${item.desc || ""} ${(item.tags || []).join(" ")}`;
   const hasUsefulSignal =
     /政策|官方|通报|回应|数据|价格|利率|银行|教育|学校|学生|就业|AI|人工智能|手机|芯片|汽车|新能源|医疗|养老|社保|医保|交通|安全|地震|暴雨|工人|公民|消费者|补贴|住房|社区/i.test(text);
+  const hasChinaPublicSignal =
+    /中国|国内|大陆|香港|港交所|A股|人民币|央行|中使馆|中国公民|中国企业|中方|城市|省|市|县|村|居民|消费者|学生|家长|工人/i.test(text);
   const pureEntertainment =
     /明星|演员|歌手|网红|恋情|分手|结婚|离婚|综艺|电影|电视剧|演唱会|粉丝|八卦|红毯|男团|女团/i.test(text) &&
     !hasUsefulSignal;
@@ -220,7 +243,15 @@ function isLowValueTopic(item) {
   const pureCultureOrPropaganda =
     /总书记|文物故事|博物馆日|文化遗产|理论学习|主题教育/i.test(text) &&
     !/政策|消费|旅游|安全|教育改革|公共服务|补贴|就业|民生/i.test(text);
-  return pureEntertainment || pureSports || pureNovelty || pureCultureOrPropaganda;
+  const pureInternational =
+    /伊朗|以色列|美国|俄罗斯|乌克兰|菲律宾|日本|韩国|特朗普|拜登|总统|最高领袖|战争|军方|导弹|袭击/i.test(text) &&
+    !hasChinaPublicSignal &&
+    !/贸易|关税|汇率|股市|供应链|芯片|能源|油价/i.test(text);
+  const hardToExplainByTitle =
+    text.length <= 16 &&
+    !hasUsefulSignal &&
+    !/[0-9]|政策|通报|回应|下调|上涨|下降|发布|上线|补贴|就业|事故|地震|暴雨|癌|利率|银行|AI/i.test(text);
+  return pureEntertainment || pureSports || pureNovelty || pureCultureOrPropaganda || pureInternational || hardToExplainByTitle;
 }
 
 function trendText(trend) {
@@ -260,7 +291,7 @@ function sourceReferences(item) {
     .filter((source) => source.url)
     .slice(0, 4)
     .map((source) => [`${source.source}：${source.title}`, source.url]);
-  const keyword = encodeURIComponent(searchKeywords(item.title));
+  const keyword = encodeURIComponent(recommendedSearchKeywords(item.title, item.desc));
   refs.push(["百度新闻搜索", `https://www.baidu.com/s?wd=${keyword}%20新闻`]);
   refs.push(["官方回应搜索", `https://www.baidu.com/s?wd=${keyword}%20官方%20回应`]);
   return refs;
@@ -270,7 +301,7 @@ function makeDetail(item, updatedAt) {
   const platforms = item.platforms.join("、");
   const desc = item.desc?.trim();
   const title = cleanTitle(item.title);
-  const paragraphOne = `截至${updatedAt}，"${title}"出现在${platforms}等公开热榜或热点页面中。页面记录的平台标题为"${title}"，可搜索关键词为"${searchKeywords(title)}"。`;
+  const paragraphOne = `截至${updatedAt}，"${title}"出现在${platforms}等公开热榜或热点页面中。页面记录的平台标题为"${title}"，推荐搜索词为"${recommendedSearchKeywords(title, desc)}"。`;
   const paragraphTwo = desc
     ? `公开页面摘要显示：${desc}`
     : `目前公开热榜只提供了标题和热度信息，暂未抓取到完整新闻摘要。该类热点需要通过参考来源中的新闻搜索、官方回应搜索和平台搜索入口继续核对。`;
@@ -338,16 +369,26 @@ function creatorProfile(item, category, heat, viral, videoHeat) {
   const multiSource = item.platforms.length >= 2;
   const practicalSignal = /怎么|如何|政策|补贴|利率|价格|就业|教育|医疗|养老|安全|消费|住房|AI|工具|手机|汽车|银行|官方|通报|回应/i.test(text);
   const strongPublicConcern = /普通人|家庭|学生|家长|老人|工人|消费者|居民|公民|游客|孩子|年轻人/i.test(text);
+  const oralSignal = /普通人|家庭|学生|家长|老人|工人|消费者|居民|村民|公民|游客|年轻人|孩子|钱|工资|就业|利率|银行|补贴|价格|医保|养老|住房|安全|健康|疾病|癌|白发|衰老|村庄|手机|汽车|AI工具|怎么|如何|为什么/i.test(text);
+  const clearStorySignal = /通报|回应|发布|上线|下调|上涨|下降|显示|宣布|发现|查扣|确诊|患癌|发生|成为|来了|推出|调整/i.test(text);
   const riskySignal = /网传|曝|爆料|疑似|传言|未经证实|聊天记录|偷拍视频|八卦|恋情/i.test(text);
+  const officialDrySignal = /文物故事|理论学习|领导人活动|国际访问|会议召开/i.test(text) && !practicalSignal;
   const categoryBonus = { 金融: 10, 教育: 6, 民生: 6, AI: 5, 科技: 4 }[category] || 3;
   const sourceBonus = multiSource ? 8 : 2;
   const descBonus = hasClearDesc ? 7 : -4;
   const practicalBonus = practicalSignal ? 8 : 0;
   const concernBonus = strongPublicConcern ? 5 : 0;
-  const riskPenalty = riskySignal ? 10 : 0;
+  const oralBonus = oralSignal ? 8 : 0;
+  const storyBonus = clearStorySignal ? 5 : 0;
+  const riskPenalty = (riskySignal ? 10 : 0) + (officialDrySignal ? 12 : 0);
   const score = clamp(
-    Math.round(heat * 0.34 + viral * 0.24 + videoHeat * 0.16 + categoryBonus + sourceBonus + descBonus + practicalBonus + concernBonus - riskPenalty),
+    Math.round(heat * 0.28 + viral * 0.18 + videoHeat * 0.12 + categoryBonus + sourceBonus + descBonus + practicalBonus + concernBonus + oralBonus + storyBonus - riskPenalty),
     35,
+    98,
+  );
+  const oralScore = clamp(
+    Math.round(score * 0.62 + (oralSignal ? 14 : 0) + (clearStorySignal ? 8 : 0) + (hasClearDesc ? 6 : -5) + (riskySignal ? -8 : 0)),
+    30,
     98,
   );
   const reasons = [];
@@ -357,9 +398,16 @@ function creatorProfile(item, category, heat, viral, videoHeat) {
   if (strongPublicConcern) reasons.push("受众代入感强");
   if (riskySignal) reasons.push("存在传言或爆料信号，发布前要更谨慎核查");
   if (!reasons.length) reasons.push("有热度，但还需要先核实来源和事件背景");
+  const oralReasons = [];
+  if (oralSignal) oralReasons.push("普通人有代入感");
+  if (clearStorySignal) oralReasons.push("事件动作明确，适合口播讲清楚");
+  if (hasClearDesc) oralReasons.push("公开信息足够支撑开头");
+  if (!oralReasons.length) oralReasons.push("可先收藏观察，等更多细节再拍");
   return {
     score,
     reason: reasons.slice(0, 3).join("；") + "。",
+    oralScore,
+    oralReason: oralReasons.slice(0, 3).join("；") + "。",
   };
 }
 
@@ -377,6 +425,7 @@ function buildHotspot(item, index, updatedAt) {
     title: cleanTitle(item.title),
     originalTitle: cleanTitle(item.title),
     searchKeywords: searchKeywords(item.title),
+    recommendedSearchKeywords: recommendedSearchKeywords(item.title, item.desc),
     category,
     platforms: Array.from(new Set(item.platforms)),
     heat,
@@ -384,6 +433,8 @@ function buildHotspot(item, index, updatedAt) {
     videoHeat,
     creatorScore: creator.score,
     creatorReason: creator.reason,
+    oralScore: creator.oralScore,
+    oralReason: creator.oralReason,
     firstSeen: updatedAt,
     trend: trendText(item.trend),
     rangeScore: {

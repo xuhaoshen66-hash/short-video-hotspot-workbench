@@ -486,12 +486,13 @@ function priorityHotspots() {
     .filter((item) => !state.ignored.includes(item.id))
     .filter((item) => creatorScore(item) >= 70 || oralScore(item) >= 70)
     .sort((a, b) => priorityScore(b) - priorityScore(a))
-    .slice(0, 6);
+    .slice(0, 3);
 }
 
 function priorityCard(item, index) {
   const decision = topicDecision(item);
   const savedItem = state.saved.find((saved) => saved.id === item.id);
+  const plan = shootPlan(item);
   return `
     <article class="priority-card">
       <div class="priority-rank">${index + 1}</div>
@@ -503,9 +504,13 @@ function priorityCard(item, index) {
         <div class="tags">
           <span class="tag">${item.category}</span>
           <span class="tag platform-tag">口播 ${oralScore(item)}</span>
-          <span class="tag platform-tag">值得拍 ${creatorScore(item)}</span>
         </div>
-        <p>${item.oralReason || item.creatorReason || decision.reason}</p>
+        <div class="shoot-plan">
+          <p><b>为什么今天拍：</b>${plan.why}</p>
+          <p><b>推荐切口：</b>${plan.angle}</p>
+          <p><b>开头一句：</b>${plan.hook}</p>
+          <p><b>风险提醒：</b>${plan.risk}</p>
+        </div>
         <p class="muted priority-search">搜：${item.recommendedSearchKeywords || item.searchKeywords || item.title}</p>
         <div class="button-row">
           <button class="secondary-button" data-action="detail" data-id="${item.id}">查看详情</button>
@@ -514,6 +519,31 @@ function priorityCard(item, index) {
       </div>
     </article>
   `;
+}
+
+function shootPlan(item) {
+  const keyword = item.recommendedSearchKeywords || item.searchKeywords || item.title;
+  const angleMap = {
+    金融: "从普通人的钱包和选择讲，不预测涨跌，只解释这件事可能影响什么。",
+    民生: "从一个普通家庭会不会受影响讲，把事实、影响和需要核查的地方分开。",
+    教育: "从学生、家长或年轻人的处境讲，避免制造焦虑，重点讲规则和边界。",
+    AI: "从普通人能不能用、值不值得用讲，尽量用具体场景解释。",
+    科技: "从产品或技术变化会不会影响普通人生活讲，少讲术语，多讲结果。",
+  };
+  const hookMap = {
+    金融: `今天这条财经热点，普通人先别急着下结论，先看它和自己的钱袋子有什么关系。`,
+    民生: `这条热搜我建议先别当故事看，它真正值得讲的是普通人可能会受到什么影响。`,
+    教育: `这件事表面是一个教育新闻，其实很多学生和家长都会关心背后的规则。`,
+    AI: `这条 AI 热点不要只看热闹，关键是普通人到底能不能用上、怎么用。`,
+    科技: `这条科技新闻如果讲术语会很远，但换成普通人的使用场景就好懂了。`,
+  };
+  return {
+    why: item.oralReason || item.creatorReason || "话题有热度，但发布前仍需要核查来源。",
+    angle: angleMap[item.category] || "从普通人视角讲清楚发生了什么、为什么被关注、哪些信息还不能下结论。",
+    hook: hookMap[item.category] || `今天这条热点先别急着站队，普通人最该看的是它到底影响谁。`,
+    risk: item.category === "金融" ? "不要给投资建议，不承诺收益，关键数字必须核对。" : item.risk || "发布前先核对官方回应、权威媒体和原始来源。",
+    keyword,
+  };
 }
 
 function statusButtons(id, status) {

@@ -1051,9 +1051,25 @@ button {
   }
 
   .split-layout,
-  .form-grid,
-  .filter-bar {
+  .form-grid {
     grid-template-columns: 1fr;
+  }
+
+  .filter-bar {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px;
+    padding: 7px;
+  }
+
+  .filter-bar span {
+    font-size: 11px;
+  }
+
+  .filter-bar select {
+    min-height: 32px;
+    padding: 5px 6px;
+    border-radius: 8px;
+    font-size: 13px;
   }
 
   .topbar,

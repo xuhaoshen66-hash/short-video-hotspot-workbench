@@ -37,6 +37,7 @@ const state = {
   selectedId: null,
   expandedTimelines: readStoredJson("creatorRadarExpandedTimelines", {}),
   saved: readStoredJson("creatorRadarSaved", []),
+  ignored: readStoredJson("creatorRadarIgnored", []),
   customHotspots: readStoredJson("creatorRadarCustomHotspots", []),
   updatedAt: new Date(window.UPDATE_META?.lastUpdatedAt || Date.now()),
 };
@@ -61,6 +62,7 @@ function enterApp() {
 function saveLocal() {
   try {
     window.localStorage?.setItem("creatorRadarSaved", JSON.stringify(state.saved));
+    window.localStorage?.setItem("creatorRadarIgnored", JSON.stringify(state.ignored));
     window.localStorage?.setItem("creatorRadarExpandedTimelines", JSON.stringify(state.expandedTimelines));
     window.localStorage?.setItem("creatorRadarCustomHotspots", JSON.stringify(state.customHotspots));
   } catch (error) {
@@ -102,6 +104,17 @@ function normalizeSavedStatuses() {
     }
   });
   if (changed) saveLocal();
+}
+
+function pruneMissingLocalMarks() {
+  const validIds = new Set(hotspots.map((item) => item.id));
+  const savedBefore = state.saved.length;
+  const ignoredBefore = state.ignored.length;
+  state.saved = state.saved.filter((item) => validIds.has(item.id));
+  state.ignored = state.ignored.filter((id) => validIds.has(id));
+  if (state.saved.length !== savedBefore || state.ignored.length !== ignoredBefore) {
+    saveLocal();
+  }
 }
 
 function addCustomHotspot() {
@@ -431,6 +444,7 @@ function timelineNodeLinks(node, fallbackTitle) {
 
 function hotspotCard(item, mode = "dashboard") {
   const savedItem = state.saved.find((saved) => saved.id === item.id);
+  const ignored = state.ignored.includes(item.id);
   const status = savedItem?.status || "待观察";
   const timelineStatus = savedItem?.timeline?.length ? "已生成" : "未生成";
   const decision = topicDecision(item);
@@ -445,6 +459,7 @@ function hotspotCard(item, mode = "dashboard") {
             ${item.platforms.map((platform) => `<span class="tag platform-tag">${platform}</span>`).join("")}
             ${trendIcon(item.trend)}
             <span class="decision-pill ${decision.tone}">${decision.label}</span>
+            ${ignored ? `<span class="tag muted-tag">不感兴趣</span>` : ""}
             ${mode === "library" ? `<span class="tag platform-tag">${status}</span><span class="tag platform-tag">时间线：${timelineStatus}</span>` : ""}
           </div>
         </div>
@@ -459,8 +474,8 @@ function hotspotCard(item, mode = "dashboard") {
       ${libraryMeta}
       <div class="button-row">
         <button class="secondary-button" data-action="${mode === "library" ? "saved-detail" : "detail"}" data-id="${item.id}">查看详情</button>
-        <button class="secondary-button" data-action="save" data-id="${item.id}">${savedItem ? "已收藏" : "收藏"}</button>
-        ${mode === "library" ? statusButtons(item.id, status) : `<button class="secondary-button" data-action="ignore" data-id="${item.id}">不感兴趣</button>`}
+        <button class="secondary-button" data-action="save" data-id="${item.id}">${savedItem ? "取消收藏" : "收藏"}</button>
+        ${mode === "library" ? statusButtons(item.id, status) : `<button class="secondary-button" data-action="ignore" data-id="${item.id}">${ignored ? "取消不感兴趣" : "不感兴趣"}</button>`}
       </div>
     </article>
   `;
@@ -468,6 +483,7 @@ function hotspotCard(item, mode = "dashboard") {
 
 function priorityHotspots() {
   return baseFilteredHotspots()
+    .filter((item) => !state.ignored.includes(item.id))
     .filter((item) => creatorScore(item) >= 70 || oralScore(item) >= 70)
     .sort((a, b) => priorityScore(b) - priorityScore(a))
     .slice(0, 6);
@@ -475,6 +491,7 @@ function priorityHotspots() {
 
 function priorityCard(item, index) {
   const decision = topicDecision(item);
+  const savedItem = state.saved.find((saved) => saved.id === item.id);
   return `
     <article class="priority-card">
       <div class="priority-rank">${index + 1}</div>
@@ -492,7 +509,7 @@ function priorityCard(item, index) {
         <p class="muted priority-search">搜：${item.recommendedSearchKeywords || item.searchKeywords || item.title}</p>
         <div class="button-row">
           <button class="secondary-button" data-action="detail" data-id="${item.id}">查看详情</button>
-          <button class="secondary-button" data-action="save" data-id="${item.id}">收藏</button>
+          <button class="secondary-button" data-action="save" data-id="${item.id}">${savedItem ? "取消收藏" : "收藏"}</button>
         </div>
       </div>
     </article>
@@ -547,8 +564,14 @@ function getHotspot(id) {
 }
 
 function saveTopic(id) {
-  if (state.saved.some((item) => item.id === id)) {
-    showToast("这个热点已经在选题库里。");
+  const existing = state.saved.find((item) => item.id === id);
+  if (existing) {
+    state.saved = state.saved.filter((item) => item.id !== id);
+    saveLocal();
+    showToast("已取消收藏。");
+    renderHotspots();
+    renderLibrary();
+    if (state.view === "savedDetail") showView("library");
     return;
   }
   state.saved.unshift({
@@ -561,6 +584,18 @@ function saveTopic(id) {
   showToast("已收藏到选题库。");
   renderHotspots();
   renderLibrary();
+}
+
+function toggleIgnore(id) {
+  if (state.ignored.includes(id)) {
+    state.ignored = state.ignored.filter((itemId) => itemId !== id);
+    showToast("已取消不感兴趣标记。");
+  } else {
+    state.ignored.unshift(id);
+    showToast("已标记不感兴趣，再点一次可取消。");
+  }
+  saveLocal();
+  renderHotspots();
 }
 
 function renderDetail(id) {
@@ -894,7 +929,7 @@ function addManualTimelineNode(id) {
 
 function renderLibrary() {
   const status = state.libraryStatus;
-  const saved = state.saved
+  const saved = visibleSavedRecords()
     .filter((item) => status === "全部" || item.status === status)
     .map((item) => getHotspot(item.id))
     .filter(Boolean);
@@ -902,14 +937,19 @@ function renderLibrary() {
   $("#libraryList").innerHTML = saved.length ? saved.map((item) => hotspotCard(item, "library")).join("") : emptyText("还没有收藏选题。");
 }
 
+function visibleSavedRecords() {
+  return state.saved.filter((item) => Boolean(getHotspot(item.id)));
+}
+
 function renderLibraryOverview() {
+  const visibleSaved = visibleSavedRecords();
   const counts = {
-    已收藏: state.saved.length,
-    待观察: state.saved.filter((item) => item.status === "待观察").length,
-    值得拍: state.saved.filter((item) => item.status === "值得拍").length,
-    今日拍摄: state.saved.filter((item) => item.status === "今日拍摄").length,
-    已拍摄: state.saved.filter((item) => item.status === "已拍摄").length,
-    已发布: state.saved.filter((item) => item.status === "已发布").length,
+    已收藏: visibleSaved.length,
+    待观察: visibleSaved.filter((item) => item.status === "待观察").length,
+    值得拍: visibleSaved.filter((item) => item.status === "值得拍").length,
+    今日拍摄: visibleSaved.filter((item) => item.status === "今日拍摄").length,
+    已拍摄: visibleSaved.filter((item) => item.status === "已拍摄").length,
+    已发布: visibleSaved.filter((item) => item.status === "已发布").length,
   };
   $("#libraryStats").innerHTML = Object.entries(counts)
     .map(([label, value]) => `<div class="stat-card ${label === "今日拍摄" ? "today" : ""}"><b>${value}</b><span>${label}</span></div>`)
@@ -922,6 +962,12 @@ function renderLibraryOverview() {
 
 function renderSavedDetail(id) {
   const item = getHotspot(id);
+  if (!item) {
+    showToast("这个收藏热点已不在当前数据里，已从统计中移除。");
+    pruneMissingLocalMarks();
+    showView("library");
+    return;
+  }
   state.selectedId = id;
   $("#savedDetailContent").innerHTML = detailHtml(item, true);
   showView("savedDetail");
@@ -965,7 +1011,7 @@ function handleAction(action, id, value, targetElement) {
   if (action === "detail") renderDetail(id);
   if (action === "saved-detail") renderSavedDetail(id);
   if (action === "save") saveTopic(id);
-  if (action === "ignore") showToast("已标记，后续可以减少类似推荐。");
+  if (action === "ignore") toggleIgnore(id);
   if (action === "remove") {
     state.saved = state.saved.filter((saved) => saved.id !== id);
     saveLocal();
@@ -1030,8 +1076,8 @@ function bindEvents() {
 
 function init() {
   try {
-    seedSavedTopics();
     normalizeSavedStatuses();
+    pruneMissingLocalMarks();
     $("#todayText").textContent = new Date().toLocaleDateString("zh-CN", {
       year: "numeric",
       month: "long",

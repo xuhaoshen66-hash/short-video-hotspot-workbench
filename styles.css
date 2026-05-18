@@ -453,6 +453,11 @@ button {
   color: #475467;
 }
 
+.muted-tag {
+  background: #f1f5f9;
+  color: var(--muted);
+}
+
 .decision-pill {
   border-radius: 999px;
   padding: 5px 10px;

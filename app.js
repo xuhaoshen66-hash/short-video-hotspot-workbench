@@ -306,13 +306,19 @@ function articleHtml(text) {
 }
 
 function platformLinks(item) {
-  const keyword = encodeURIComponent(item.title);
+  const keywordText = item.searchKeywords || item.originalTitle || item.title;
+  const keyword = encodeURIComponent(keywordText);
   return [
     ["去微博搜索", `https://s.weibo.com/weibo?q=${keyword}`],
     ["去百度搜索", `https://www.baidu.com/s?wd=${keyword}`],
     ["去抖音搜索", `https://www.douyin.com/search/${keyword}`],
     ["去头条搜索", `https://so.toutiao.com/search?keyword=${keyword}`],
   ];
+}
+
+function searchKeywordHtml(item) {
+  const keywordText = item.searchKeywords || item.originalTitle || item.title;
+  return `<p class="muted search-keyword">当前搜索词：${keywordText}</p>`;
 }
 
 function imageSuggestions(item) {
@@ -576,6 +582,7 @@ function detailHtml(item, savedMode) {
 
       <section class="section-block">
         <h3>平台搜索入口</h3>
+        ${searchKeywordHtml(item)}
         <div class="button-row">${links}</div>
       </section>
 

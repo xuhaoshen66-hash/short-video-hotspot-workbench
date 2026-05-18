@@ -24,6 +24,7 @@ window.HOTSPOTS = [
   {
     id: "bank-rate",
     title: "多家银行下调存款利率引发讨论",
+    searchKeywords: "银行 下调 存款利率",
     category: "金融",
     platforms: ["百度", "今日头条", "微博"],
     heat: 94,
@@ -280,6 +281,7 @@ window.HOTSPOTS = [
   {
     id: "luo-xibei-demo",
     title: "演示案例：罗永浩与西贝相关争议",
+    searchKeywords: "罗永浩 西贝 争议",
     category: "民生",
     platforms: ["微博", "百度", "抖音", "今日头条"],
     heat: 96,
@@ -339,6 +341,7 @@ window.HOTSPOTS = [
 
 const HOTSPOT_ENRICHMENTS = {
   "ai-phone": {
+    searchKeywords: "AI手机 AI助手 端侧AI",
     listDescription:
       "多家手机厂商开始集中宣传端侧 AI 助手，核心卖点包括语音交互、系统级任务处理、图片和文档理解、跨应用操作等。用户讨论的重点不只是 AI 手机能不能聊天，而是它能否真正减少日常操作成本，比如订票、整理信息、处理文件和管理日程。这个热点适合做科技产品解释，也适合从普通用户视角讨论：AI 手机到底是下一代入口，还是又一轮营销概念。",
     detailContent:
@@ -355,6 +358,7 @@ const HOTSPOT_ENRICHMENTS = {
     ],
   },
   "school-policy": {
+    searchKeywords: "课后服务 中小学 优化 调整",
     listDescription:
       "多地优化中小学课后服务安排，引发家长关注。讨论重点主要集中在课后服务时间是否更灵活、内容是否更丰富、费用是否透明，以及它到底是在帮助家长解决接送难题，还是让学生在校时间进一步拉长。这个热点需要讲清楚地区差异，适合做家长视角、政策解释和避坑提醒类内容。",
     detailContent:
@@ -370,6 +374,7 @@ const HOTSPOT_ENRICHMENTS = {
     ],
   },
   "community-care": {
+    searchKeywords: "社区养老服务站 老年助餐 日间照料",
     listDescription:
       "社区养老服务站、助餐点和日间照料服务受到关注，背后是老龄人口规模扩大和家庭照护压力上升。根据《2024年度国家老龄事业发展公报》，截至2024年末，全国60周岁及以上老年人口31031万人，占总人口22.0%；65周岁及以上老年人口22023万人，占15.6%。社区养老讨论的重点集中在助餐、日间照料、康复、陪伴和就近服务能力。",
     detailContent:
@@ -389,6 +394,7 @@ const HOTSPOT_ENRICHMENTS = {
     ],
   },
   "graduate-jobs": {
+    searchKeywords: "毕业季 就业选择 应届生 就业",
     listDescription:
       "毕业季就业选择再次成为热门讨论，毕业生在就业、考研、考公、实习和延迟就业之间反复权衡。这个话题的传播力来自强烈代入感：年轻人关心第一份工作怎么选，家长关心稳定性，社会讨论则聚焦就业压力和选择成本。适合做情绪共鸣、避坑提醒和选择分析，但要避免制造焦虑。",
     detailContent:
@@ -404,6 +410,7 @@ const HOTSPOT_ENRICHMENTS = {
     ],
   },
   "ai-office": {
+    searchKeywords: "AI办公助手 AI写邮件 会议纪要",
     listDescription:
       "AI 办公助手成为打工人效率话题，用户关注它能否帮助写邮件、做表格、整理会议纪要、总结文档和生成汇报。这个热点之所以容易传播，是因为它直接对应职场里的重复劳动和效率焦虑。适合做实用清单、场景演示和避坑提醒，尤其要强调公司数据、客户信息和内部文件的隐私安全。",
     detailContent:
@@ -419,6 +426,7 @@ const HOTSPOT_ENRICHMENTS = {
     ],
   },
   "chip-export": {
+    searchKeywords: "半导体供应链 芯片 供应链",
     listDescription:
       "半导体供应链相关消息带动科技圈关注，讨论通常集中在芯片设计、制造、封测、设备、材料和下游终端产品之间的联动关系。由于半导体产业链环节多、信息门槛高，单条消息往往会被科技圈、产业圈和投资圈同时解读。这个热点适合做基础科普和产业链解释，但需要避免把未经证实的市场传闻当作确定事实。",
     detailContent:
@@ -434,6 +442,7 @@ const HOTSPOT_ENRICHMENTS = {
     ],
   },
   "ai-education": {
+    searchKeywords: "AI学习工具 AI搜题 作文批改",
     listDescription:
       "AI 学习工具进入中小学家庭讨论，家长关注 AI 搜题、作文批改、口语陪练、错题整理和学习规划等功能是否真的有效。讨论焦点包括学习效率、孩子依赖、答案准确性、数据隐私和家长焦虑。这个热点适合从家庭教育和工具使用边界切入，但需要避免把 AI 工具包装成万能老师。",
     detailContent:
@@ -449,6 +458,7 @@ const HOTSPOT_ENRICHMENTS = {
     ],
   },
   "fund-fee": {
+    searchKeywords: "基金费率 调整 管理费 托管费",
     listDescription:
       "基金费率调整让理财成本话题升温，投资者开始关注申购费、赎回费、管理费、托管费和销售服务费等长期成本。相比市场涨跌，费率问题更容易被忽视，但它会影响长期持有体验。这个热点适合做基础理财科普，但不能推荐具体基金，也不能暗示收益。",
     detailContent:
@@ -464,6 +474,7 @@ const HOTSPOT_ENRICHMENTS = {
     ],
   },
   "consumer-coupon": {
+    searchKeywords: "消费券 以旧换新 补贴",
     listDescription:
       "多地消费券和以旧换新政策持续升温，用户最关心的是怎么领、能买什么、能省多少，以及是否真的适合自己。相关讨论覆盖家电、汽车、数码产品和本地生活消费。这个热点适合做实用清单型内容，但要特别注意城市、时间、品类和领取规则差异，不能把某地政策说成全国统一。",
     detailContent:
@@ -479,6 +490,7 @@ const HOTSPOT_ENRICHMENTS = {
     ],
   },
   "new-energy-price": {
+    searchKeywords: "新能源车 价格战 降价 权益",
     listDescription:
       "新能源车价格战再次引发购车观望，多家车企通过降价、权益调整、金融方案或置换补贴吸引消费者。讨论焦点集中在现在买是否划算、后续是否还会降价、老车主权益和车辆保值率。这个热点适合做购车决策分析，但要注意价格变化快，必须提醒观众核对当地门店和官方最新政策。",
     detailContent:
@@ -494,6 +506,7 @@ const HOTSPOT_ENRICHMENTS = {
     ],
   },
   "medical-service": {
+    searchKeywords: "互联网医院 线上复诊 购药",
     listDescription:
       "互联网医院复诊和购药服务热度上升，用户关注线上复诊、慢病续方、医保支付和药品配送是否方便。这个话题和家庭看病、老人用药、慢病管理直接相关，适合做服务解释和避坑提醒。但医疗内容必须谨慎，不能替代医生建议，涉及用药一定要提醒观众咨询专业医生。",
     detailContent:
@@ -532,6 +545,14 @@ const ADDITIONAL_HOTSPOTS = [
 ].map(([id, title, category, platforms, heat, viral, videoHeat, trend], index) => ({
   id,
   title,
+  searchKeywords: title
+    .replace(/引发.*$/, "")
+    .replace(/带动.*$/, "")
+    .replace(/成为.*$/, "")
+    .replace(/受到关注$/, "")
+    .replace(/持续发酵$/, "")
+    .replace(/话题升温$/, "")
+    .trim(),
   category,
   platforms,
   heat,

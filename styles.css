@@ -522,6 +522,10 @@ button {
   text-decoration: underline;
 }
 
+.search-keyword {
+  margin-bottom: 10px;
+}
+
 .score {
   min-width: 112px;
   padding: 10px;

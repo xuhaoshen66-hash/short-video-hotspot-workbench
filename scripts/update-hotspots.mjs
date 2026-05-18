@@ -1,4 +1,13 @@
-import { writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
+import vm from "node:vm";
+
+const CATEGORIES = ["金融", "科技", "民生", "AI", "教育"];
+const SOURCE_HEADERS = {
+  "user-agent":
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+  accept: "text/html,application/xhtml+xml,application/json,text/plain,*/*",
+  "accept-language": "zh-CN,zh;q=0.9,en;q=0.8",
+};
 
 function beijingIsoString(date = new Date()) {
   const formatted = new Intl.DateTimeFormat("sv-SE", {
@@ -15,13 +24,390 @@ function beijingIsoString(date = new Date()) {
   return `${formatted.replace(" ", "T")}+08:00`;
 }
 
-const updatedAt = beijingIsoString();
-const content = `window.UPDATE_META = {
-  lastUpdatedAt: "${updatedAt}",
-  updateMode: "scheduled-framework",
-  note: "GitHub Actions scheduled update framework is running. Real hotspot crawling will be connected later.",
+function beijingDisplayString(date = new Date()) {
+  return new Intl.DateTimeFormat("zh-CN", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  })
+    .format(date)
+    .replace(/\//g, "-");
+}
+
+function safeJsonString(raw) {
+  if (!raw) return "";
+  try {
+    return JSON.parse(`"${raw.replace(/"/g, '\\"')}"`);
+  } catch {
+    return raw.replace(/\\u([0-9a-fA-F]{4})/g, (_, code) => String.fromCharCode(Number.parseInt(code, 16)));
+  }
+}
+
+function cleanTitle(title) {
+  return String(title || "")
+    .replace(/\s+/g, " ")
+    .replace(/[ \t]*(热|新|荐|沸|爆)$/u, "")
+    .trim();
+}
+
+function searchKeywords(title) {
+  return cleanTitle(title)
+    .replace(/[“”"']/g, "")
+    .replace(/[：:，,。！？!?#]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function normalizeKey(title) {
+  return searchKeywords(title).replace(/[^\p{Script=Han}\p{Letter}\p{Number}]/gu, "").toLowerCase();
+}
+
+function stableHash(text) {
+  let hash = 5381;
+  for (const char of text) hash = (hash * 33) ^ char.codePointAt(0);
+  return (hash >>> 0).toString(36);
+}
+
+function clamp(value, min, max) {
+  return Math.max(min, Math.min(max, value));
+}
+
+async function fetchText(url, headers = {}) {
+  const response = await fetch(url, {
+    headers: { ...SOURCE_HEADERS, ...headers },
+  });
+  if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+  return response.text();
+}
+
+async function fetchBaiduHot() {
+  const url = "https://top.baidu.com/board?tab=realtime";
+  const html = await fetchText(url);
+  const rows = [];
+  const objectPattern =
+    /"appUrl":"(?<url>(?:\\.|[^"])*)","desc":"(?<desc>(?:\\.|[^"])*)","hotChange":"(?<trend>[^"]*)","hotScore":"(?<score>\d+)"[\s\S]{0,1000}?"word":"(?<title>(?:\\.|[^"])*)"/g;
+
+  for (const match of html.matchAll(objectPattern)) {
+    const title = cleanTitle(safeJsonString(match.groups.title));
+    if (!title) continue;
+    rows.push({
+      title,
+      desc: safeJsonString(match.groups.desc),
+      score: Number(match.groups.score) || 0,
+      trend: match.groups.trend,
+      source: "百度",
+      url: safeJsonString(match.groups.url).replace(/\\u0026/g, "&"),
+    });
+  }
+
+  return rows;
+}
+
+async function fetchToutiaoHot() {
+  const url = "https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc";
+  const text = await fetchText(url, { referer: "https://www.toutiao.com/" });
+  const json = JSON.parse(text);
+  return (json.data || [])
+    .map((row) => ({
+      title: cleanTitle(row.Title || row.QueryWord),
+      desc: row.Abstract || row.LabelDesc || "",
+      score: Number(row.HotValue) || 0,
+      source: "今日头条",
+      url: row.Url || `https://so.toutiao.com/search?keyword=${encodeURIComponent(row.QueryWord || row.Title || "")}`,
+      imageUrl: row.Image?.url || "",
+      tags: row.InterestCategory || [],
+      trend: row.Label === "new" ? "up" : "same",
+    }))
+    .filter((row) => row.title);
+}
+
+async function fetchWeiboHot() {
+  const endpoints = [
+    "https://weibo.com/ajax/side/hotSearch",
+    "https://weibo.com/ajax/statuses/hot_band",
+  ];
+  for (const url of endpoints) {
+    try {
+      const text = await fetchText(url, { referer: "https://weibo.com/" });
+      const json = JSON.parse(text);
+      const list = json.data?.realtime || json.data?.band_list || json.data || [];
+      if (!Array.isArray(list) || !list.length) continue;
+      return list
+        .map((row) => {
+          const title = cleanTitle(row.word || row.note || row.title || row.word_scheme);
+          return {
+            title,
+            desc: row.desc || row.word || "",
+            score: Number(row.num || row.raw_hot || row.hot || 0),
+            source: "微博",
+            url: `https://s.weibo.com/weibo?q=${encodeURIComponent(title)}`,
+            trend: row.is_new ? "up" : "same",
+          };
+        })
+        .filter((row) => row.title);
+    } catch {
+      // Weibo often requires visitor verification. Keep it best-effort.
+    }
+  }
+  return [];
+}
+
+function loadSeedHotspots() {
+  try {
+    return JSON.parse(readFileSync("scripts/fallback-hotspots.json", "utf8"));
+  } catch {
+    try {
+      const source = readFileSync("data.js", "utf8");
+      const context = { window: {} };
+      vm.createContext(context);
+      vm.runInContext(source, context, { timeout: 1000 });
+      return Array.isArray(context.window.HOTSPOTS) ? context.window.HOTSPOTS : [];
+    } catch {
+      return [];
+    }
+  }
+}
+
+function classifyTopic(item) {
+  const text = `${item.title} ${item.desc || ""} ${(item.tags || []).join(" ")}`.toLowerCase();
+  const rules = [
+    ["AI", /ai|人工智能|大模型|deepseek|openai|豆包|智能体|算力|生成式|aigc/i],
+    ["金融", /银行|存款|利率|贷款|房贷|央行|股市|a股|港股|港交所|上市|募资|基金|保险|理财|金融|经济|gdp|汇率|楼市|房价|消费券|补贴|资产/i],
+    ["教育", /高考|中考|考研|考公|学校|中小学|大学|招生|录取|毕业|就业|老师|学生|家长|课后|作业|教育|培训/i],
+    ["科技", /手机|芯片|半导体|新能源|汽车|机器人|航天|卫星|工程|技术|互联网|数据|电池|供应链|发布会|无人驾驶|低空经济/i],
+    ["民生", /养老|医疗|医院|医保|社保|地震|暴雨|天气|交通|火车|食品|健康|消费|住房|社区|工资|工人|游客|安全|警方|官方通报/i],
+  ];
+  return rules.find(([, pattern]) => pattern.test(text))?.[0] || "民生";
+}
+
+function trendText(trend) {
+  if (trend === "up" || trend === "rise") return "上升";
+  if (trend === "down" || trend === "fall") return "下降";
+  return "持平";
+}
+
+function mergeByTitle(rows) {
+  const map = new Map();
+  rows.forEach((row, index) => {
+    const key = normalizeKey(row.title);
+    if (!key) return;
+    const existing = map.get(key);
+    if (existing) {
+      existing.platforms = Array.from(new Set([...existing.platforms, row.source]));
+      existing.sources.push(row);
+      existing.score += row.score || 0;
+      if (!existing.desc && row.desc) existing.desc = row.desc;
+      if (!existing.imageUrl && row.imageUrl) existing.imageUrl = row.imageUrl;
+      existing.bestRank = Math.min(existing.bestRank, index + 1);
+      return;
+    }
+    map.set(key, {
+      ...row,
+      platforms: [row.source],
+      sources: [row],
+      score: row.score || 0,
+      bestRank: index + 1,
+    });
+  });
+  return Array.from(map.values());
+}
+
+function sourceReferences(item) {
+  const refs = item.sources
+    .filter((source) => source.url)
+    .slice(0, 4)
+    .map((source) => [`${source.source}：${source.title}`, source.url]);
+  const keyword = encodeURIComponent(searchKeywords(item.title));
+  refs.push(["百度新闻搜索", `https://www.baidu.com/s?wd=${keyword}%20新闻`]);
+  refs.push(["官方回应搜索", `https://www.baidu.com/s?wd=${keyword}%20官方%20回应`]);
+  return refs;
+}
+
+function makeDetail(item, updatedAt) {
+  const platforms = item.platforms.join("、");
+  const desc = item.desc?.trim();
+  const title = cleanTitle(item.title);
+  const paragraphOne = `截至${updatedAt}，"${title}"出现在${platforms}等公开热榜或热点页面中。页面记录的平台标题为"${title}"，可搜索关键词为"${searchKeywords(title)}"。`;
+  const paragraphTwo = desc
+    ? `公开页面摘要显示：${desc}`
+    : `目前公开热榜只提供了标题和热度信息，暂未抓取到完整新闻摘要。该类热点需要通过参考来源中的新闻搜索、官方回应搜索和平台搜索入口继续核对。`;
+  const paragraphThree = `从已抓取信息看，当前可确认的是该话题已经进入公开讨论场，具体事实仍应以权威媒体、官方通报、当事方公告或原始发布内容为准。若参考来源中没有明确官方链接，发布短视频时应说明"据公开平台热榜/公开搜索结果显示"，避免把平台讨论直接说成确定结论。`;
+  return `${paragraphOne}\n\n${paragraphTwo}\n\n${paragraphThree}`;
+}
+
+function makeListDescription(item) {
+  const desc = item.desc?.trim();
+  if (desc && desc.length >= 45) {
+    return `${item.title}进入${item.platforms.join("、")}等平台热榜。公开摘要显示，${desc} 这个话题适合先做事实梳理，把事件主体、发生时间、已公开信息和仍需核实的部分讲清楚。`;
+  }
+  return `${item.title}进入${item.platforms.join("、")}等平台热榜，目前可抓取到的公开信息以标题、热度和平台搜索结果为主。这个话题需要先确认原始来源、官方回应和权威媒体报道，再决定是否做成短视频。内容上适合从"发生了什么、为什么被关注、哪些信息还不能下结论"三步展开。`;
+}
+
+function makeWhy(item) {
+  const categoryReason = {
+    金融: "它关系到钱袋子、资产安全和普通家庭决策，天然容易引发转发和评论。",
+    科技: "它涉及新技术、产业变化或产品体验，容易形成科普、争议和普通人影响三类内容。",
+    民生: "它和日常生活、公共安全、健康、消费或家庭压力有关，用户代入感强。",
+    AI: "它踩中 AI 工具、效率变化和技术焦虑，适合做解释型和体验型内容。",
+    教育: "它关系到学生、家长和就业路径，受众明确，讨论情绪和实用需求都比较强。",
+  };
+  return categoryReason[item.category] || categoryReason.民生;
+}
+
+function makeRisk(item) {
+  if (item.category === "金融") return "金融类内容不要给具体投资建议，不承诺收益，关键数字和政策口径必须核对权威来源。";
+  if (item.category === "教育") return "教育类内容要注意地域和学校差异，不要把个案说成全国统一情况。";
+  if (item.category === "AI" || item.category === "科技") return "科技类内容要区分发布会宣传、媒体报道和实际能力，避免夸大效果。";
+  return "民生类内容要优先核实官方通报、权威媒体和原始来源，避免传播未经证实的信息。";
+}
+
+function makeAngles(item) {
+  return [
+    ["事实梳理", "先讲清楚事件主体、发生时间、平台热度和已公开信息，不急着下结论。"],
+    ["普通人视角", "解释这件事和普通人的钱、生活、工作、学习或选择有什么关系。"],
+    ["争议拆解", "把不同立场分别讲清楚，区分事实、情绪和猜测。"],
+    ["避坑提醒", "列出发布前必须核实的信息，提醒观众不要被单一标题带节奏。"],
+  ];
+}
+
+function makeImages(item) {
+  const keyword = searchKeywords(item.title);
+  const presets = {
+    金融: [["财经新闻画面", `${keyword}、财经大屏、银行网点或数据图表，适合解释背景。`]],
+    科技: [["科技产品画面", `${keyword}、发布会、设备特写或产业链示意，适合做开场。`]],
+    民生: [["现场与生活场景", `${keyword}、城市街景、社区或公共服务场景，适合表现代入感。`]],
+    AI: [["AI工具画面", `${keyword}、电脑界面、办公场景或模型概念图，适合解释工具影响。`]],
+    教育: [["校园与家庭学习", `${keyword}、教室、书桌、家长沟通场景，适合讲受众影响。`]],
+  };
+  const base = presets[item.category] || presets.民生;
+  const images = [
+    ...base,
+    ["平台搜索截图", `截取${item.platforms[0] || "平台"}搜索结果或热榜页面，用来证明话题来源。`],
+    ["权威来源截图", "找到官方通报、权威媒体报道或原始发布内容后，作为事实核查画面。"],
+  ];
+  if (item.imageUrl) images.unshift(["头条热榜配图", "今日头条热榜提供的相关图片，可作为素材参考。"]);
+  return images.slice(0, 3);
+}
+
+function buildHotspot(item, index, updatedAt) {
+  const category = classifyTopic(item);
+  const rawScore = item.score || 0;
+  const heat = clamp(Math.round(95 - index * 1.2 + Math.log10(rawScore + 10)), 58, 98);
+  const sourceCountBonus = Math.min(item.platforms.length * 3, 9);
+  const viral = clamp(heat - 2 + sourceCountBonus + (category === "民生" ? 2 : 0), 55, 98);
+  const videoHeat = clamp(heat - 8 + sourceCountBonus + (["民生", "教育"].includes(category) ? 4 : 0), 45, 96);
+  const id = `live-${stableHash(item.title)}`;
+  return {
+    id,
+    title: cleanTitle(item.title),
+    originalTitle: cleanTitle(item.title),
+    searchKeywords: searchKeywords(item.title),
+    category,
+    platforms: Array.from(new Set(item.platforms)),
+    heat,
+    viral,
+    videoHeat,
+    firstSeen: updatedAt,
+    trend: trendText(item.trend),
+    rangeScore: {
+      今日榜: heat,
+      三天榜: clamp(heat - 2, 45, 98),
+      周榜: clamp(heat - 5, 45, 98),
+      月榜: clamp(heat - 9, 40, 98),
+    },
+    summary: item.desc || `${item.title}进入公开热榜，详情需要继续核对来源。`,
+    listDescription: makeListDescription({ ...item, category }),
+    detailContent: makeDetail({ ...item, category }, updatedAt),
+    why: makeWhy({ ...item, category }),
+    risk: makeRisk({ ...item, category }),
+    references: sourceReferences(item),
+    hotComments: [],
+    images: makeImages({ ...item, category }),
+    angles: makeAngles({ ...item, category }),
+  };
+}
+
+function supplementWithSeeds(hotspots, seeds) {
+  const result = [...hotspots];
+  const seen = new Set(result.map((item) => normalizeKey(item.title)));
+  const minimumByCategory = new Map(CATEGORIES.map((category) => [category, 5]));
+
+  for (const category of CATEGORIES) {
+    while (result.filter((item) => item.category === category).length < minimumByCategory.get(category)) {
+      const seed = seeds.find((item) => item.category === category && !seen.has(normalizeKey(item.title)));
+      if (!seed) break;
+      seen.add(normalizeKey(seed.title));
+      result.push({ ...seed, id: `seed-${seed.id}` });
+    }
+  }
+
+  for (const seed of seeds) {
+    if (result.length >= 36) break;
+    const key = normalizeKey(seed.title);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    result.push({ ...seed, id: `seed-${seed.id}` });
+  }
+
+  return result;
+}
+
+function writeHotspotData(hotspots) {
+  const content = `// Auto-generated hotspot data. Do not edit by hand.\nwindow.HOTSPOTS = ${JSON.stringify(hotspots, null, 2)};\n`;
+  writeFileSync("data.js", content, "utf8");
+}
+
+function writeUpdateMeta(updatedAt, sourceResults, hotspotCount) {
+  const content = `window.UPDATE_META = {
+  lastUpdatedAt: "${beijingIsoString()}",
+  updateMode: "live-public-pages",
+  note: "Fetched ${hotspotCount} hotspots from public pages. Sources: ${sourceResults
+    .map((item) => `${item.name}:${item.count}`)
+    .join(", ")}.",
 };
 `;
+  writeFileSync("update-meta.js", content, "utf8");
+}
 
-writeFileSync("update-meta.js", content, "utf8");
-console.log(`Updated update-meta.js at ${updatedAt}`);
+async function main() {
+  const updatedAt = beijingDisplayString();
+  const seeds = loadSeedHotspots();
+  const fetchers = [
+    ["百度", fetchBaiduHot],
+    ["今日头条", fetchToutiaoHot],
+    ["微博", fetchWeiboHot],
+  ];
+  const sourceResults = [];
+  const rows = [];
+
+  for (const [name, fetcher] of fetchers) {
+    try {
+      const sourceRows = await fetcher();
+      sourceResults.push({ name, count: sourceRows.length });
+      rows.push(...sourceRows);
+      console.log(`${name}: ${sourceRows.length}`);
+    } catch (error) {
+      sourceResults.push({ name, count: 0, error: error.message });
+      console.warn(`${name}: failed - ${error.message}`);
+    }
+  }
+
+  const merged = mergeByTitle(rows)
+    .sort((a, b) => b.platforms.length - a.platforms.length || b.score - a.score)
+    .slice(0, 80);
+  const liveHotspots = merged.map((item, index) => buildHotspot(item, index, updatedAt));
+  const finalHotspots = supplementWithSeeds(liveHotspots, seeds);
+
+  writeHotspotData(finalHotspots);
+  writeUpdateMeta(updatedAt, sourceResults, finalHotspots.length);
+  console.log(`Generated ${finalHotspots.length} hotspots at ${updatedAt}`);
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

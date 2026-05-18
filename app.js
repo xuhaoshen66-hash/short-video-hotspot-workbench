@@ -1,7 +1,7 @@
 ﻿const ranges = ["今日榜", "三天榜", "周榜", "月榜"];
 const categories = ["全部", "金融", "科技", "民生", "AI", "教育"];
 const platforms = ["全部", "微博", "百度", "抖音", "今日头条"];
-const sorts = ["综合热度", "爆款潜力", "视频化热度", "最新出现"];
+const sorts = ["值得拍指数", "综合热度", "爆款潜力", "视频化热度", "最新出现"];
 const statuses = ["待观察", "值得拍", "今日拍摄", "已拍摄", "已发布", "已放弃"];
 const rangeDisplayLimits = {
   今日榜: 10,
@@ -32,7 +32,7 @@ const state = {
   range: "今日榜",
   category: "全部",
   platform: "全部",
-  sort: "综合热度",
+  sort: "值得拍指数",
   libraryStatus: "全部",
   selectedId: null,
   expandedTimelines: readStoredJson("creatorRadarExpandedTimelines", {}),
@@ -213,6 +213,7 @@ function filteredHotspots() {
     return categoryMatch && platformMatch;
   });
   const sortMap = {
+    值得拍指数: (item) => creatorScore(item),
     综合热度: (item) => item.rangeScore[state.range] || item.heat,
     爆款潜力: (item) => item.viral,
     视频化热度: (item) => item.videoHeat,
@@ -240,26 +241,31 @@ function trendIcon(trend) {
   return `<span class="trend-icon ${trendClass(trend)}" title="趋势：${trend}" aria-label="趋势：${trend}">${iconMap[trend] || "—"}</span>`;
 }
 
-function scoreBlock(label, value) {
-  return `<div class="score"><span>${label}</span><b>${value}</b></div>`;
+function scoreBlock(label, value, tone = "") {
+  return `<div class="score ${tone}"><span>${label}</span><b>${value}</b></div>`;
+}
+
+function creatorScore(item) {
+  return item.creatorScore || Math.round(item.viral * 0.45 + item.heat * 0.35 + item.videoHeat * 0.2);
 }
 
 function topicDecision(item) {
-  if (item.viral >= 88 && item.videoHeat < 88) {
+  const score = creatorScore(item);
+  if (score >= 88) {
     return {
       label: "优先拍",
       tone: "hot",
-      reason: "爆款潜力高，短视频竞争还没有完全饱和，适合尽快找细分角度。",
+      reason: item.creatorReason || "值得拍指数高，话题有明确受众、可解释空间和传播动力，适合优先找细分角度。",
     };
   }
-  if (item.viral >= 78) {
+  if (score >= 76) {
     return {
       label: "可以拍",
       tone: "good",
-      reason: "话题有明确受众和讨论点，适合做解释、复盘或普通人视角内容。",
+      reason: item.creatorReason || "话题有明确受众和讨论点，适合做解释、复盘或普通人视角内容。",
     };
   }
-  if (item.videoHeat >= 85) {
+  if (item.videoHeat >= 88 && score < 76) {
     return {
       label: "谨慎",
       tone: "warn",
@@ -269,7 +275,7 @@ function topicDecision(item) {
   return {
     label: "观察",
     tone: "wait",
-    reason: "热度或创作价值还不够明确，可以先收藏，等关键转折出现再拍。",
+    reason: item.creatorReason || "热度或创作价值还不够明确，可以先收藏，等关键转折出现再拍。",
   };
 }
 
@@ -423,9 +429,9 @@ function hotspotCard(item, mode = "dashboard") {
           </div>
         </div>
         <div class="score-row">
+          ${scoreBlock("值得拍", creatorScore(item), "primary")}
           ${scoreBlock("综合热度", item.rangeScore[state.range] || item.heat)}
-          ${scoreBlock("爆款潜力", item.viral)}
-          ${scoreBlock("视频化热度", item.videoHeat)}
+          ${scoreBlock("视频热度", item.videoHeat)}
         </div>
       </div>
       <p class="summary">${listDescription(item)}</p>
@@ -519,6 +525,7 @@ function detailHtml(item, savedMode) {
           </div>
         </div>
         <div class="score-row">
+          ${scoreBlock("值得拍", creatorScore(item), "primary")}
           ${scoreBlock("综合热度", item.heat)}
           ${scoreBlock("爆款潜力", item.viral)}
           ${scoreBlock("视频化热度", item.videoHeat)}
@@ -600,11 +607,16 @@ function detailHtml(item, savedMode) {
 }
 
 function shootDecisionHtml(item) {
-  const recommendation = item.viral >= 88 ? "优先拍" : item.viral >= 75 ? "可以拍" : item.viral >= 60 ? "观察后再拍" : "暂不建议";
+  const score = creatorScore(item);
+  const recommendation = score >= 88 ? "优先拍" : score >= 76 ? "可以拍" : score >= 62 ? "观察后再拍" : "暂不建议";
   const timing = item.videoHeat >= 85 ? "已有较多内容跟进，建议避开泛泛复述。" : item.videoHeat >= 60 ? "正在升温，适合尽快找细分角度。" : "短视频端还不拥挤，可以做解释型内容。";
   const bestAngle = item.angles?.[0] ? `${item.angles[0][0]}：${item.angles[0][1]}` : "先做事实梳理，再提炼普通人视角。";
   return `
     <div class="angle-grid">
+      <div class="mini-panel">
+        <h4>值得拍指数</h4>
+        <p>${score} 分。${item.creatorReason || "综合热度、传播潜力、视频化空间和核查难度后得出。"}</p>
+      </div>
       <div class="mini-panel">
         <h4>拍摄建议</h4>
         <p>${recommendation}</p>

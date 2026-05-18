@@ -174,14 +174,53 @@ function loadSeedHotspots() {
 
 function classifyTopic(item) {
   const text = `${item.title} ${item.desc || ""} ${(item.tags || []).join(" ")}`.toLowerCase();
-  const rules = [
-    ["AI", /ai|人工智能|大模型|deepseek|openai|豆包|智能体|算力|生成式|aigc/i],
-    ["金融", /银行|存款|利率|贷款|房贷|央行|股市|a股|港股|港交所|上市|募资|基金|保险|理财|金融|经济|gdp|汇率|楼市|房价|消费券|补贴|资产/i],
-    ["教育", /高考|中考|考研|考公|学校|中小学|大学|招生|录取|毕业|就业|老师|学生|家长|课后|作业|教育|培训/i],
-    ["科技", /手机|芯片|半导体|新能源|汽车|机器人|航天|卫星|工程|技术|互联网|数据|电池|供应链|发布会|无人驾驶|低空经济/i],
-    ["民生", /养老|医疗|医院|医保|社保|地震|暴雨|天气|交通|火车|食品|健康|消费|住房|社区|工资|工人|游客|安全|警方|官方通报/i],
-  ];
-  return rules.find(([, pattern]) => pattern.test(text))?.[0] || "民生";
+  const scores = {
+    AI: scoreMatches(text, [
+      [/ai|人工智能|大模型|deepseek|openai|豆包|智能体|算力|生成式|aigc/i, 8],
+      [/模型|机器人|自动化|智能|算法|算力|提示词/i, 4],
+    ]),
+    金融: scoreMatches(text, [
+      [/银行|存款|利率|贷款|房贷|央行|股市|a股|港股|港交所|上市|募资|基金|保险|理财|金融|经济|gdp|汇率|楼市|房价|资产/i, 8],
+      [/消费券|补贴|以旧换新|工资|收入|价格|税|债|公司|企业/i, 4],
+    ]),
+    教育: scoreMatches(text, [
+      [/高考|中考|考研|考公|学校|中小学|招生|录取|毕业|就业|老师|学生|家长|课后|作业|教育|培训|竞赛/i, 8],
+      [/论文|课堂|校园|学区|幼儿园|职业|实习|高校|大学生/i, 4],
+    ]),
+    科技: scoreMatches(text, [
+      [/手机|芯片|半导体|新能源|汽车|机器人|航天|卫星|工程|技术|互联网|数据|电池|供应链|发布会|无人驾驶|低空经济/i, 8],
+      [/产品|系统|平台|软件|硬件|电商|车企|智驾/i, 4],
+    ]),
+    民生: scoreMatches(text, [
+      [/养老|医疗|医院|医保|社保|地震|暴雨|天气|交通|火车|食品|健康|消费|住房|社区|工资|工人|游客|安全|警方|官方通报|使馆|公民|白发|衰老|压力|医生|症状|癌|疾病/i, 8],
+      [/儿童|老人|家庭|居民|城市|村庄|救援|事故|服务|价格|出行|研究显示/i, 4],
+    ]),
+  };
+  const ranked = Object.entries(scores).sort((a, b) => b[1] - a[1]);
+  return ranked[0][1] > 0 ? ranked[0][0] : "民生";
+}
+
+function scoreMatches(text, rules) {
+  return rules.reduce((total, [pattern, weight]) => total + (pattern.test(text) ? weight : 0), 0);
+}
+
+function isLowValueTopic(item) {
+  const text = `${item.title} ${item.desc || ""} ${(item.tags || []).join(" ")}`;
+  const hasUsefulSignal =
+    /政策|官方|通报|回应|数据|价格|利率|银行|教育|学校|学生|就业|AI|人工智能|手机|芯片|汽车|新能源|医疗|养老|社保|医保|交通|安全|地震|暴雨|工人|公民|消费者|补贴|住房|社区/i.test(text);
+  const pureEntertainment =
+    /明星|演员|歌手|网红|恋情|分手|结婚|离婚|综艺|电影|电视剧|演唱会|粉丝|八卦|红毯|男团|女团/i.test(text) &&
+    !hasUsefulSignal;
+  const pureSports =
+    /夺冠|冠军|比赛|球员|球队|足球|篮球|nba|中超|网球|羽毛球|乒乓球|赛事|教练/i.test(text) &&
+    !/体育产业|校园|学生|事故|安全|经济|门票|消费|未成年人/i.test(text);
+  const pureNovelty =
+    /表情包|穿搭|同款|路透|颜值|热梗|整活|晒照|舞台/i.test(text) &&
+    !hasUsefulSignal;
+  const pureCultureOrPropaganda =
+    /总书记|文物故事|博物馆日|文化遗产|理论学习|主题教育/i.test(text) &&
+    !/政策|消费|旅游|安全|教育改革|公共服务|补贴|就业|民生/i.test(text);
+  return pureEntertainment || pureSports || pureNovelty || pureCultureOrPropaganda;
 }
 
 function trendText(trend) {
@@ -293,6 +332,37 @@ function makeImages(item) {
   return images.slice(0, 3);
 }
 
+function creatorProfile(item, category, heat, viral, videoHeat) {
+  const text = `${item.title} ${item.desc || ""}`;
+  const hasClearDesc = (item.desc || "").length >= 35;
+  const multiSource = item.platforms.length >= 2;
+  const practicalSignal = /怎么|如何|政策|补贴|利率|价格|就业|教育|医疗|养老|安全|消费|住房|AI|工具|手机|汽车|银行|官方|通报|回应/i.test(text);
+  const strongPublicConcern = /普通人|家庭|学生|家长|老人|工人|消费者|居民|公民|游客|孩子|年轻人/i.test(text);
+  const riskySignal = /网传|曝|爆料|疑似|传言|未经证实|聊天记录|偷拍视频|八卦|恋情/i.test(text);
+  const categoryBonus = { 金融: 7, 教育: 6, 民生: 6, AI: 5, 科技: 4 }[category] || 3;
+  const sourceBonus = multiSource ? 8 : 2;
+  const descBonus = hasClearDesc ? 7 : -4;
+  const practicalBonus = practicalSignal ? 8 : 0;
+  const concernBonus = strongPublicConcern ? 5 : 0;
+  const riskPenalty = riskySignal ? 10 : 0;
+  const score = clamp(
+    Math.round(heat * 0.34 + viral * 0.24 + videoHeat * 0.16 + categoryBonus + sourceBonus + descBonus + practicalBonus + concernBonus - riskPenalty),
+    35,
+    98,
+  );
+  const reasons = [];
+  if (multiSource) reasons.push("多平台同时出现，说明不是单点热闹");
+  if (hasClearDesc) reasons.push("公开摘要较清楚，容易讲清事实");
+  if (practicalSignal) reasons.push("和普通人的决策、生活或工作有关");
+  if (strongPublicConcern) reasons.push("受众代入感强");
+  if (riskySignal) reasons.push("存在传言或爆料信号，发布前要更谨慎核查");
+  if (!reasons.length) reasons.push("有热度，但还需要先核实来源和事件背景");
+  return {
+    score,
+    reason: reasons.slice(0, 3).join("；") + "。",
+  };
+}
+
 function buildHotspot(item, index, updatedAt) {
   const category = classifyTopic(item);
   const rawScore = item.score || 0;
@@ -300,6 +370,7 @@ function buildHotspot(item, index, updatedAt) {
   const sourceCountBonus = Math.min(item.platforms.length * 3, 9);
   const viral = clamp(heat - 2 + sourceCountBonus + (category === "民生" ? 2 : 0), 55, 98);
   const videoHeat = clamp(heat - 8 + sourceCountBonus + (["民生", "教育"].includes(category) ? 4 : 0), 45, 96);
+  const creator = creatorProfile(item, category, heat, viral, videoHeat);
   const id = `live-${stableHash(item.title)}`;
   return {
     id,
@@ -311,6 +382,8 @@ function buildHotspot(item, index, updatedAt) {
     heat,
     viral,
     videoHeat,
+    creatorScore: creator.score,
+    creatorReason: creator.reason,
     firstSeen: updatedAt,
     trend: trendText(item.trend),
     rangeScore: {
@@ -405,9 +478,12 @@ async function main() {
   }
 
   const merged = mergeByTitle(rows)
+    .filter((item) => !isLowValueTopic(item))
     .sort((a, b) => b.platforms.length - a.platforms.length || b.score - a.score)
     .slice(0, 80);
-  const liveHotspots = merged.map((item, index) => buildHotspot(item, index, updatedAt));
+  const liveHotspots = merged
+    .map((item, index) => buildHotspot(item, index, updatedAt))
+    .sort((a, b) => b.creatorScore - a.creatorScore || b.heat - a.heat);
   const finalHotspots = supplementWithSeeds(liveHotspots, seeds);
 
   writeHotspotData(finalHotspots);

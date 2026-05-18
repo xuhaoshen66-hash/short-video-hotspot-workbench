@@ -534,6 +534,15 @@ button {
   background: linear-gradient(180deg, #ffffff, #f8fbfe);
 }
 
+.score.primary {
+  border-color: rgba(15, 143, 159, 0.4);
+  background: linear-gradient(180deg, #eefcfe, #ffffff);
+}
+
+.score.primary b {
+  color: var(--accent-strong);
+}
+
 .score b {
   display: block;
   font-size: 24px;

@@ -373,8 +373,16 @@ function writeUpdateMeta(updatedAt, sourceResults, hotspotCount) {
   writeFileSync("update-meta.js", content, "utf8");
 }
 
+function writeIndexVersion(version) {
+  const html = readFileSync("index.html", "utf8")
+    .replace(/data\.js\?v=[^"]+/g, `data.js?v=${version}`)
+    .replace(/update-meta\.js\?v=[^"]+/g, `update-meta.js?v=${version}`);
+  writeFileSync("index.html", html, "utf8");
+}
+
 async function main() {
   const updatedAt = beijingDisplayString();
+  const assetVersion = beijingIsoString().replace(/\D/g, "").slice(0, 12);
   const seeds = loadSeedHotspots();
   const fetchers = [
     ["百度", fetchBaiduHot],
@@ -404,6 +412,7 @@ async function main() {
 
   writeHotspotData(finalHotspots);
   writeUpdateMeta(updatedAt, sourceResults, finalHotspots.length);
+  writeIndexVersion(assetVersion);
   console.log(`Generated ${finalHotspots.length} hotspots at ${updatedAt}`);
 }
 

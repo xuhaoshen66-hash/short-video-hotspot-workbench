@@ -48,7 +48,6 @@
             <p class="muted">今天是 <span id="todayText"></span></p>
             <h1 id="pageTitle">热点榜</h1>
           </div>
-          <button id="refreshButton" class="secondary-button">立即刷新热点</button>
         </header>
 
         <section id="dashboardView" class="view-stack">
@@ -60,10 +59,6 @@
             <label>
               <span>分类</span>
               <select id="categoryFilterSelect"></select>
-            </label>
-            <label>
-              <span>平台</span>
-              <select id="platformFilterSelect"></select>
             </label>
             <label>
               <span>排序</span>
@@ -107,7 +102,7 @@
               <label class="field">
                 <span>自动更新时间</span>
                 <select>
-                  <option selected>09:00 / 14:00 / 20:00</option>
+                  <option selected>08:00 / 11:00 / 17:00 / 20:00</option>
                   <option>每天 09:00</option>
                   <option>每 6 小时</option>
                 </select>
@@ -149,7 +144,6 @@
             </div>
             <div class="button-row">
               <button class="primary-button">保存设置</button>
-              <button id="settingsRefreshButton" class="secondary-button">立即刷新热点</button>
               <button class="secondary-button">清理 30 天前数据</button>
             </div>
           </article>
@@ -209,6 +203,7 @@
     <div id="toast" class="toast" hidden></div>
     <script src="data.js?v=20260518-7"></script>
     <script src="timelines.js?v=20260518-1"></script>
-    <script src="app.js?v=20260518-47"></script>
+    <script src="update-meta.js?v=20260519-1"></script>
+    <script src="app.js?v=20260519-1"></script>
   </body>
 </html>

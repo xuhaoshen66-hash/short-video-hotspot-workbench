@@ -184,7 +184,7 @@ button {
   border-radius: 12px;
   padding: 8px 10px;
   display: grid;
-  grid-template-columns: repeat(4, minmax(120px, 1fr));
+  grid-template-columns: repeat(3, minmax(120px, 1fr));
   gap: 8px;
   align-items: end;
 }

@@ -38,7 +38,7 @@ const state = {
   expandedTimelines: readStoredJson("creatorRadarExpandedTimelines", {}),
   saved: readStoredJson("creatorRadarSaved", []),
   customHotspots: readStoredJson("creatorRadarCustomHotspots", []),
-  updatedAt: new Date(),
+  updatedAt: new Date(window.UPDATE_META?.lastUpdatedAt || Date.now()),
 };
 
 const seedHotspots = window.HOTSPOTS || [];
@@ -197,7 +197,6 @@ function initSegmented(id, options, stateKey) {
 function renderFilters() {
   renderSelect("rangeFilterSelect", ranges, "range");
   renderSelect("categoryFilterSelect", categories, "category");
-  renderSelect("platformFilterSelect", platforms, "platform");
   renderSelect("sortFilterSelect", sorts, "sort");
 }
 
@@ -924,7 +923,6 @@ function bindEvents() {
   [
     ["rangeFilterSelect", "range"],
     ["categoryFilterSelect", "category"],
-    ["platformFilterSelect", "platform"],
     ["sortFilterSelect", "sort"],
   ].forEach(([id, stateKey]) => {
     on(`#${id}`, "change", (event) => {
@@ -941,8 +939,6 @@ function bindEvents() {
   });
   on("#backToDashboard", "click", () => showView("dashboard"));
   on("#backToLibrary", "click", () => showView("library"));
-  on("#refreshButton", "click", refreshData);
-  on("#settingsRefreshButton", "click", refreshData);
   on("#addCustomHotspotButton", "click", addCustomHotspot);
   on("#clearCustomHotspotsButton", "click", clearCustomHotspots);
   document.body.addEventListener("click", (event) => {
@@ -955,12 +951,6 @@ function bindEvents() {
     if (!target) return;
     handleAction("status", target.dataset.id, target.value);
   });
-}
-
-function refreshData() {
-  state.updatedAt = new Date();
-  $("#updatedAt").textContent = formatDate(state.updatedAt);
-  showToast("热点已刷新。当前版本使用模拟数据。");
 }
 
 function init() {

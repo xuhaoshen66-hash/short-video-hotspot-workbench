@@ -1,0 +1,222 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>短视频热点选题工作台</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main id="loginView" class="login-shell">
+      <section class="login-panel">
+        <p class="eyebrow">个人版</p>
+        <h1>短视频热点选题工作台</h1>
+        <p class="muted">每天筛热点、看角度、备素材。</p>
+        <label class="field">
+          <span>访问密码</span>
+          <input id="passwordInput" type="password" placeholder="默认密码：123456" autocomplete="current-password" />
+        </label>
+        <button
+          id="loginButton"
+          class="primary-button"
+          type="button"
+          onclick="var v=document.getElementById('passwordInput').value.trim().replace(/[０-９]/g,function(c){return String.fromCharCode(c.charCodeAt(0)-65248)});if(v==='123456'){document.getElementById('loginView').hidden=true;document.getElementById('loginView').style.display='none';document.getElementById('appView').hidden=false;document.getElementById('appView').style.display='grid';}else{document.getElementById('loginError').hidden=false;}"
+        >
+          进入工作台
+        </button>
+        <button
+          id="demoLoginButton"
+          class="secondary-button"
+          type="button"
+          onclick="document.getElementById('loginView').hidden=true;document.getElementById('loginView').style.display='none';document.getElementById('appView').hidden=false;document.getElementById('appView').style.display='grid';"
+        >
+          跳过登录进入演示
+        </button>
+        <p class="muted login-hint">提示：现在是本地原型，默认密码是 123456。</p>
+        <p id="loginError" class="error-text" hidden>密码不正确，请输入 123456。</p>
+      </section>
+    </main>
+
+    <main id="appView" class="app-shell" hidden>
+      <aside class="sidebar">
+        <div>
+          <p class="eyebrow">Creator Radar</p>
+          <h2>热点选题台</h2>
+        </div>
+        <nav class="nav-list" aria-label="主导航">
+          <button class="nav-item active" data-view="dashboard">热点榜</button>
+          <button class="nav-item" data-view="library">我的选题库</button>
+          <button class="nav-item" data-view="settings">设置</button>
+        </nav>
+      </aside>
+
+      <section class="content">
+        <header class="topbar">
+          <div>
+            <p class="muted">今天是 <span id="todayText"></span></p>
+            <h1 id="pageTitle">热点榜</h1>
+          </div>
+          <button id="refreshButton" class="secondary-button">立即刷新热点</button>
+        </header>
+
+        <section id="dashboardView" class="view-stack">
+          <div class="filter-bar">
+            <label>
+              <span>时间</span>
+              <select id="rangeFilterSelect"></select>
+            </label>
+            <label>
+              <span>分类</span>
+              <select id="categoryFilterSelect"></select>
+            </label>
+            <label>
+              <span>平台</span>
+              <select id="platformFilterSelect"></select>
+            </label>
+            <label>
+              <span>排序</span>
+              <select id="sortFilterSelect"></select>
+            </label>
+          </div>
+
+          <div class="toolbar-line">
+            <p id="resultCount" class="muted"></p>
+            <p class="muted">最后更新：<span id="updatedAt"></span></p>
+          </div>
+
+          <div id="hotspotList" class="hotspot-list"></div>
+        </section>
+
+        <section id="detailView" class="view-stack" hidden>
+          <button class="text-button" id="backToDashboard">返回热点榜</button>
+          <article id="detailContent"></article>
+        </section>
+
+        <section id="libraryView" class="view-stack" hidden>
+          <div class="library-overview compact-filters">
+            <div class="library-stats" id="libraryStats"></div>
+            <div>
+              <span class="filter-label">状态筛选</span>
+              <div class="segmented compact-segmented" id="libraryStatusButtons"></div>
+            </div>
+          </div>
+          <div id="libraryList" class="hotspot-list"></div>
+        </section>
+
+        <section id="savedDetailView" class="view-stack" hidden>
+          <button class="text-button" id="backToLibrary">返回选题库</button>
+          <article id="savedDetailContent"></article>
+        </section>
+
+        <section id="settingsView" class="view-stack" hidden>
+          <article class="tool-panel settings-panel">
+            <h2>设置</h2>
+            <div class="form-grid">
+              <label class="field">
+                <span>自动更新时间</span>
+                <select>
+                  <option selected>09:00 / 14:00 / 20:00</option>
+                  <option>每天 09:00</option>
+                  <option>每 6 小时</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>默认分类</span>
+                <select>
+                  <option selected>全部</option>
+                  <option>金融</option>
+                  <option>科技</option>
+                  <option>民生</option>
+                  <option>AI</option>
+                  <option>教育</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>默认文案风格</span>
+                <select>
+                  <option selected>通俗易懂</option>
+                  <option>专业分析</option>
+                  <option>犀利评论</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>默认人设</span>
+                <select>
+                  <option selected>普通人</option>
+                  <option>财经博主</option>
+                  <option>科技博主</option>
+                  <option>教育博主</option>
+                </select>
+              </label>
+            </div>
+            <div class="source-grid">
+              <label><input type="checkbox" checked /> 微博</label>
+              <label><input type="checkbox" checked /> 百度</label>
+              <label><input type="checkbox" checked /> 抖音</label>
+              <label><input type="checkbox" checked /> 今日头条</label>
+            </div>
+            <div class="button-row">
+              <button class="primary-button">保存设置</button>
+              <button id="settingsRefreshButton" class="secondary-button">立即刷新热点</button>
+              <button class="secondary-button">清理 30 天前数据</button>
+            </div>
+          </article>
+
+          <article class="tool-panel settings-panel">
+            <h2>手动添加热点</h2>
+            <p class="muted">早期可以先手动录入重点热点，用来测试选题流程。</p>
+            <div class="form-grid">
+              <label class="field">
+                <span>热点标题</span>
+                <input id="customTitle" type="text" placeholder="例如：某政策调整引发讨论" />
+              </label>
+              <label class="field">
+                <span>分类</span>
+                <select id="customCategory">
+                  <option>金融</option>
+                  <option>科技</option>
+                  <option>民生</option>
+                  <option>AI</option>
+                  <option>教育</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>来源平台</span>
+                <input id="customPlatforms" type="text" placeholder="微博、百度、抖音" />
+              </label>
+              <label class="field">
+                <span>趋势</span>
+                <select id="customTrend">
+                  <option>上升</option>
+                  <option>持平</option>
+                  <option>下降</option>
+                </select>
+              </label>
+              <label class="field full-span">
+                <span>首页详细描述</span>
+                <textarea id="customDescription" rows="4" placeholder="用 100-200 字客观描述事件背景、主体、争议点和创作价值。"></textarea>
+              </label>
+              <label class="field full-span">
+                <span>为什么会火</span>
+                <textarea id="customWhy" rows="3" placeholder="说明这个热点为什么容易传播。"></textarea>
+              </label>
+              <label class="field full-span">
+                <span>风险提醒</span>
+                <textarea id="customRisk" rows="3" placeholder="说明发布前需要注意什么。"></textarea>
+              </label>
+            </div>
+            <div class="button-row">
+              <button id="addCustomHotspotButton" class="primary-button" type="button">添加到热点榜</button>
+              <button id="clearCustomHotspotsButton" class="secondary-button" type="button">清空手动热点</button>
+            </div>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <div id="toast" class="toast" hidden></div>
+    <script src="data.js?v=20260518-6"></script>
+    <script src="timelines.js?v=20260518-1"></script>
+    <script src="app.js?v=20260518-45"></script>
+  </body>
+</html>

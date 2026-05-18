@@ -339,7 +339,7 @@ function creatorProfile(item, category, heat, viral, videoHeat) {
   const practicalSignal = /怎么|如何|政策|补贴|利率|价格|就业|教育|医疗|养老|安全|消费|住房|AI|工具|手机|汽车|银行|官方|通报|回应/i.test(text);
   const strongPublicConcern = /普通人|家庭|学生|家长|老人|工人|消费者|居民|公民|游客|孩子|年轻人/i.test(text);
   const riskySignal = /网传|曝|爆料|疑似|传言|未经证实|聊天记录|偷拍视频|八卦|恋情/i.test(text);
-  const categoryBonus = { 金融: 7, 教育: 6, 民生: 6, AI: 5, 科技: 4 }[category] || 3;
+  const categoryBonus = { 金融: 10, 教育: 6, 民生: 6, AI: 5, 科技: 4 }[category] || 3;
   const sourceBonus = multiSource ? 8 : 2;
   const descBonus = hasClearDesc ? 7 : -4;
   const practicalBonus = practicalSignal ? 8 : 0;

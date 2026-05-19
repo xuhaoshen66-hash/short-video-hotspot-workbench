@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>短视频热点选题工作台</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260519-8" />
   </head>
   <body>
     <main id="loginView" class="login-shell">
@@ -51,36 +51,15 @@
         </header>
 
         <section id="dashboardView" class="view-stack">
-          <div class="filter-bar">
-            <label>
-              <span>时间</span>
-              <select id="rangeFilterSelect"></select>
-            </label>
-            <label>
-              <span>分类</span>
-              <select id="categoryFilterSelect"></select>
-            </label>
-            <label>
-              <span>排序</span>
-              <select id="sortFilterSelect"></select>
-            </label>
+          <div class="quick-filter-bar">
+            <div class="segmented compact-segmented" id="rangeButtons"></div>
+            <div class="segmented compact-segmented" id="financeFilterButtons"></div>
           </div>
 
           <div class="toolbar-line">
             <p id="resultCount" class="muted"></p>
-            <p class="muted">最后更新：<span id="updatedAt"></span></p>
+            <p class="muted">最后更新：<span id="updatedAt"></span><span id="updateSummary"></span></p>
           </div>
-
-          <section class="priority-panel" aria-labelledby="priorityTitle">
-            <div class="priority-head">
-              <div>
-                <p class="eyebrow">Ready To Shoot</p>
-                <h2 id="priorityTitle">今日可拍 3 条</h2>
-              </div>
-              <p class="muted">不是第二个榜单，只给今天最容易开口、资料相对好核查的拍摄建议。</p>
-            </div>
-            <div id="priorityList" class="priority-list"></div>
-          </section>
 
           <div id="hotspotList" class="hotspot-list"></div>
         </section>
@@ -212,9 +191,9 @@
     </main>
 
     <div id="toast" class="toast" hidden></div>
-    <script src="data.js?v=202605190119"></script>
+    <script src="data.js?v=202605191908"></script>
     <script src="timelines.js?v=20260518-1"></script>
-    <script src="update-meta.js?v=202605190119"></script>
-    <script src="app.js?v=20260519-5"></script>
+    <script src="update-meta.js?v=202605191908"></script>
+    <script src="app.js?v=20260519-8"></script>
   </body>
 </html>

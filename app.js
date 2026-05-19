@@ -1,19 +1,16 @@
-﻿const ranges = ["今日榜", "三天榜", "周榜", "月榜"];
-const categories = ["全部", "金融", "科技", "民生", "AI", "教育"];
-const platforms = ["全部", "微博", "百度", "抖音", "今日头条"];
-const sorts = ["值得拍指数", "综合热度", "爆款潜力", "视频化热度", "最新出现"];
+const ranges = ["三天榜", "周榜", "月榜", "当日新增"];
 const statuses = ["待观察", "值得拍", "今日拍摄", "已拍摄", "已发布", "已放弃"];
 const rangeDisplayLimits = {
-  今日榜: 10,
   三天榜: 20,
   周榜: 20,
   月榜: 30,
+  当日新增: 10,
 };
 const categoryDisplayMinimums = {
-  今日榜: 3,
   三天榜: 5,
   周榜: 5,
   月榜: 5,
+  当日新增: 0,
 };
 
 function readStoredJson(key, fallback) {
@@ -29,10 +26,8 @@ const state = {
   loggedIn: false,
   view: "dashboard",
   previousView: "dashboard",
-  range: "今日榜",
-  category: "全部",
-  platform: "全部",
-  sort: "值得拍指数",
+  range: "三天榜",
+  financeOnly: false,
   libraryStatus: "全部",
   selectedId: null,
   expandedTimelines: readStoredJson("creatorRadarExpandedTimelines", {}),
@@ -145,7 +140,7 @@ function addCustomHotspot() {
     videoHeat: 50,
     firstSeen: formatDate(now),
     trend,
-    rangeScore: { 今日榜: heat, 三天榜: heat, 周榜: heat, 月榜: heat },
+    rangeScore: { 当日新增: heat, 三天榜: heat, 周榜: heat, 月榜: heat },
     summary: description.slice(0, 80),
     listDescription: description,
     detailContent: description,
@@ -208,39 +203,41 @@ function initSegmented(id, options, stateKey) {
 }
 
 function renderFilters() {
-  renderSelect("rangeFilterSelect", ranges, "range");
-  renderSelect("categoryFilterSelect", categories, "category");
-  renderSelect("sortFilterSelect", sorts, "sort");
+  renderButtonGroup("rangeButtons", ranges, state.range);
+  renderButtonGroup("financeFilterButtons", ["全部", "只看金融"], state.financeOnly ? "只看金融" : "全部");
 }
 
-function renderSelect(id, options, stateKey) {
-  const select = $(`#${id}`);
-  if (!select) return;
-  select.innerHTML = options.map((option) => `<option ${state[stateKey] === option ? "selected" : ""}>${option}</option>`).join("");
+function renderButtonGroup(id, options, activeValue) {
+  const wrap = $(`#${id}`);
+  if (!wrap) return;
+  wrap.innerHTML = options
+    .map((option) => `<button class="${activeValue === option ? "active" : ""}" data-value="${option}" type="button">${option}</button>`)
+    .join("");
 }
 
 function filteredHotspots() {
   const filtered = baseFilteredHotspots();
-  const sortMap = {
-    值得拍指数: (item) => creatorScore(item),
-    综合热度: (item) => item.rangeScore[state.range] || item.heat,
-    爆款潜力: (item) => item.viral,
-    视频化热度: (item) => item.videoHeat,
-    最新出现: (item) => new Date(item.firstSeen.replace(" ", "T")).getTime(),
-  };
-  const sorted = filtered.sort((a, b) => sortMap[state.sort](b) - sortMap[state.sort](a));
+  const ranged = state.range === "当日新增" ? filtered.filter((item) => item.lifecycle === "新增" || item.isNewToday) : filtered;
+  const sorted = ranged.sort((a, b) => rangeScoreFor(b, state.range) - rangeScoreFor(a, state.range));
   const allLimit = rangeDisplayLimits[state.range] || 10;
   const categoryMinimum = categoryDisplayMinimums[state.range] || 3;
-  const limit = state.category === "全部" ? allLimit : Math.max(categoryMinimum, Math.min(allLimit, sorted.length));
+  const limit = state.financeOnly ? Math.max(categoryMinimum, Math.min(allLimit, sorted.length)) : allLimit;
   return sorted.slice(0, limit);
 }
 
 function baseFilteredHotspots() {
   return hotspots.filter((item) => {
-    const categoryMatch = state.category === "全部" || item.category === state.category;
-    const platformMatch = state.platform === "全部" || item.platforms.includes(state.platform);
-    return categoryMatch && platformMatch;
+    const categoryMatch = !state.financeOnly || item.category === "金融";
+    return categoryMatch;
   });
+}
+
+function rangeScoreFor(item, range) {
+  if (item.rangeScore?.[range] !== undefined) return item.rangeScore[range];
+  if (range === "当日新增") return item.isNewToday ? creatorScore(item) + 8 : 0;
+  if (range === "月榜") return Math.round(creatorScore(item) * 0.5 + (item.historyScore || 0) * 0.5);
+  if (range === "周榜") return Math.round(creatorScore(item) * 0.62 + (item.historyScore || 0) * 0.38);
+  return creatorScore(item);
 }
 
 function trendClass(trend) {
@@ -268,12 +265,6 @@ function creatorScore(item) {
 
 function oralScore(item) {
   return item.oralScore || Math.round(creatorScore(item) * 0.78 + (item.category === "金融" ? 7 : 0) + (item.category === "民生" ? 5 : 0));
-}
-
-function priorityScore(item) {
-  const sourceBonus = item.platforms?.length >= 2 ? 5 : 0;
-  const financeBonus = item.category === "金融" ? 6 : 0;
-  return oralScore(item) * 0.5 + creatorScore(item) * 0.35 + (item.rangeScore?.今日榜 || item.heat) * 0.15 + sourceBonus + financeBonus;
 }
 
 function topicDecision(item) {
@@ -458,6 +449,7 @@ function hotspotCard(item, mode = "dashboard") {
             <span class="tag">${item.category}</span>
             ${item.platforms.map((platform) => `<span class="tag platform-tag">${platform}</span>`).join("")}
             ${trendIcon(item.trend)}
+            ${lifecycleTag(item)}
             <span class="decision-pill ${decision.tone}">${decision.label}</span>
             ${ignored ? `<span class="tag muted-tag">不感兴趣</span>` : ""}
             ${mode === "library" ? `<span class="tag platform-tag">${status}</span><span class="tag platform-tag">时间线：${timelineStatus}</span>` : ""}
@@ -481,69 +473,10 @@ function hotspotCard(item, mode = "dashboard") {
   `;
 }
 
-function priorityHotspots() {
-  return baseFilteredHotspots()
-    .filter((item) => !state.ignored.includes(item.id))
-    .filter((item) => creatorScore(item) >= 70 || oralScore(item) >= 70)
-    .sort((a, b) => priorityScore(b) - priorityScore(a))
-    .slice(0, 3);
-}
-
-function priorityCard(item, index) {
-  const decision = topicDecision(item);
-  const savedItem = state.saved.find((saved) => saved.id === item.id);
-  const plan = shootPlan(item);
-  return `
-    <article class="priority-card">
-      <div class="priority-rank">${index + 1}</div>
-      <div class="priority-body">
-        <div class="priority-title-row">
-          <h3>${item.title}</h3>
-          <span class="decision-pill ${decision.tone}">${decision.label}</span>
-        </div>
-        <div class="tags">
-          <span class="tag">${item.category}</span>
-          <span class="tag platform-tag">口播 ${oralScore(item)}</span>
-        </div>
-        <div class="shoot-plan">
-          <p><b>为什么今天拍：</b>${plan.why}</p>
-          <p><b>推荐切口：</b>${plan.angle}</p>
-          <p><b>开头一句：</b>${plan.hook}</p>
-          <p><b>风险提醒：</b>${plan.risk}</p>
-        </div>
-        <p class="muted priority-search">搜：${item.recommendedSearchKeywords || item.searchKeywords || item.title}</p>
-        <div class="button-row">
-          <button class="secondary-button" data-action="detail" data-id="${item.id}">查看详情</button>
-          <button class="secondary-button" data-action="save" data-id="${item.id}">${savedItem ? "取消收藏" : "收藏"}</button>
-        </div>
-      </div>
-    </article>
-  `;
-}
-
-function shootPlan(item) {
-  const keyword = item.recommendedSearchKeywords || item.searchKeywords || item.title;
-  const angleMap = {
-    金融: "从普通人的钱包和选择讲，不预测涨跌，只解释这件事可能影响什么。",
-    民生: "从一个普通家庭会不会受影响讲，把事实、影响和需要核查的地方分开。",
-    教育: "从学生、家长或年轻人的处境讲，避免制造焦虑，重点讲规则和边界。",
-    AI: "从普通人能不能用、值不值得用讲，尽量用具体场景解释。",
-    科技: "从产品或技术变化会不会影响普通人生活讲，少讲术语，多讲结果。",
-  };
-  const hookMap = {
-    金融: `今天这条财经热点，普通人先别急着下结论，先看它和自己的钱袋子有什么关系。`,
-    民生: `这条热搜我建议先别当故事看，它真正值得讲的是普通人可能会受到什么影响。`,
-    教育: `这件事表面是一个教育新闻，其实很多学生和家长都会关心背后的规则。`,
-    AI: `这条 AI 热点不要只看热闹，关键是普通人到底能不能用上、怎么用。`,
-    科技: `这条科技新闻如果讲术语会很远，但换成普通人的使用场景就好懂了。`,
-  };
-  return {
-    why: item.oralReason || item.creatorReason || "话题有热度，但发布前仍需要核查来源。",
-    angle: angleMap[item.category] || "从普通人视角讲清楚发生了什么、为什么被关注、哪些信息还不能下结论。",
-    hook: hookMap[item.category] || `今天这条热点先别急着站队，普通人最该看的是它到底影响谁。`,
-    risk: item.category === "金融" ? "不要给投资建议，不承诺收益，关键数字必须核对。" : item.risk || "发布前先核对官方回应、权威媒体和原始来源。",
-    keyword,
-  };
+function lifecycleTag(item) {
+  if (!item.lifecycle && !item.isNewToday) return "";
+  const label = item.lifecycle || (item.isNewToday ? "新增" : "");
+  return `<span class="tag lifecycle-tag">${label}</span>`;
 }
 
 function statusButtons(id, status) {
@@ -570,19 +503,14 @@ function libraryMetaHtml(item, savedItem, decision) {
 
 function renderHotspots() {
   const list = filteredHotspots();
-  $("#resultCount").textContent = `当前显示 ${list.length} 条热点`;
+  $("#resultCount").textContent = `${state.range}${state.financeOnly ? " / 只看金融" : ""}：当前显示 ${list.length} 条热点`;
   $("#updatedAt").textContent = formatDate(state.updatedAt);
-  renderPriority();
+  const stats = window.UPDATE_META?.stats;
+  const updateSummary = $("#updateSummary");
+  if (updateSummary && stats) {
+    updateSummary.textContent = `（新增 ${stats.new || 0}，持续 ${stats.continued || 0}，下榜 ${stats.dropped || 0}）`;
+  }
   $("#hotspotList").innerHTML = list.length ? list.map((item) => hotspotCard(item)).join("") : emptyText("没有符合条件的热点");
-}
-
-function renderPriority() {
-  const list = priorityHotspots();
-  const panel = $(".priority-panel");
-  const wrap = $("#priorityList");
-  if (!panel || !wrap) return;
-  panel.hidden = !list.length;
-  wrap.innerHTML = list.map(priorityCard).join("");
 }
 
 function emptyText(text) {
@@ -1071,16 +999,19 @@ function bindEvents() {
   document.querySelectorAll(".nav-item").forEach((item) => {
     item.addEventListener("click", () => showView(item.dataset.view));
   });
-  [
-    ["rangeFilterSelect", "range"],
-    ["categoryFilterSelect", "category"],
-    ["sortFilterSelect", "sort"],
-  ].forEach(([id, stateKey]) => {
-    on(`#${id}`, "change", (event) => {
-      state[stateKey] = event.target.value;
-      renderFilters();
-      renderHotspots();
-    });
+  on("#rangeButtons", "click", (event) => {
+    const button = event.target.closest("button");
+    if (!button) return;
+    state.range = button.dataset.value;
+    renderFilters();
+    renderHotspots();
+  });
+  on("#financeFilterButtons", "click", (event) => {
+    const button = event.target.closest("button");
+    if (!button) return;
+    state.financeOnly = button.dataset.value === "只看金融";
+    renderFilters();
+    renderHotspots();
   });
   on("#libraryStatusButtons", "click", (event) => {
     const button = event.target.closest("button");

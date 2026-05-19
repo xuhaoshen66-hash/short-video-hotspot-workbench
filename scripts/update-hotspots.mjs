@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync } from "node:fs";
 import vm from "node:vm";
 
 const CATEGORIES = ["金融", "科技", "民生", "AI", "教育"];
+const HISTORY_PATH = "scripts/hotspot-history.json";
 const SOURCE_HEADERS = {
   "user-agent":
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
@@ -191,6 +192,29 @@ function loadSeedHotspots() {
       return [];
     }
   }
+}
+
+function loadHistory() {
+  try {
+    return JSON.parse(readFileSync(HISTORY_PATH, "utf8"));
+  } catch {
+    return { topics: {}, lastUpdatedAt: "", stats: { new: 0, continued: 0, dropped: 0 } };
+  }
+}
+
+function writeHistory(history) {
+  writeFileSync(HISTORY_PATH, `${JSON.stringify(history, null, 2)}\n`, "utf8");
+}
+
+function dateKey(value) {
+  return String(value || "").slice(0, 10);
+}
+
+function daysBetween(fromDate, toDate) {
+  const from = new Date(`${dateKey(fromDate)}T00:00:00+08:00`).getTime();
+  const to = new Date(`${dateKey(toDate)}T00:00:00+08:00`).getTime();
+  if (Number.isNaN(from) || Number.isNaN(to)) return 0;
+  return Math.max(0, Math.round((to - from) / 86400000));
 }
 
 function classifyTopic(item) {
@@ -411,7 +435,7 @@ function creatorProfile(item, category, heat, viral, videoHeat) {
   };
 }
 
-function buildHotspot(item, index, updatedAt) {
+function buildHotspot(item, index, updatedAt, historyEntry) {
   const category = classifyTopic(item);
   const rawScore = item.score || 0;
   const heat = clamp(Math.round(95 - index * 1.2 + Math.log10(rawScore + 10)), 58, 98);
@@ -419,6 +443,15 @@ function buildHotspot(item, index, updatedAt) {
   const viral = clamp(heat - 2 + sourceCountBonus + (category === "民生" ? 2 : 0), 55, 98);
   const videoHeat = clamp(heat - 8 + sourceCountBonus + (["民生", "教育"].includes(category) ? 4 : 0), 45, 96);
   const creator = creatorProfile(item, category, heat, viral, videoHeat);
+  const firstSeenAt = historyEntry?.firstSeenAt || updatedAt;
+  const seenCount = historyEntry?.seenCount || 1;
+  const lifecycle = historyEntry?.lifecycle || "新增";
+  const isNewToday = dateKey(firstSeenAt) === dateKey(updatedAt);
+  const historyScore = clamp(
+    Math.round(creator.score * 0.42 + heat * 0.22 + Math.min(seenCount, 30) * 1.5 + (lifecycle === "持续上榜" ? 5 : 0)),
+    35,
+    98,
+  );
   const id = `live-${stableHash(item.title)}`;
   return {
     id,
@@ -435,13 +468,18 @@ function buildHotspot(item, index, updatedAt) {
     creatorReason: creator.reason,
     oralScore: creator.oralScore,
     oralReason: creator.oralReason,
-    firstSeen: updatedAt,
+    firstSeen: firstSeenAt,
+    lastSeen: updatedAt,
+    seenCount,
+    lifecycle,
+    isNewToday,
+    historyScore,
     trend: trendText(item.trend),
     rangeScore: {
-      今日榜: heat,
-      三天榜: clamp(heat - 2, 45, 98),
-      周榜: clamp(heat - 5, 45, 98),
-      月榜: clamp(heat - 9, 40, 98),
+      当日新增: isNewToday ? clamp(creator.score + 8, 45, 98) : 0,
+      三天榜: clamp(Math.round(creator.score * 0.58 + heat * 0.24 + (isNewToday ? 7 : 0) + Math.min(seenCount, 3) * 3), 45, 98),
+      周榜: clamp(Math.round(creator.score * 0.45 + historyScore * 0.35 + heat * 0.2), 45, 98),
+      月榜: clamp(Math.round(historyScore * 0.62 + creator.score * 0.28 + heat * 0.1), 40, 98),
     },
     summary: item.desc || `${item.title}进入公开热榜，详情需要继续核对来源。`,
     listDescription: makeListDescription({ ...item, category }),
@@ -485,10 +523,11 @@ function writeHotspotData(hotspots) {
   writeFileSync("data.js", content, "utf8");
 }
 
-function writeUpdateMeta(updatedAt, sourceResults, hotspotCount) {
+function writeUpdateMeta(updatedAt, sourceResults, hotspotCount, stats) {
   const content = `window.UPDATE_META = {
   lastUpdatedAt: "${beijingIsoString()}",
   updateMode: "live-public-pages",
+  stats: ${JSON.stringify(stats, null, 2)},
   note: "Fetched ${hotspotCount} hotspots from public pages. Sources: ${sourceResults
     .map((item) => `${item.name}:${item.count}`)
     .join(", ")}.",
@@ -506,8 +545,16 @@ function writeIndexVersion(version) {
 
 async function main() {
   const updatedAt = beijingDisplayString();
+  const today = dateKey(updatedAt);
   const assetVersion = beijingIsoString().replace(/\D/g, "").slice(0, 12);
   const seeds = loadSeedHotspots();
+  const history = loadHistory();
+  const topics = history.topics || {};
+  const previousActiveKeys = new Set(
+    Object.entries(topics)
+      .filter(([, entry]) => dateKey(entry.lastSeenAt) === dateKey(history.lastUpdatedAt))
+      .map(([key]) => key),
+  );
   const fetchers = [
     ["百度", fetchBaiduHot],
     ["今日头条", fetchToutiaoHot],
@@ -532,13 +579,56 @@ async function main() {
     .filter((item) => !isLowValueTopic(item))
     .sort((a, b) => b.platforms.length - a.platforms.length || b.score - a.score)
     .slice(0, 80);
+
+  const currentKeys = new Set();
+  const historyEntries = new Map();
+  merged.forEach((item) => {
+    const key = normalizeKey(item.title);
+    currentKeys.add(key);
+    const previous = topics[key];
+    const firstSeenAt = previous?.firstSeenAt || updatedAt;
+    const seenCount = (previous?.seenCount || 0) + 1;
+    const previousScore = previous?.lastScore || 0;
+    const score = item.score || 0;
+    let lifecycle = "新增";
+    if (previous?.firstSeenAt && dateKey(firstSeenAt) !== today) {
+      if (score > previousScore * 1.08) lifecycle = "热度上升";
+      else if (score < previousScore * 0.86) lifecycle = "热度下降";
+      else lifecycle = "持续上榜";
+    }
+
+    const entry = {
+      key,
+      title: item.title,
+      firstSeenAt,
+      lastSeenAt: updatedAt,
+      seenCount,
+      lastScore: score,
+      platforms: Array.from(new Set([...(previous?.platforms || []), ...item.platforms])),
+      lifecycle,
+    };
+    topics[key] = entry;
+    historyEntries.set(key, entry);
+  });
+
+  const stats = {
+    new: [...historyEntries.values()].filter((entry) => entry.lifecycle === "新增").length,
+    continued: [...historyEntries.values()].filter((entry) => entry.lifecycle !== "新增").length,
+    dropped: [...previousActiveKeys].filter((key) => !currentKeys.has(key)).length,
+  };
+
   const liveHotspots = merged
-    .map((item, index) => buildHotspot(item, index, updatedAt))
-    .sort((a, b) => b.creatorScore - a.creatorScore || b.heat - a.heat);
+    .map((item, index) => buildHotspot(item, index, updatedAt, historyEntries.get(normalizeKey(item.title))))
+    .sort((a, b) => b.rangeScore.三天榜 - a.rangeScore.三天榜 || b.creatorScore - a.creatorScore);
   const finalHotspots = supplementWithSeeds(liveHotspots, seeds);
 
+  history.topics = topics;
+  history.lastUpdatedAt = updatedAt;
+  history.stats = stats;
+
   writeHotspotData(finalHotspots);
-  writeUpdateMeta(updatedAt, sourceResults, finalHotspots.length);
+  writeUpdateMeta(updatedAt, sourceResults, finalHotspots.length, stats);
+  writeHistory(history);
   writeIndexVersion(assetVersion);
   console.log(`Generated ${finalHotspots.length} hotspots at ${updatedAt}`);
 }

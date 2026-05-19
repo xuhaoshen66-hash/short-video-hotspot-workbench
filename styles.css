@@ -209,6 +209,28 @@ button {
   color: var(--ink);
 }
 
+.quick-filter-bar {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.quick-filter-bar .segmented {
+  gap: 6px;
+}
+
+.quick-filter-bar .segmented button {
+  min-height: 34px;
+  padding: 7px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
 .compact-filters {
   padding: 10px 12px;
   gap: 10px;
@@ -324,99 +346,6 @@ button {
   flex-wrap: wrap;
 }
 
-.priority-panel {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  padding: 16px;
-  box-shadow: var(--shadow);
-}
-
-.priority-head {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  align-items: end;
-  margin-bottom: 12px;
-}
-
-.priority-head h2 {
-  margin: 0;
-  font-size: 20px;
-}
-
-.priority-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 10px;
-}
-
-.priority-card {
-  display: grid;
-  grid-template-columns: 32px minmax(0, 1fr);
-  gap: 10px;
-  padding: 12px;
-  border: 1px solid var(--soft-line);
-  border-radius: 10px;
-  background: linear-gradient(180deg, #ffffff, #f8fbfe);
-}
-
-.priority-rank {
-  width: 32px;
-  height: 32px;
-  display: grid;
-  place-items: center;
-  border-radius: 10px;
-  background: var(--accent-soft);
-  color: var(--accent-strong);
-  font-weight: 800;
-}
-
-.priority-body {
-  min-width: 0;
-  display: grid;
-  gap: 8px;
-}
-
-.priority-title-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-  align-items: flex-start;
-}
-
-.priority-title-row h3 {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.35;
-}
-
-.priority-body p {
-  margin: 0;
-  color: #475467;
-  line-height: 1.55;
-}
-
-.shoot-plan {
-  display: grid;
-  gap: 7px;
-}
-
-.shoot-plan p {
-  padding: 8px 9px;
-  border-radius: 8px;
-  background: #f8fbfe;
-  border: 1px solid var(--soft-line);
-}
-
-.shoot-plan b {
-  color: var(--accent-strong);
-}
-
-.priority-search {
-  font-size: 13px;
-}
-
 .hotspot-list {
   display: grid;
   gap: 14px;
@@ -472,6 +401,11 @@ button {
 .muted-tag {
   background: #f1f5f9;
   color: var(--muted);
+}
+
+.lifecycle-tag {
+  background: #eef6f4;
+  color: var(--accent-strong);
 }
 
 .decision-pill {
@@ -1072,8 +1006,18 @@ button {
     font-size: 13px;
   }
 
+  .quick-filter-bar {
+    gap: 8px;
+    padding: 8px;
+  }
+
+  .quick-filter-bar .segmented button {
+    min-height: 32px;
+    padding: 6px 9px;
+    font-size: 12px;
+  }
+
   .topbar,
-  .priority-head,
   .card-head {
     align-items: stretch;
     flex-direction: column;

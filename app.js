@@ -264,7 +264,7 @@ function creatorScore(item) {
 }
 
 function oralScore(item) {
-  return item.oralScore || Math.round(creatorScore(item) * 0.78 + (item.category === "金融" ? 7 : 0) + (item.category === "民生" ? 5 : 0));
+  return item.oralScore || Math.round(creatorScore(item) * 0.78 + (item.category === "金融" ? 7 : 0) + (item.category === "政策" ? 6 : 0) + (item.category === "民生" ? 5 : 0));
 }
 
 function topicDecision(item) {
@@ -357,6 +357,11 @@ function imageSuggestions(item) {
       ["普通家庭理财", "账本、手机银行、计算器，适合做风险提醒。"],
       ["财经新闻背景", "财经大屏或新闻标题，适合做开场画面。"],
     ],
+    政策: [
+      ["政策原文", "中国政府网、部委官网、政策文件标题和发布日期，适合证明信息来源。"],
+      ["办事场景", "政务大厅、社保医保窗口、社区服务站，适合解释普通人影响。"],
+      ["数字变化", "补贴、利率、税费、缴费标准等关键数字，适合做重点提示。"],
+    ],
     科技: [
       ["产品发布场景", "手机、汽车或芯片发布会画面，适合做话题引入。"],
       ["技术细节特写", "芯片、电路板、车机屏幕，适合做解释段落。"],
@@ -371,11 +376,6 @@ function imageSuggestions(item) {
       ["AI办公界面", "电脑屏幕、文档、聊天窗口，适合做效率主题。"],
       ["人机协作", "人在电脑前使用 AI 工具，适合讲使用场景。"],
       ["科技抽象背景", "数据流、模型、终端设备，适合做过渡画面。"],
-    ],
-    教育: [
-      ["学习场景", "书桌、平板、作业本，适合讲家庭教育。"],
-      ["校园场景", "学校门口、教室、课后服务，适合讲政策变化。"],
-      ["家长沟通", "家长和孩子讨论学习，适合讲焦虑和选择。"],
     ],
   };
   const images = item.images || defaults[item.category] || defaults.民生;
@@ -491,7 +491,7 @@ function statusButtons(id, status) {
 function libraryMetaHtml(item, savedItem, decision) {
   const angle = item.angles?.[0] ? `${item.angles[0][0]}：${item.angles[0][1]}` : "先做事实梳理，再提炼普通人视角。";
   const hasTimeline = savedItem?.timeline?.length ? "有关键时间线" : "暂无关键时间线";
-  const checkRisk = item.category === "金融" || item.category === "教育" || item.category === "民生" ? "发布前必须核查来源" : "发布前建议核查来源";
+  const checkRisk = item.category === "金融" || item.category === "政策" || item.category === "民生" ? "发布前必须核查来源" : "发布前建议核查来源";
   return `
     <div class="library-meta">
       <div><b>推荐角度</b><span>${angle}</span></div>
@@ -719,7 +719,7 @@ function factCheckHtml(item) {
     ["原始来源", "找到最早的新闻、平台原帖、官方公告或当事人发声，避免只看二手转述。"],
     ["关键数字", item.category === "金融" ? "利率、金额、收益、时间范围必须核对，不要用模糊数字做结论。" : "涉及人数、金额、时间、范围的数据要核对来源。"],
     ["官方回应", "查看是否已有官方、品牌方、机构或平台回应；如果没有，要避免写成确定结论。"],
-    ["地域差异", item.category === "教育" || item.category === "民生" ? "确认是否只适用于某个城市、学校、机构或地区，不要扩大成全国情况。" : "确认信息适用范围，不要把局部案例说成普遍现象。"],
+    ["地域差异", item.category === "政策" || item.category === "民生" ? "确认是否只适用于某个城市、机构、群体或地区，不要扩大成全国情况。" : "确认信息适用范围，不要把局部案例说成普遍现象。"],
     ["发布风险", item.risk || "发布前检查是否存在夸大、误导、未经证实或容易引发争议的表达。"],
   ];
   return `

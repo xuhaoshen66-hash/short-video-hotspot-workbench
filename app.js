@@ -361,6 +361,45 @@ function listDescription(item) {
   );
 }
 
+function detailTextFor(item) {
+  const rawText = item.detailContent || item.detailSummary || item.summary || "";
+  const cleanedText = cleanEventDetailText(rawText);
+  return cleanedText || item.summary || rawText;
+}
+
+function cleanEventDetailText(text) {
+  const creativePatterns = [
+    /短视频/,
+    /拍摄/,
+    /怎么拍/,
+    /如何拍/,
+    /创作/,
+    /口播/,
+    /视频化/,
+    /剪辑/,
+    /素材/,
+    /镜头/,
+    /选题/,
+    /博主/,
+    /脚本/,
+    /值得拍/,
+    /发布前/,
+    /适合做/,
+    /适合从/,
+  ];
+  return text
+    .split(/\n+/)
+    .map((paragraph) => {
+      const sentences = paragraph.match(/[^。！？!?]+[。！？!?]?/g) || [paragraph];
+      return sentences
+        .filter((sentence) => !creativePatterns.some((pattern) => pattern.test(sentence)))
+        .join("")
+        .trim();
+    })
+    .filter(Boolean)
+    .join("\n\n");
+}
+
 function articleHtml(text) {
   const content = text || "";
   const paragraphs = content
@@ -622,7 +661,7 @@ function renderDetail(id) {
 
 function detailHtml(item, savedMode) {
   const savedItem = state.saved.find((saved) => saved.id === item.id);
-  const detailText = item.detailContent || item.detailSummary || item.summary;
+  const detailText = detailTextFor(item);
   const links = platformLinks(item)
     .map(([label, href]) => `<a class="secondary-button" target="_blank" rel="noreferrer" href="${href}">${label}</a>`)
     .join("");

@@ -6,11 +6,12 @@ const rangeDisplayLimits = {
   月榜: 30,
   当日新增: 10,
 };
-const categoryDisplayMinimums = {
-  三天榜: 5,
-  周榜: 5,
-  月榜: 5,
-  当日新增: 0,
+const topicFilterOptions = ["全部", "只看金融", "只看政策"];
+const policyHomeLimits = {
+  三天榜: 3,
+  周榜: 3,
+  月榜: 4,
+  当日新增: 2,
 };
 
 function readStoredJson(key, fallback) {
@@ -27,7 +28,7 @@ const state = {
   view: "dashboard",
   previousView: "dashboard",
   range: "三天榜",
-  financeOnly: false,
+  topicFilter: "全部",
   libraryStatus: "全部",
   selectedId: null,
   expandedTimelines: readStoredJson("creatorRadarExpandedTimelines", {}),
@@ -204,7 +205,7 @@ function initSegmented(id, options, stateKey) {
 
 function renderFilters() {
   renderButtonGroup("rangeButtons", ranges, state.range);
-  renderButtonGroup("financeFilterButtons", ["全部", "只看金融"], state.financeOnly ? "只看金融" : "全部");
+  renderButtonGroup("topicFilterButtons", topicFilterOptions, state.topicFilter);
 }
 
 function renderButtonGroup(id, options, activeValue) {
@@ -219,17 +220,72 @@ function filteredHotspots() {
   const filtered = baseFilteredHotspots();
   const ranged = state.range === "当日新增" ? filtered.filter((item) => item.lifecycle === "新增" || item.isNewToday) : filtered;
   const sorted = ranged.sort((a, b) => rangeScoreFor(b, state.range) - rangeScoreFor(a, state.range));
+  const visible = state.topicFilter === "全部" ? limitHomepagePolicyHotspots(sorted) : sorted;
   const allLimit = rangeDisplayLimits[state.range] || 10;
-  const categoryMinimum = categoryDisplayMinimums[state.range] || 3;
-  const limit = state.financeOnly ? Math.max(categoryMinimum, Math.min(allLimit, sorted.length)) : allLimit;
-  return sorted.slice(0, limit);
+  const limit = state.topicFilter === "全部" ? allLimit : visible.length;
+  return visible.slice(0, limit);
 }
 
 function baseFilteredHotspots() {
   return hotspots.filter((item) => {
-    const categoryMatch = !state.financeOnly || item.category === "金融";
-    return categoryMatch;
+    if (state.topicFilter === "只看金融") return item.category === "金融";
+    if (state.topicFilter === "只看政策") return isPolicyHotspot(item);
+    return true;
   });
+}
+
+function limitHomepagePolicyHotspots(items) {
+  const limit = policyHomeLimits[state.range] ?? 3;
+  if (!limit) return items.filter((item) => !isPolicyHotspot(item));
+  const homepagePolicyIds = new Set(
+    items
+      .filter(isPolicyHotspot)
+      .sort((a, b) => ordinaryImpactScore(b) - ordinaryImpactScore(a))
+      .slice(0, limit)
+      .map((item) => item.id)
+  );
+  return items.filter((item) => !isPolicyHotspot(item) || homepagePolicyIds.has(item.id));
+}
+
+function isPolicyHotspot(item) {
+  const text = `${item.category || ""} ${item.title || ""} ${item.originalTitle || ""} ${(item.platforms || []).join(" ")}`;
+  return item.category === "政策" || /国务院|中共中央|办公厅|部委|政府网|政策|条例|意见|通知|办法|规定|机制|制度/.test(text);
+}
+
+function ordinaryImpactScore(item) {
+  const text = `${item.title || ""} ${item.originalTitle || ""} ${item.summary || ""}`;
+  const keywordWeights = [
+    ["长期护理", 70],
+    ["失能", 42],
+    ["药品价格", 52],
+    ["新就业", 46],
+    ["养老机构", 44],
+    ["中小学", 40],
+    ["课后服务", 38],
+    ["分级诊疗", 38],
+    ["养老", 36],
+    ["药品", 35],
+    ["就业", 30],
+    ["教育", 30],
+    ["保险", 28],
+    ["护理", 26],
+    ["老龄化", 24],
+    ["住房", 24],
+    ["医保", 24],
+    ["社保", 24],
+    ["价格", 20],
+    ["工资", 20],
+    ["个税", 20],
+    ["公积金", 20],
+    ["生育", 20],
+    ["消费", 16],
+    ["安全", 14],
+    ["服务业", 12],
+  ];
+  const keywordScore = keywordWeights.reduce((score, [keyword, weight]) => {
+    return text.includes(keyword) ? score + weight : score;
+  }, 0);
+  return rangeScoreFor(item, state.range) + keywordScore + (item.oralScore || 0) * 0.35;
 }
 
 function rangeScoreFor(item, range) {
@@ -503,7 +559,8 @@ function libraryMetaHtml(item, savedItem, decision) {
 
 function renderHotspots() {
   const list = filteredHotspots();
-  $("#resultCount").textContent = `${state.range}${state.financeOnly ? " / 只看金融" : ""}：当前显示 ${list.length} 条热点`;
+  const filterLabel = state.topicFilter === "全部" ? "" : ` / ${state.topicFilter}`;
+  $("#resultCount").textContent = `${state.range}${filterLabel}：当前显示 ${list.length} 条热点`;
   $("#updatedAt").textContent = formatDate(state.updatedAt);
   const stats = window.UPDATE_META?.stats;
   const updateSummary = $("#updateSummary");
@@ -1006,10 +1063,10 @@ function bindEvents() {
     renderFilters();
     renderHotspots();
   });
-  on("#financeFilterButtons", "click", (event) => {
+  on("#topicFilterButtons", "click", (event) => {
     const button = event.target.closest("button");
     if (!button) return;
-    state.financeOnly = button.dataset.value === "只看金融";
+    state.topicFilter = button.dataset.value;
     renderFilters();
     renderHotspots();
   });

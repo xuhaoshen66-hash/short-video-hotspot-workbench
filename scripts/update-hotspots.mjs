@@ -591,7 +591,7 @@ async function main() {
     const previousScore = previous?.lastScore || 0;
     const score = item.score || 0;
     let lifecycle = "新增";
-    if (previous?.firstSeenAt && dateKey(firstSeenAt) !== today) {
+    if (previous?.firstSeenAt) {
       if (score > previousScore * 1.08) lifecycle = "热度上升";
       else if (score < previousScore * 0.86) lifecycle = "热度下降";
       else lifecycle = "持续上榜";

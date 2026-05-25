@@ -253,6 +253,11 @@ textarea {
   padding: 0 14px;
 }
 
+.icon-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
 .icon-button:hover,
 .topic-button:hover,
 .duration-tab:hover {
@@ -283,6 +288,56 @@ textarea {
 .empty-state p {
   margin: 0;
   color: var(--muted);
+}
+
+.library-home {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.home-kicker {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.library-home h3 {
+  margin: 8px 0 12px;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+.home-lead {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.home-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.home-stats div {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  padding: 14px;
+}
+
+.home-stats strong {
+  display: block;
+  font-size: 26px;
+  line-height: 1;
+}
+
+.home-stats span {
+  display: block;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .detail-head {
@@ -556,8 +611,60 @@ h4 {
   }
 
   .sidebar {
-    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 5;
     height: auto;
+    max-height: 42vh;
+    overflow: hidden;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand {
+    margin-bottom: 12px;
+  }
+
+  .brand-mark {
+    width: 34px;
+    height: 34px;
+  }
+
+  .brand h1 {
+    font-size: 16px;
+  }
+
+  .brand p {
+    display: none;
+  }
+
+  .search-box input {
+    height: 38px;
+  }
+
+  .tree {
+    min-height: 0;
+    overflow: auto;
+    margin-top: 12px;
+    padding-bottom: 4px;
+  }
+
+  .tree-parent {
+    min-height: 36px;
+    padding: 7px 9px;
+  }
+
+  .tree-children {
+    margin-left: 10px;
+    padding-left: 10px;
+    gap: 8px;
+  }
+
+  .topic-button {
+    padding: 9px 10px;
   }
 
   .content {
@@ -576,6 +683,18 @@ h4 {
 
   .detail-head h3 {
     font-size: 22px;
+  }
+
+  .empty-state {
+    padding: 26px 18px;
+  }
+
+  .library-home h3 {
+    font-size: 24px;
+  }
+
+  .home-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
@@ -910,7 +1029,7 @@ function applyFilters() {
   });
 
   if (!state.filtered.some((item) => item.id === state.selectedId)) {
-    state.selectedId = state.filtered[0]?.id ?? "";
+    state.selectedId = query ? state.filtered[0]?.id ?? "" : "";
   }
 
   render();
@@ -1015,9 +1134,19 @@ function renderDetail() {
   const item = state.items.find((entry) => entry.id === state.selectedId);
   els.empty.hidden = Boolean(item);
   els.detail.hidden = !item;
+  els.copyCurrent.disabled = !item;
+  els.copyAll.disabled = !item;
 
   if (!item) {
-    els.pageTitle.textContent = "未找到素材";
+    if (state.query && state.filtered.length === 0) {
+      els.pageTitle.textContent = "未找到素材";
+      els.empty.innerHTML = `
+        <h3>没有找到匹配的素材</h3>
+        <p>换一个关键词，或清空搜索条件后再试。</p>
+      `;
+    } else {
+      renderHome();
+    }
     return;
   }
 
@@ -1039,6 +1168,33 @@ function renderDetail() {
   });
 
   setVersion(state.selectedVersion, false);
+}
+
+function renderHome() {
+  const firstLevel = countByPathLevel(0);
+  const secondLevel = countByPathLevel(1);
+  els.pageTitle.textContent = "素材库主页";
+  els.empty.innerHTML = `
+    <div class="library-home">
+      <p class="home-kicker">金融科普口播素材库</p>
+      <h3>先选目录，再看具体文案</h3>
+      <p class="home-lead">这里是素材库入口页。左侧目录可以按贷款、信用卡、防诈骗和金融骗局逐层查找；也可以直接搜索标题、标签、正文关键词。</p>
+      <div class="home-stats">
+        <div><strong>${state.items.length}</strong><span>全部素材</span></div>
+        <div><strong>${firstLevel["贷款与信用卡相关"] || 0}</strong><span>贷款与信用卡</span></div>
+        <div><strong>${firstLevel["防诈骗与金融骗局"] || 0}</strong><span>防诈骗与骗局</span></div>
+        <div><strong>${Object.keys(secondLevel).length}</strong><span>二级分类</span></div>
+      </div>
+    </div>
+  `;
+}
+
+function countByPathLevel(level) {
+  return state.items.reduce((counts, item) => {
+    const key = item.path[level];
+    if (key) counts[key] = (counts[key] || 0) + 1;
+    return counts;
+  }, {});
 }
 
 function loadPublishRecords() {

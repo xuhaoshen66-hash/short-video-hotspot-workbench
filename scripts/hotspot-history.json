@@ -4,8 +4,8 @@
       "key": "中共中央办公厅国务院办公厅关于加强新就业群体服务管理的意见",
       "title": "中共中央办公厅 国务院办公厅关于加强新就业群体服务管理的意见",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-06-06 23:58",
-      "seenCount": 32,
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 33,
       "lastScore": 62050000,
       "platforms": [
         "中国政府网"
@@ -16,8 +16,8 @@
       "key": "中共中央办公厅国务院办公厅关于加快建立长期护理保险制度的意见",
       "title": "中共中央办公厅 国务院办公厅关于加快建立长期护理保险制度的意见",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-06-06 23:58",
-      "seenCount": 32,
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 33,
       "lastScore": 54250000,
       "platforms": [
         "中国政府网"
@@ -40,8 +40,8 @@
       "key": "国务院关于推进服务业扩能提质的意见",
       "title": "国务院关于推进服务业扩能提质的意见",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-06-06 23:58",
-      "seenCount": 32,
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 33,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -52,8 +52,8 @@
       "key": "国务院办公厅印发关于加快建设分级诊疗体系的若干措施的通知",
       "title": "国务院办公厅印发《关于加快建设分级诊疗体系的若干措施》的通知",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-06-06 23:58",
-      "seenCount": 32,
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 33,
       "lastScore": 48400000,
       "platforms": [
         "中国政府网"
@@ -64,8 +64,8 @@
       "key": "国务院办公厅关于健全药品价格形成机制的若干意见",
       "title": "国务院办公厅关于健全药品价格形成机制的若干意见",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-06-06 23:58",
-      "seenCount": 32,
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 33,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -76,8 +76,8 @@
       "key": "国务院办公厅转发海关总署关于促进综合保税区扩能提质的若干措施的通知",
       "title": "国务院办公厅转发海关总署《关于促进综合保税区扩能提质的若干措施》的通知",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-06-06 23:58",
-      "seenCount": 32,
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 33,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -4677,9 +4677,9 @@
       "key": "国务院关于推行常住地提供基本公共服务的实施意见",
       "title": "国务院关于推行常住地提供基本公共服务的实施意见",
       "firstSeenAt": "2026-05-22 18:37",
-      "lastSeenAt": "2026-06-06 23:58",
-      "seenCount": 25,
-      "lastScore": 46650000,
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 26,
+      "lastScore": 46550000,
       "platforms": [
         "中国政府网"
       ],
@@ -24617,13 +24617,13 @@
       "key": "女子购入热成像仪无意中救了自己",
       "title": "女子购入热成像仪无意中救了自己",
       "firstSeenAt": "2026-06-06 23:58",
-      "lastSeenAt": "2026-06-06 23:58",
-      "seenCount": 1,
-      "lastScore": 4766916,
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 2,
+      "lastScore": 1402,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "境外间谍这些危险行为看到举报": {
       "key": "境外间谍这些危险行为看到举报",
@@ -25092,12 +25092,852 @@
         "微博"
       ],
       "lifecycle": "新增"
+    },
+    "全球首个预制算力中心底座正式投用": {
+      "key": "全球首个预制算力中心底座正式投用",
+      "title": "全球首个“预制算力中心底座”正式投用",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 27957259,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "港媒印度取代中国的故事可能讲反了": {
+      "key": "港媒印度取代中国的故事可能讲反了",
+      "title": "港媒：印度取代中国的故事可能讲反了",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 25296774,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "考生提前约半小时出考场目标清华": {
+      "key": "考生提前约半小时出考场目标清华",
+      "title": "考生提前约半小时出考场：目标清华",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 22889468,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "一天一个价鸡蛋价格大涨": {
+      "key": "一天一个价鸡蛋价格大涨",
+      "title": "一天一个价 鸡蛋价格大涨",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 3699163,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "水浒传晁盖饰演者张治中逝世": {
+      "key": "水浒传晁盖饰演者张治中逝世",
+      "title": "《水浒传》晁盖饰演者张治中逝世",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 20711247,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "官方辟谣游客三亚拍照遭拦路收费": {
+      "key": "官方辟谣游客三亚拍照遭拦路收费",
+      "title": "官方辟谣游客三亚拍照遭拦路收费",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 12562006,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "专家不能等老了再考虑养老问题": {
+      "key": "专家不能等老了再考虑养老问题",
+      "title": "专家：不能等老了再考虑养老问题",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 6238107,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "考生出考场第一件事都在找妈妈": {
+      "key": "考生出考场第一件事都在找妈妈",
+      "title": "考生出考场第一件事都在“找妈妈”",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 16956934,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子买二手房住不到10天得知是凶宅": {
+      "key": "男子买二手房住不到10天得知是凶宅",
+      "title": "男子买二手房住不到10天得知是凶宅",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 15343269,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "河南南阳通报低保老人被贷款20万": {
+      "key": "河南南阳通报低保老人被贷款20万",
+      "title": "河南南阳通报“低保老人被贷款20万”",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 6286,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "美股大跌a股周一能扛住吗": {
+      "key": "美股大跌a股周一能扛住吗",
+      "title": "美股大跌 A股周一能扛住吗",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 11366573,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "父亲目送孩子进考场后抱妻子掩面哭泣": {
+      "key": "父亲目送孩子进考场后抱妻子掩面哭泣",
+      "title": "父亲目送孩子进考场后抱妻子掩面哭泣",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 10284900,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "男生考完语文称太简单建议明年加难度": {
+      "key": "男生考完语文称太简单建议明年加难度",
+      "title": "男生考完语文称太简单建议明年加难度",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 7619242,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "男生考完语文超开心建议明年加难度": {
+      "key": "男生考完语文超开心建议明年加难度",
+      "title": "男生考完语文超开心：建议明年加难度",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 7238605,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "张怡宁说回北京任职很高兴": {
+      "key": "张怡宁说回北京任职很高兴",
+      "title": "张怡宁说回北京任职很高兴",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 6894175,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "网传人造大米有毒不实": {
+      "key": "网传人造大米有毒不实",
+      "title": "网传“人造大米有毒”不实",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 6855105,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "美防长只有武力才能保障和平": {
+      "key": "美防长只有武力才能保障和平",
+      "title": "美防长：只有武力才能保障和平",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 34412,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "600度以上近视的人要避免剧烈运动": {
+      "key": "600度以上近视的人要避免剧烈运动",
+      "title": "600度以上近视的人要避免剧烈运动",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 5891027,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "耐克市值几乎蒸发掉一个阿迪达斯": {
+      "key": "耐克市值几乎蒸发掉一个阿迪达斯",
+      "title": "耐克市值几乎蒸发掉一个阿迪达斯",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 5706655,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "考生体内有钢板无法过安检铁骑护送": {
+      "key": "考生体内有钢板无法过安检铁骑护送",
+      "title": "考生体内有钢板无法过安检 铁骑护送",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 5609108,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "9岁男孩因吃夜市提拉米苏进icu": {
+      "key": "9岁男孩因吃夜市提拉米苏进icu",
+      "title": "9岁男孩因吃夜市提拉米苏进ICU",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 5310217,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "重庆合川遇强降水积水涨到车顶": {
+      "key": "重庆合川遇强降水积水涨到车顶",
+      "title": "重庆合川遇强降水 积水涨到车顶",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 5221969,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "张纪中悼念张治中世间再无托塔天王": {
+      "key": "张纪中悼念张治中世间再无托塔天王",
+      "title": "张纪中悼念张治中：世间再无托塔天王",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 4833263,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "乘客用智能眼镜偷拍空姐多方回应": {
+      "key": "乘客用智能眼镜偷拍空姐多方回应",
+      "title": "乘客用智能眼镜偷拍空姐 多方回应",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 4638621,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "谢娜官宣个人巡回演唱会": {
+      "key": "谢娜官宣个人巡回演唱会",
+      "title": "谢娜官宣个人巡回演唱会",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 4621303,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "我国氢煤混烧技术取得重大突破": {
+      "key": "我国氢煤混烧技术取得重大突破",
+      "title": "我国氢煤混烧技术取得重大突破",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 4372017,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "车主被夹骨折小米电吸门无防夹功能": {
+      "key": "车主被夹骨折小米电吸门无防夹功能",
+      "title": "车主被夹骨折 小米：电吸门无防夹功能",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 4186311,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "数学二卷谁出的题": {
+      "key": "数学二卷谁出的题",
+      "title": "数学二卷 谁出的题",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 4180974,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "数学一卷喜提大专": {
+      "key": "数学一卷喜提大专",
+      "title": "数学一卷 喜提大专",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 3842410,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "电视剧主角凭何夯爆全国": {
+      "key": "电视剧主角凭何夯爆全国",
+      "title": "电视剧《主角》凭何“夯爆”全国",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 3783603,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "地球会迎来25小时一天吗": {
+      "key": "地球会迎来25小时一天吗",
+      "title": "地球会迎来25小时一天吗",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 3779998,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "矿难致82死后当地应急管理局局长被查": {
+      "key": "矿难致82死后当地应急管理局局长被查",
+      "title": "矿难致82死后当地应急管理局局长被查",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 3423546,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "刘纪鹏谈a股4000点能稳住吗": {
+      "key": "刘纪鹏谈a股4000点能稳住吗",
+      "title": "刘纪鹏谈A股4000点能稳住吗",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 2802962,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "ai作文哪家强": {
+      "key": "ai作文哪家强",
+      "title": "AI作文哪家强",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 2536225,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "大黑牛李晨妹妹结婚": {
+      "key": "大黑牛李晨妹妹结婚",
+      "title": "“大黑牛”李晨妹妹结婚",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 2076485,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "全球市场忐忑等待周一开盘": {
+      "key": "全球市场忐忑等待周一开盘",
+      "title": "全球市场忐忑等待周一开盘",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 1538298,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "息县一网友造谣麦田起火被处罚": {
+      "key": "息县一网友造谣麦田起火被处罚",
+      "title": "息县一网友造谣麦田起火被处罚",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 533057,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "翘楚弹幕没法看": {
+      "key": "翘楚弹幕没法看",
+      "title": "翘楚弹幕 没法看",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 499564,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "a股重大调整来袭": {
+      "key": "a股重大调整来袭",
+      "title": "A股重大调整来袭",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 436321,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "白鹿天就要亮了阿璃不哭": {
+      "key": "白鹿天就要亮了阿璃不哭",
+      "title": "白鹿天就要亮了阿璃不哭",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 373358,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "中产家族的破产七件套": {
+      "key": "中产家族的破产七件套",
+      "title": "中产家族的破产七件套",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 369440,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "黄子韬怒斥偷拍牙医": {
+      "key": "黄子韬怒斥偷拍牙医",
+      "title": "黄子韬怒斥偷拍牙医",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 360337,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "迟到一分钟考生被拒进考场": {
+      "key": "迟到一分钟考生被拒进考场",
+      "title": "迟到一分钟考生被拒进考场",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 357770,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "柳智敏的酒杯腿又被夸": {
+      "key": "柳智敏的酒杯腿又被夸",
+      "title": "柳智敏的酒杯腿又被夸",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 355727,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "导演组一直问李晨是什么意思": {
+      "key": "导演组一直问李晨是什么意思",
+      "title": "导演组一直问李晨是什么意思",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 346192,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "ai短剧100集浓缩成3分钟": {
+      "key": "ai短剧100集浓缩成3分钟",
+      "title": "AI短剧 100集浓缩成3分钟",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 344114,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "深圳宝妈称印度巴基斯坦人增多": {
+      "key": "深圳宝妈称印度巴基斯坦人增多",
+      "title": "深圳宝妈称印度巴基斯坦人增多",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 343516,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "黄子韬做了16颗牙贴面": {
+      "key": "黄子韬做了16颗牙贴面",
+      "title": "黄子韬做了16颗牙贴面",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 341636,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "宗馥莉把自己名字印在包装上": {
+      "key": "宗馥莉把自己名字印在包装上",
+      "title": "宗馥莉把自己名字印在包装上",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 338147,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "大冰建议两口子别一起旅行": {
+      "key": "大冰建议两口子别一起旅行",
+      "title": "大冰建议两口子别一起旅行",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 335869,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "马斯克称禁止中国客户投spacex": {
+      "key": "马斯克称禁止中国客户投spacex",
+      "title": "马斯克称禁止中国客户投SpaceX",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 334307,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "心梗发作前一个月就有征兆": {
+      "key": "心梗发作前一个月就有征兆",
+      "title": "心梗发作前一个月就有征兆",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 331187,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "浪姐7兴风作浪的节目组": {
+      "key": "浪姐7兴风作浪的节目组",
+      "title": "浪姐7 兴风作浪的节目组",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 329647,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "白鹿说没能量时就停一停": {
+      "key": "白鹿说没能量时就停一停",
+      "title": "白鹿说没能量时就停一停",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 324976,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "肖战谈18岁后对人生的理解": {
+      "key": "肖战谈18岁后对人生的理解",
+      "title": "肖战谈18岁后对人生的理解",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 324329,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "近视的人老了都是两副眼镜": {
+      "key": "近视的人老了都是两副眼镜",
+      "title": "近视的人老了都是两副眼镜",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 311920,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "关掉朋友圈之后发现自己不爱旅游": {
+      "key": "关掉朋友圈之后发现自己不爱旅游",
+      "title": "关掉朋友圈之后发现自己不爱旅游",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 248589,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "原来蛋挞和可露丽都是修女发明的": {
+      "key": "原来蛋挞和可露丽都是修女发明的",
+      "title": "原来蛋挞和可露丽都是修女发明的",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 203629,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "李现晒了女友视角的摄影照": {
+      "key": "李现晒了女友视角的摄影照",
+      "title": "李现晒了女友视角的摄影照",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 203225,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "上海数学气哭了": {
+      "key": "上海数学气哭了",
+      "title": "上海数学 气哭了",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 189750,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "陈丽君把信递给机场工作人员了": {
+      "key": "陈丽君把信递给机场工作人员了",
+      "title": "陈丽君把信递给机场工作人员了",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 187096,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "阿豆官宣回归wb": {
+      "key": "阿豆官宣回归wb",
+      "title": "阿豆官宣回归WB",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 151805,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "985211警车快被摸包浆了": {
+      "key": "985211警车快被摸包浆了",
+      "title": "985211警车快被摸包浆了",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 140947,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "我国乘用车12年胖了近400公斤": {
+      "key": "我国乘用车12年胖了近400公斤",
+      "title": "我国乘用车12年胖了近400公斤",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 140493,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "美加墨世界杯i组巡礼": {
+      "key": "美加墨世界杯i组巡礼",
+      "title": "美加墨世界杯I组巡礼",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 62704,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "弟弟在考场外担心拄拐的姐姐": {
+      "key": "弟弟在考场外担心拄拐的姐姐",
+      "title": "弟弟在考场外担心拄拐的姐姐",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 28174,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "媒体马刺童话被0比2现实击碎": {
+      "key": "媒体马刺童话被0比2现实击碎",
+      "title": "媒体：马刺童话被0比2现实击碎",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 13991,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "业内不要无视周五美股的大跌": {
+      "key": "业内不要无视周五美股的大跌",
+      "title": "业内：不要“无视”周五美股的大跌",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 2824,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "大车散落铁片致多车被扎胎当地回应": {
+      "key": "大车散落铁片致多车被扎胎当地回应",
+      "title": "大车散落铁片致多车被扎胎？当地回应",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 2312,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "暴雨影响重庆火车站26趟列车停运": {
+      "key": "暴雨影响重庆火车站26趟列车停运",
+      "title": "暴雨影响重庆火车站26趟列车停运",
+      "firstSeenAt": "2026-06-07 18:13",
+      "lastSeenAt": "2026-06-07 18:13",
+      "seenCount": 1,
+      "lastScore": 940,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-06-06 23:58",
+  "lastUpdatedAt": "2026-06-07 18:13",
   "stats": {
-    "new": 65,
-    "continued": 15,
-    "dropped": 137
+    "new": 70,
+    "continued": 8,
+    "dropped": 209
   }
 }

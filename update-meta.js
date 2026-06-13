@@ -1,5 +1,5 @@
 window.UPDATE_META = {
-  lastUpdatedAt: "2026-06-12T20:35:37+08:00",
+  lastUpdatedAt: "2026-06-13T18:13:10+08:00",
   updateMode: "live-public-pages",
   stats: {
   "new": 73,

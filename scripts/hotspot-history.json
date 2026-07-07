@@ -4,8 +4,8 @@
       "key": "中共中央办公厅国务院办公厅关于加强新就业群体服务管理的意见",
       "title": "中共中央办公厅 国务院办公厅关于加强新就业群体服务管理的意见",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 118,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 119,
       "lastScore": 62050000,
       "platforms": [
         "中国政府网"
@@ -40,8 +40,8 @@
       "key": "国务院关于推进服务业扩能提质的意见",
       "title": "国务院关于推进服务业扩能提质的意见",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 118,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 119,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -52,8 +52,8 @@
       "key": "国务院办公厅印发关于加快建设分级诊疗体系的若干措施的通知",
       "title": "国务院办公厅印发《关于加快建设分级诊疗体系的若干措施》的通知",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 118,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 119,
       "lastScore": 48400000,
       "platforms": [
         "中国政府网"
@@ -64,8 +64,8 @@
       "key": "国务院办公厅关于健全药品价格形成机制的若干意见",
       "title": "国务院办公厅关于健全药品价格形成机制的若干意见",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 118,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 119,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -76,8 +76,8 @@
       "key": "国务院办公厅转发海关总署关于促进综合保税区扩能提质的若干措施的通知",
       "title": "国务院办公厅转发海关总署《关于促进综合保税区扩能提质的若干措施》的通知",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 118,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 119,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -4677,8 +4677,8 @@
       "key": "国务院关于推行常住地提供基本公共服务的实施意见",
       "title": "国务院关于推行常住地提供基本公共服务的实施意见",
       "firstSeenAt": "2026-05-22 18:37",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 111,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 112,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -36979,8 +36979,8 @@
       "key": "国务院关于印发实施就业优先战略十五五规划的通知",
       "title": "国务院关于印发《实施就业优先战略“十五五”规划》的通知",
       "firstSeenAt": "2026-06-17 21:01",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 72,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 73,
       "lastScore": 57200000,
       "platforms": [
         "中国政府网"
@@ -69884,8 +69884,8 @@
       "key": "退役军人就业创业促进条例",
       "title": "退役军人就业创业促进条例",
       "firstSeenAt": "2026-06-30 19:38",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 27,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 28,
       "lastScore": 40950000,
       "platforms": [
         "中国政府网"
@@ -87219,13 +87219,13 @@
       "key": "官方辟谣18级超强台风将登陆",
       "title": "官方辟谣18级超强台风将登陆",
       "firstSeenAt": "2026-07-07 10:06",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 2,
-      "lastScore": 24866878,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 3,
+      "lastScore": 13511747,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "热度上升"
+      "lifecycle": "热度下降"
     },
     "女子转错20万贷款后联系不上收款人": {
       "key": "女子转错20万贷款后联系不上收款人",
@@ -87426,13 +87426,14 @@
       "key": "上海一独居老人裸体游荡两年",
       "title": "上海一独居老人裸体游荡两年",
       "firstSeenAt": "2026-07-07 10:06",
-      "lastSeenAt": "2026-07-07 10:06",
-      "seenCount": 1,
-      "lastScore": 6485011,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 2,
+      "lastScore": 3515610,
       "platforms": [
-        "今日头条"
+        "今日头条",
+        "微博"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "天水市政府大楼被鉴定为d级危楼": {
       "key": "天水市政府大楼被鉴定为d级危楼",
@@ -87786,14 +87787,15 @@
       "key": "前华为天才少年吐槽deepseek面试",
       "title": "前华为天才少年吐槽DeepSeek面试",
       "firstSeenAt": "2026-07-07 10:06",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 2,
-      "lastScore": 7638318,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 3,
+      "lastScore": 6031321,
       "platforms": [
         "微博",
-        "百度"
+        "百度",
+        "今日头条"
       ],
-      "lifecycle": "热度上升"
+      "lifecycle": "热度下降"
     },
     "七七事变89周年": {
       "key": "七七事变89周年",
@@ -87931,14 +87933,14 @@
       "key": "强对流天气已致湖北11人死亡",
       "title": "强对流天气已致湖北11人死亡",
       "firstSeenAt": "2026-07-07 14:36",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 1,
-      "lastScore": 73871494,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 2,
+      "lastScore": 18238951,
       "platforms": [
         "百度",
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "水利部专题部署台风暴雨洪水防御工作": {
       "key": "水利部专题部署台风暴雨洪水防御工作",
@@ -87994,13 +87996,13 @@
       "key": "c罗为葡萄牙夺3冠我已经问心无愧",
       "title": "C罗：为葡萄牙夺3冠 我已经问心无愧",
       "firstSeenAt": "2026-07-07 14:36",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 1,
-      "lastScore": 33566775,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 2,
+      "lastScore": 2468373,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "男子被大风从12楼吸走摔落": {
       "key": "男子被大风从12楼吸走摔落",
@@ -88224,13 +88226,13 @@
       "key": "广西洪水致养蛇场蛇逃出包括眼镜蛇",
       "title": "广西洪水致养蛇场蛇逃出 包括眼镜蛇",
       "firstSeenAt": "2026-07-07 14:36",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 1,
-      "lastScore": 7714392,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 2,
+      "lastScore": 4752580,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "浙大注册校徽商标被指防备阿玛尼": {
       "key": "浙大注册校徽商标被指防备阿玛尼",
@@ -88248,13 +88250,14 @@
       "key": "世界杯8强已定6席",
       "title": "世界杯8强已定6席",
       "firstSeenAt": "2026-07-07 14:36",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 1,
-      "lastScore": 7233229,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 2,
+      "lastScore": 6071219,
       "platforms": [
-        "百度"
+        "百度",
+        "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "超强台风巴威风力18级不实": {
       "key": "超强台风巴威风力18级不实",
@@ -88512,13 +88515,14 @@
       "key": "女孩2岁时走失父亲苦寻多年抱憾离世",
       "title": "女孩2岁时走失 父亲苦寻多年抱憾离世",
       "firstSeenAt": "2026-07-07 14:36",
-      "lastSeenAt": "2026-07-07 14:36",
-      "seenCount": 1,
-      "lastScore": 3365366,
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 2,
+      "lastScore": 5233354,
       "platforms": [
-        "今日头条"
+        "今日头条",
+        "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "葛仙村发征集帖拍视频最高奖100万": {
       "key": "葛仙村发征集帖拍视频最高奖100万",
@@ -88675,12 +88679,782 @@
         "今日头条"
       ],
       "lifecycle": "新增"
+    },
+    "安踏鸿星尔克等多家福建企业驰援广西": {
+      "key": "安踏鸿星尔克等多家福建企业驰援广西",
+      "title": "安踏鸿星尔克等多家福建企业驰援广西",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 36728737,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "8万亿循环经济十五五锚定新目标": {
+      "key": "8万亿循环经济十五五锚定新目标",
+      "title": "8万亿！循环经济“十五五”锚定新目标",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 30070946,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "广西横州无人机洪水中吊运被困人员": {
+      "key": "广西横州无人机洪水中吊运被困人员",
+      "title": "广西横州无人机洪水中吊运被困人员",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 27209318,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "追踪超强台风巴威实时路径": {
+      "key": "追踪超强台风巴威实时路径",
+      "title": "追踪超强台风“巴威”实时路径",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 24620009,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "美军臆测解放军三种方式收复台湾": {
+      "key": "美军臆测解放军三种方式收复台湾",
+      "title": "美军臆测解放军三种方式“收复台湾”",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 22277105,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "广西养殖户称蛇出逃长时间泡水会死": {
+      "key": "广西养殖户称蛇出逃长时间泡水会死",
+      "title": "广西养殖户称蛇出逃长时间泡水会死",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 20157158,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "湖北黄石特大龙卷风致2死51伤": {
+      "key": "湖北黄石特大龙卷风致2死51伤",
+      "title": "湖北黄石特大龙卷风致2死51伤",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 16957194,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "养蛇场蛇逃出村民被咬伤陷入休克": {
+      "key": "养蛇场蛇逃出村民被咬伤陷入休克",
+      "title": "养蛇场蛇逃出村民被咬伤陷入休克",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 6627187,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "暑假工干活太好被老板加钱请回": {
+      "key": "暑假工干活太好被老板加钱请回",
+      "title": "暑假工干活太好 被老板加钱请回",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 5801691,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "跨省相亲一周全失败婚介与女方闹崩": {
+      "key": "跨省相亲一周全失败婚介与女方闹崩",
+      "title": "跨省相亲一周全失败 婚介与女方闹崩",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 5607809,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "台名嘴谈大陆试射战略导弹": {
+      "key": "台名嘴谈大陆试射战略导弹",
+      "title": "台名嘴谈大陆试射战略导弹",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 16503285,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "蜜雪冰城向广西捐款1000万": {
+      "key": "蜜雪冰城向广西捐款1000万",
+      "title": "蜜雪冰城向广西捐款1000万",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 4453650,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "习近平对防汛救灾工作作出重要指示": {
+      "key": "习近平对防汛救灾工作作出重要指示",
+      "title": "习近平对防汛救灾工作作出重要指示",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 15809334,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "多家企业宣布驰援广西": {
+      "key": "多家企业宣布驰援广西",
+      "title": "多家企业宣布驰援广西",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 14932790,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "大二女生贷款200万开民宿营收千万": {
+      "key": "大二女生贷款200万开民宿营收千万",
+      "title": "大二女生贷款200万开民宿营收千万",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2173591,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "骗贷1640万元的基层银行行长": {
+      "key": "骗贷1640万元的基层银行行长",
+      "title": "骗贷1640万元的基层银行行长",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 1842940,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "洪水后蛇出逃医院血清带不进去": {
+      "key": "洪水后蛇出逃医院血清带不进去",
+      "title": "洪水后蛇出逃 医院：血清带不进去",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 3612161,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "有点毒特派出所来了个小萌猴": {
+      "key": "有点毒特派出所来了个小萌猴",
+      "title": "有点“毒”特 派出所来了个小萌猴",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 4280363,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "日本海面半截女尸确认为中国籍女子": {
+      "key": "日本海面半截女尸确认为中国籍女子",
+      "title": "日本海面半截女尸确认为中国籍女子",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 12225934,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "1tb固态硬盘价格涨了1倍": {
+      "key": "1tb固态硬盘价格涨了1倍",
+      "title": "1TB固态硬盘价格涨了1倍",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 5135084,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "甜玉米为广西灾区筹款超68万元": {
+      "key": "甜玉米为广西灾区筹款超68万元",
+      "title": "“甜玉米”为广西灾区筹款超68万元",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 11062483,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国车企半年考成绩单出炉": {
+      "key": "中国车企半年考成绩单出炉",
+      "title": "中国车企半年考成绩单出炉",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 4542569,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "农夫山泉无上限支援广西应急饮用水": {
+      "key": "农夫山泉无上限支援广西应急饮用水",
+      "title": "农夫山泉无上限支援广西应急饮用水",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 3976477,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "a股收盘沪指失守4000点": {
+      "key": "a股收盘沪指失守4000点",
+      "title": "A股收盘：沪指失守4000点",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 3518002,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "c罗职业生涯已足够成功吗": {
+      "key": "c罗职业生涯已足够成功吗",
+      "title": "C罗职业生涯已足够成功吗",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 9057195,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国发射的潜射战略导弹是什么型号": {
+      "key": "中国发射的潜射战略导弹是什么型号",
+      "title": "中国发射的潜射战略导弹是什么型号",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 8195289,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中方回应多国批评中国试射导弹": {
+      "key": "中方回应多国批评中国试射导弹",
+      "title": "中方回应多国“批评”中国试射导弹",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 7808382,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "水利部升级发布洪水橙色预警": {
+      "key": "水利部升级发布洪水橙色预警",
+      "title": "水利部升级发布洪水橙色预警",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 7616748,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "机票价大跳水多条热门航线低于高铁": {
+      "key": "机票价大跳水多条热门航线低于高铁",
+      "title": "机票价大跳水 多条热门航线低于高铁",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 7524371,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "日本品牌拿七七当七夕引众怒": {
+      "key": "日本品牌拿七七当七夕引众怒",
+      "title": "日本品牌拿七七当七夕引众怒",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 7423660,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "广西急需有橡皮艇冲锋舟的志愿队伍": {
+      "key": "广西急需有橡皮艇冲锋舟的志愿队伍",
+      "title": "广西：急需有橡皮艇冲锋舟的志愿队伍",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 7233085,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "马克龙下榻酒店附近连发爆炸": {
+      "key": "马克龙下榻酒店附近连发爆炸",
+      "title": "马克龙下榻酒店附近连发爆炸",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 7045746,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "网传新能源车智驾芯片新规系谣言": {
+      "key": "网传新能源车智驾芯片新规系谣言",
+      "title": "网传新能源车智驾芯片新规系谣言",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 6854982,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "周深向广西受灾地区捐赠物资": {
+      "key": "周深向广西受灾地区捐赠物资",
+      "title": "周深向广西受灾地区捐赠物资",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 6709735,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "多方回应广西横州洪涝致养殖蛇外窜": {
+      "key": "多方回应广西横州洪涝致养殖蛇外窜",
+      "title": "多方回应广西横州洪涝致养殖蛇外窜",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 6655319,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "百亿富豪翁先定被留置公司回应": {
+      "key": "百亿富豪翁先定被留置公司回应",
+      "title": "百亿富豪翁先定被留置 公司回应",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 6379629,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "广西广东江苏等地有大到暴雨": {
+      "key": "广西广东江苏等地有大到暴雨",
+      "title": "广西广东江苏等地有大到暴雨",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 6287630,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子婚内转51万给小18岁情人": {
+      "key": "男子婚内转51万给小18岁情人",
+      "title": "男子婚内转51万给小18岁情人",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 6176230,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "专家试射的战略导弹大概率是巨浪3": {
+      "key": "专家试射的战略导弹大概率是巨浪3",
+      "title": "专家：试射的战略导弹大概率是巨浪-3",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 6001181,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "广西横州急需蛇毒血清": {
+      "key": "广西横州急需蛇毒血清",
+      "title": "广西横州急需蛇毒血清",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 5904710,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "超强台风巴威直径已1300公里": {
+      "key": "超强台风巴威直径已1300公里",
+      "title": "超强台风“巴威”直径已1300公里",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 5701485,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "小暑吃三白长夏不受苦": {
+      "key": "小暑吃三白长夏不受苦",
+      "title": "小暑吃三白 长夏不受苦",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 5421892,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "苹果折叠屏已在量产阶段": {
+      "key": "苹果折叠屏已在量产阶段",
+      "title": "苹果折叠屏已在量产阶段",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 5316214,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "学者中国试射导弹澳大利亚强行加戏": {
+      "key": "学者中国试射导弹澳大利亚强行加戏",
+      "title": "学者：中国试射导弹澳大利亚强行加戏",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 4970694,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中方坚决反对日方干扰中方科考船": {
+      "key": "中方坚决反对日方干扰中方科考船",
+      "title": "中方坚决反对日方干扰中方科考船",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 4950562,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "金球奖官方致敬内马尔": {
+      "key": "金球奖官方致敬内马尔",
+      "title": "金球奖官方致敬内马尔",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 4354231,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "广西多地急需饮用水食品被褥": {
+      "key": "广西多地急需饮用水食品被褥",
+      "title": "广西多地急需饮用水食品被褥",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 4070570,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "湖北遭龙卷风消防员救灾后席地而睡": {
+      "key": "湖北遭龙卷风消防员救灾后席地而睡",
+      "title": "湖北遭龙卷风 消防员救灾后席地而睡",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 4069660,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "各地文旅开始卷发现金了": {
+      "key": "各地文旅开始卷发现金了",
+      "title": "各地文旅开始卷“发现金”了",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 3718156,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "北海银滩景区发布辟谣声明": {
+      "key": "北海银滩景区发布辟谣声明",
+      "title": "北海银滩景区发布辟谣声明",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 3334783,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "李大霄做多美股需要警惕了": {
+      "key": "李大霄做多美股需要警惕了",
+      "title": "李大霄：做多美股需要警惕了",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 3331955,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "广西发布抢险救灾公告": {
+      "key": "广西发布抢险救灾公告",
+      "title": "广西发布抢险救灾公告",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 3134481,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "江苏已派出四个指导组应对台风巴威": {
+      "key": "江苏已派出四个指导组应对台风巴威",
+      "title": "江苏已派出四个指导组应对台风巴威",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2233476,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "微信能不能出一个临时好友功能": {
+      "key": "微信能不能出一个临时好友功能",
+      "title": "微信能不能出一个临时好友功能",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2201426,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "我国七大流域全力防汛": {
+      "key": "我国七大流域全力防汛",
+      "title": "我国七大流域全力防汛",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2183679,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "西班牙绝杀后c罗反应": {
+      "key": "西班牙绝杀后c罗反应",
+      "title": "西班牙绝杀后C罗反应",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2165634,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "烧烤店主目睹丈夫员工被龙卷风吹飞": {
+      "key": "烧烤店主目睹丈夫员工被龙卷风吹飞",
+      "title": "烧烤店主目睹丈夫员工被龙卷风吹飞",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2154963,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "国足情况通报": {
+      "key": "国足情况通报",
+      "title": "国足情况通报",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2142113,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "难怪我北方的朋友不爱吃薄荷": {
+      "key": "难怪我北方的朋友不爱吃薄荷",
+      "title": "难怪我北方的朋友不爱吃薄荷",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2131723,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "巨无霸台风可能登陆我国": {
+      "key": "巨无霸台风可能登陆我国",
+      "title": "巨无霸台风可能登陆我国",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2111809,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "lv胜诉暴露了中国文化确权时差": {
+      "key": "lv胜诉暴露了中国文化确权时差",
+      "title": "LV胜诉暴露了中国文化确权时差",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2092665,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "浙大校徽阿玛尼": {
+      "key": "浙大校徽阿玛尼",
+      "title": "浙大校徽 阿玛尼",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2070037,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "野狗骨头影视寒冬真正的夏天": {
+      "key": "野狗骨头影视寒冬真正的夏天",
+      "title": "野狗骨头 影视寒冬真正的夏天",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2059036,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "关晓彤为庆祝小巷人家杀青剪的短发": {
+      "key": "关晓彤为庆祝小巷人家杀青剪的短发",
+      "title": "关晓彤为庆祝小巷人家杀青剪的短发",
+      "firstSeenAt": "2026-07-07 19:38",
+      "lastSeenAt": "2026-07-07 19:38",
+      "seenCount": 1,
+      "lastScore": 2044613,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-07-07 14:36",
+  "lastUpdatedAt": "2026-07-07 19:38",
   "stats": {
-    "new": 62,
-    "continued": 18,
-    "dropped": 62
+    "new": 64,
+    "continued": 16,
+    "dropped": 126
   }
 }

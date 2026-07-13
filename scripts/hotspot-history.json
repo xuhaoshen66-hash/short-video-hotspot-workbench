@@ -4,8 +4,8 @@
       "key": "中共中央办公厅国务院办公厅关于加强新就业群体服务管理的意见",
       "title": "中共中央办公厅 国务院办公厅关于加强新就业群体服务管理的意见",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-07-13 13:58",
-      "seenCount": 142,
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 143,
       "lastScore": 62050000,
       "platforms": [
         "中国政府网"
@@ -40,8 +40,8 @@
       "key": "国务院关于推进服务业扩能提质的意见",
       "title": "国务院关于推进服务业扩能提质的意见",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-07-13 13:58",
-      "seenCount": 142,
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 143,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -76,8 +76,8 @@
       "key": "国务院办公厅转发海关总署关于促进综合保税区扩能提质的若干措施的通知",
       "title": "国务院办公厅转发海关总署《关于促进综合保税区扩能提质的若干措施》的通知",
       "firstSeenAt": "2026-05-19 19:49",
-      "lastSeenAt": "2026-07-13 13:58",
-      "seenCount": 142,
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 143,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -4677,8 +4677,8 @@
       "key": "国务院关于推行常住地提供基本公共服务的实施意见",
       "title": "国务院关于推行常住地提供基本公共服务的实施意见",
       "firstSeenAt": "2026-05-22 18:37",
-      "lastSeenAt": "2026-07-13 13:58",
-      "seenCount": 135,
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 136,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -36980,8 +36980,8 @@
       "key": "国务院关于印发实施就业优先战略十五五规划的通知",
       "title": "国务院关于印发《实施就业优先战略“十五五”规划》的通知",
       "firstSeenAt": "2026-06-17 21:01",
-      "lastSeenAt": "2026-07-13 13:58",
-      "seenCount": 96,
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 97,
       "lastScore": 56600000,
       "platforms": [
         "中国政府网"
@@ -69885,8 +69885,8 @@
       "key": "退役军人就业创业促进条例",
       "title": "退役军人就业创业促进条例",
       "firstSeenAt": "2026-06-30 19:38",
-      "lastSeenAt": "2026-07-13 13:58",
-      "seenCount": 51,
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 52,
       "lastScore": 40350000,
       "platforms": [
         "中国政府网"
@@ -104205,14 +104205,14 @@
       "key": "挪威射手回应空位不传哈兰德",
       "title": "挪威射手回应空位不传哈兰德",
       "firstSeenAt": "2026-07-13 09:51",
-      "lastSeenAt": "2026-07-13 13:58",
-      "seenCount": 2,
-      "lastScore": 3773908,
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 3,
+      "lastScore": 5055864,
       "platforms": [
         "百度",
         "今日头条"
       ],
-      "lifecycle": "热度下降"
+      "lifecycle": "热度上升"
     },
     "沈阳暴雨红色预警非必要不出门": {
       "key": "沈阳暴雨红色预警非必要不出门",
@@ -104808,14 +104808,15 @@
       "key": "中国首个禁售燃油车省份确认",
       "title": "中国首个禁售燃油车省份确认",
       "firstSeenAt": "2026-07-13 13:58",
-      "lastSeenAt": "2026-07-13 13:58",
-      "seenCount": 1,
-      "lastScore": 26502027,
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 2,
+      "lastScore": 16434523,
       "platforms": [
         "百度",
-        "今日头条"
+        "今日头条",
+        "微博"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "全美降半旗悼念格雷厄姆": {
       "key": "全美降半旗悼念格雷厄姆",
@@ -104978,13 +104979,13 @@
       "key": "巴威还在北上新台风已生成",
       "title": "巴威还在北上 新台风已生成",
       "firstSeenAt": "2026-07-13 13:58",
-      "lastSeenAt": "2026-07-13 13:58",
-      "seenCount": 1,
-      "lastScore": 7712387,
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 2,
+      "lastScore": 6097169,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "如何防范山洪泥石流等次生灾害": {
       "key": "如何防范山洪泥石流等次生灾害",
@@ -105550,12 +105551,867 @@
         "微博"
       ],
       "lifecycle": "新增"
+    },
+    "国务院关于扩大消费十五五规划的批复": {
+      "key": "国务院关于扩大消费十五五规划的批复",
+      "title": "国务院关于《扩大消费“十五五”规划》的批复",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 59200000,
+      "platforms": [
+        "中国政府网"
+      ],
+      "lifecycle": "新增"
+    },
+    "多元业态激发夏日经济活力": {
+      "key": "多元业态激发夏日经济活力",
+      "title": "多元业态激发夏日经济活力",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 7616365,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "a股齐跌00后股民半年白干": {
+      "key": "a股齐跌00后股民半年白干",
+      "title": "A股齐跌 00后股民：半年白干",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 6561174,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "32万彩礼到手仅12万婚介所截留20万": {
+      "key": "32万彩礼到手仅12万婚介所截留20万",
+      "title": "32万彩礼到手仅12万婚介所截留20万",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 5336392,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "沈阳明天继续居家办公停课": {
+      "key": "沈阳明天继续居家办公停课",
+      "title": "沈阳明天继续居家办公、停课",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 20502541,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "老人贷款买59万房欠近400万违约金": {
+      "key": "老人贷款买59万房欠近400万违约金",
+      "title": "老人贷款买59万房欠近400万违约金",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 6175246,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "老人一车西瓜卖70元小伙多给钱遭拒": {
+      "key": "老人一车西瓜卖70元小伙多给钱遭拒",
+      "title": "老人一车西瓜卖70元 小伙多给钱遭拒",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 5800023,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "闽超莆田vs三明": {
+      "key": "闽超莆田vs三明",
+      "title": "闽超：莆田vs三明",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 4548044,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "辽宁抚顺暴雨持续马上居家静默": {
+      "key": "辽宁抚顺暴雨持续马上居家静默",
+      "title": "辽宁抚顺：暴雨持续马上居家静默",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 15188656,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "高盛中国股票出现轮动信号": {
+      "key": "高盛中国股票出现轮动信号",
+      "title": "高盛：中国股票出现“轮动信号”",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 13796540,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "直击沈阳暴雨": {
+      "key": "直击沈阳暴雨",
+      "title": "直击沈阳暴雨",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 13743264,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "日本民众集会举牌中国对不起": {
+      "key": "日本民众集会举牌中国对不起",
+      "title": "日本民众集会举牌“中国对不起”",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 11753913,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "沪指险守3900点a股能否修复": {
+      "key": "沪指险守3900点a股能否修复",
+      "title": "沪指险守3900点 A股能否修复",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 5487197,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "严打编造传播涉汛等涉灾网络谣言": {
+      "key": "严打编造传播涉汛等涉灾网络谣言",
+      "title": "严打编造传播涉汛等涉灾网络谣言",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 12435419,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "消费观突然就被矫正了": {
+      "key": "消费观突然就被矫正了",
+      "title": "消费观突然就被矫正了",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 183897,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "博主功夫女足没那么烂": {
+      "key": "博主功夫女足没那么烂",
+      "title": "博主：《功夫女足》没那么烂",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 11252033,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中使馆就日方恶劣言行提出严正交涉": {
+      "key": "中使馆就日方恶劣言行提出严正交涉",
+      "title": "中使馆就日方恶劣言行提出严正交涉",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 3885562,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "婚礼现场伴娘被砸生鸡蛋警方介入": {
+      "key": "婚礼现场伴娘被砸生鸡蛋警方介入",
+      "title": "婚礼现场伴娘被砸生鸡蛋 警方介入",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 3486628,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "日前驻华大使恢复对华对话不容迟疑": {
+      "key": "日前驻华大使恢复对华对话不容迟疑",
+      "title": "日前驻华大使：恢复对华对话不容迟疑",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 9212385,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国或还将遭遇2至3个台风": {
+      "key": "中国或还将遭遇2至3个台风",
+      "title": "中国或还将遭遇2至3个台风",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 7807877,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "光模块龙头中际旭创辟谣多项传言": {
+      "key": "光模块龙头中际旭创辟谣多项传言",
+      "title": "光模块龙头中际旭创辟谣多项传言",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 7542463,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "功夫女足破5亿周星驰感到惭愧": {
+      "key": "功夫女足破5亿周星驰感到惭愧",
+      "title": "《功夫女足》破5亿 周星驰：感到惭愧",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 7520551,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "湖北恩施暴雨呈水柱状铺天盖地倾泻": {
+      "key": "湖北恩施暴雨呈水柱状铺天盖地倾泻",
+      "title": "湖北恩施暴雨呈水柱状铺天盖地倾泻",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 7423970,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "净网严打编造传播涉汛等涉灾谣言": {
+      "key": "净网严打编造传播涉汛等涉灾谣言",
+      "title": "净网：严打编造传播涉汛等涉灾谣言",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 7329002,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子意外全身瘫痪女友照顾600多天": {
+      "key": "男子意外全身瘫痪女友照顾600多天",
+      "title": "男子意外全身瘫痪女友照顾600多天",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 7044988,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "台风巴威北上直击沈阳暴雨": {
+      "key": "台风巴威北上直击沈阳暴雨",
+      "title": "台风巴威北上 直击沈阳暴雨",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 6950753,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "关于台风天的几个误区": {
+      "key": "关于台风天的几个误区",
+      "title": "关于台风天的几个误区",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 6847498,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "暴雨台风高温等7预警齐发": {
+      "key": "暴雨台风高温等7预警齐发",
+      "title": "暴雨、台风、高温等7预警齐发",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 6658755,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "沈阳暴雨一男子倒在积水中多人施救": {
+      "key": "沈阳暴雨一男子倒在积水中多人施救",
+      "title": "沈阳暴雨一男子倒在积水中 多人施救",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 6470586,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "台风过境唯一贴了米字的窗户破了": {
+      "key": "台风过境唯一贴了米字的窗户破了",
+      "title": "台风过境 唯一贴了米字的窗户破了",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 6374662,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "世界杯的红利佛得角先吃": {
+      "key": "世界杯的红利佛得角先吃",
+      "title": "世界杯的红利佛得角先吃",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 6273770,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "16岁田径少年被捅身亡母亲发声": {
+      "key": "16岁田径少年被捅身亡母亲发声",
+      "title": "16岁田径少年被捅身亡 母亲发声",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 5899252,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "威海沙滩现大量生蚝市民捡了两大袋": {
+      "key": "威海沙滩现大量生蚝市民捡了两大袋",
+      "title": "威海沙滩现大量生蚝 市民捡了两大袋",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 5705469,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "印度民众搭起百米巨大人塔空中摇晃": {
+      "key": "印度民众搭起百米巨大人塔空中摇晃",
+      "title": "印度民众搭起百米巨大人塔空中摇晃",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 5620776,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "李小冉徐佳宁已无直接商业关联": {
+      "key": "李小冉徐佳宁已无直接商业关联",
+      "title": "李小冉徐佳宁已无直接商业关联",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 5587594,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "功夫女足周星驰认真炒的冷饭": {
+      "key": "功夫女足周星驰认真炒的冷饭",
+      "title": "《功夫女足》 周星驰认真炒的冷饭",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 5230244,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "18年前被救18年后救人": {
+      "key": "18年前被救18年后救人",
+      "title": "18年前被救 18年后救人",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 5142003,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "周星驰功夫女足遇冰火反差": {
+      "key": "周星驰功夫女足遇冰火反差",
+      "title": "周星驰《功夫女足》遇冰火反差",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 4831432,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "人均日通话降至87分钟": {
+      "key": "人均日通话降至87分钟",
+      "title": "人均日通话降至8.7分钟",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 4749308,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "沈阳市气象台回应暴雨何时停止": {
+      "key": "沈阳市气象台回应暴雨何时停止",
+      "title": "沈阳市气象台回应暴雨何时停止",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 4574735,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "台风过后你来派出所报我的名字": {
+      "key": "台风过后你来派出所报我的名字",
+      "title": "“台风过后 你来派出所报我的名字”",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 4376938,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "台风巴威是隔空登陆辽宁了吗": {
+      "key": "台风巴威是隔空登陆辽宁了吗",
+      "title": "台风巴威是“隔空”登陆辽宁了吗",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 4259599,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "台风过后杭州离场视频火了": {
+      "key": "台风过后杭州离场视频火了",
+      "title": "台风过后 杭州“离场视频”火了",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 4184297,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "长鑫近2万员工每人或可分超百万": {
+      "key": "长鑫近2万员工每人或可分超百万",
+      "title": "长鑫近2万员工每人或可分超百万",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 4069031,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "周星驰称片场一直被张小斐调教": {
+      "key": "周星驰称片场一直被张小斐调教",
+      "title": "周星驰称片场一直被张小斐调教",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 3997915,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "曝台积电2nm芯片开始量产": {
+      "key": "曝台积电2nm芯片开始量产",
+      "title": "曝台积电2nm芯片开始量产",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 3786470,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "沈阳有地方一夜下了半年的雨": {
+      "key": "沈阳有地方一夜下了半年的雨",
+      "title": "沈阳有地方一夜下了半年的雨",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 3690868,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "哈兰德没赢世界杯但赢得了世界": {
+      "key": "哈兰德没赢世界杯但赢得了世界",
+      "title": "哈兰德没赢世界杯 但赢得了世界",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 3402604,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "姆巴佩或无缘打破世界杯单届13球纪录": {
+      "key": "姆巴佩或无缘打破世界杯单届13球纪录",
+      "title": "姆巴佩或无缘打破世界杯单届13球纪录",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 3389047,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "胡塞武装劫持红十字国际委员会飞机": {
+      "key": "胡塞武装劫持红十字国际委员会飞机",
+      "title": "胡塞武装劫持红十字国际委员会飞机",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 3326487,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "台风巴威北上辽宁吉林雨势格外猛烈": {
+      "key": "台风巴威北上辽宁吉林雨势格外猛烈",
+      "title": "台风巴威北上 辽宁吉林雨势格外猛烈",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 3200907,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "滨寿司回应女子在餐桌上为孩子修脚": {
+      "key": "滨寿司回应女子在餐桌上为孩子修脚",
+      "title": "滨寿司回应女子在餐桌上为孩子修脚",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 3118038,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "哈兰德父亲看台上做不雅手势": {
+      "key": "哈兰德父亲看台上做不雅手势",
+      "title": "哈兰德父亲看台上做不雅手势",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 2510667,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "00后股民追光遭遇光速变脸": {
+      "key": "00后股民追光遭遇光速变脸",
+      "title": "00后股民“追光”遭遇光速变脸",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 2055561,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "河南72岁老人卖整车西瓜仅要70元": {
+      "key": "河南72岁老人卖整车西瓜仅要70元",
+      "title": "河南72岁老人卖整车西瓜仅要70元",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 1859948,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "深圳一小区给业主发288万元现金": {
+      "key": "深圳一小区给业主发288万元现金",
+      "title": "深圳一小区给业主发288万元现金",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 1682951,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "杨永明南海仲裁案裁决始终无效": {
+      "key": "杨永明南海仲裁案裁决始终无效",
+      "title": "杨永明：“南海仲裁案裁决”始终无效",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 1522797,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "天津市委原常委周德睿被判14年": {
+      "key": "天津市委原常委周德睿被判14年",
+      "title": "天津市委原常委周德睿被判14年",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 1377883,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "所谓养生妙招可能反而养病": {
+      "key": "所谓养生妙招可能反而养病",
+      "title": "所谓养生妙招可能反而“养病”",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 1246760,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "a股后市怎么走机构看好这些板块": {
+      "key": "a股后市怎么走机构看好这些板块",
+      "title": "A股后市怎么走 机构看好这些板块",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 1128115,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "美籍华裔女演员何炜晴去世": {
+      "key": "美籍华裔女演员何炜晴去世",
+      "title": "美籍华裔女演员何炜晴去世",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 1020761,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子食用家中腌菜后突发急性中毒": {
+      "key": "男子食用家中腌菜后突发急性中毒",
+      "title": "男子食用家中腌菜后突发急性中毒",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 923623,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "这份防汛安全指南快收好": {
+      "key": "这份防汛安全指南快收好",
+      "title": "这份防汛安全指南快收好",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 857231,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "a股存储一哥回应跌停": {
+      "key": "a股存储一哥回应跌停",
+      "title": "A股存储一哥回应跌停",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 847264,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "佛得角门将涨粉断层第一": {
+      "key": "佛得角门将涨粉断层第一",
+      "title": "佛得角门将涨粉断层第一",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 828388,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "原来已读不回的人是这样想的": {
+      "key": "原来已读不回的人是这样想的",
+      "title": "原来已读不回的人是这样想的",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 825757,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "长期大量阅读的好处": {
+      "key": "长期大量阅读的好处",
+      "title": "长期大量阅读的好处",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 809709,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "说一个减肥的冷知识": {
+      "key": "说一个减肥的冷知识",
+      "title": "说一个减肥的冷知识",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 801276,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "网传tf家族运动会分组": {
+      "key": "网传tf家族运动会分组",
+      "title": "网传TF家族运动会分组",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 772614,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "广西洪水过后村民站废墟上感叹": {
+      "key": "广西洪水过后村民站废墟上感叹",
+      "title": "广西洪水过后村民站废墟上感叹",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 756198,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "曝iphone20系列将回归玻璃材质": {
+      "key": "曝iphone20系列将回归玻璃材质",
+      "title": "曝iPhone 20系列将回归玻璃材质",
+      "firstSeenAt": "2026-07-13 19:51",
+      "lastSeenAt": "2026-07-13 19:51",
+      "seenCount": 1,
+      "lastScore": 684236,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-07-13 13:58",
+  "lastUpdatedAt": "2026-07-13 19:51",
   "stats": {
-    "new": 62,
-    "continued": 18,
-    "dropped": 62
+    "new": 71,
+    "continued": 9,
+    "dropped": 133
   }
 }

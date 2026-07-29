@@ -4678,8 +4678,8 @@
       "key": "国务院关于推行常住地提供基本公共服务的实施意见",
       "title": "国务院关于推行常住地提供基本公共服务的实施意见",
       "firstSeenAt": "2026-05-22 18:37",
-      "lastSeenAt": "2026-07-29 13:42",
-      "seenCount": 198,
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 199,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -36981,8 +36981,8 @@
       "key": "国务院关于印发实施就业优先战略十五五规划的通知",
       "title": "国务院关于印发《实施就业优先战略“十五五”规划》的通知",
       "firstSeenAt": "2026-06-17 21:01",
-      "lastSeenAt": "2026-07-29 13:42",
-      "seenCount": 159,
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 160,
       "lastScore": 56200000,
       "platforms": [
         "中国政府网"
@@ -42716,13 +42716,13 @@
       "key": "新闻联播正在直播",
       "title": "《新闻联播》正在直播",
       "firstSeenAt": "2026-06-20 19:07",
-      "lastSeenAt": "2026-07-28 19:08",
-      "seenCount": 4,
-      "lastScore": 7164969,
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 5,
+      "lastScore": 13787007,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "热度下降"
+      "lifecycle": "热度上升"
     },
     "男子在家被五步蛇咬伤对视后晕倒": {
       "key": "男子在家被五步蛇咬伤对视后晕倒",
@@ -69886,8 +69886,8 @@
       "key": "退役军人就业创业促进条例",
       "title": "退役军人就业创业促进条例",
       "firstSeenAt": "2026-06-30 19:38",
-      "lastSeenAt": "2026-07-29 13:42",
-      "seenCount": 114,
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 115,
       "lastScore": 38750000,
       "platforms": [
         "中国政府网"
@@ -105559,8 +105559,8 @@
       "key": "国务院关于扩大消费十五五规划的批复",
       "title": "国务院关于《扩大消费“十五五”规划》的批复",
       "firstSeenAt": "2026-07-13 19:51",
-      "lastSeenAt": "2026-07-29 13:42",
-      "seenCount": 63,
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 64,
       "lastScore": 57600000,
       "platforms": [
         "中国政府网"
@@ -148725,13 +148725,14 @@
       "key": "赵钰琪14岁的美人胚子",
       "title": "赵钰琪14岁的美人胚子",
       "firstSeenAt": "2026-07-28 21:30",
-      "lastSeenAt": "2026-07-28 21:30",
-      "seenCount": 1,
-      "lastScore": 421553,
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 2,
+      "lastScore": 4589296,
       "platforms": [
-        "微博"
+        "微博",
+        "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "男子22年脑鸣被当抑郁症治了6年": {
       "key": "男子22年脑鸣被当抑郁症治了6年",
@@ -149205,9 +149206,9 @@
       "key": "泸溪河桃酥牙冠",
       "title": "泸溪河桃酥 牙冠",
       "firstSeenAt": "2026-07-29 09:43",
-      "lastSeenAt": "2026-07-29 13:42",
-      "seenCount": 2,
-      "lastScore": 1908692,
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 3,
+      "lastScore": 316819,
       "platforms": [
         "微博"
       ],
@@ -149651,13 +149652,14 @@
       "key": "女子修手机被店主导出40多张私密照",
       "title": "女子修手机被店主导出40多张私密照",
       "firstSeenAt": "2026-07-29 13:42",
-      "lastSeenAt": "2026-07-29 13:42",
-      "seenCount": 1,
-      "lastScore": 9724510,
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 2,
+      "lastScore": 8320284,
       "platforms": [
-        "今日头条"
+        "今日头条",
+        "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "母海豚背幼崽尸体游数日不离不弃": {
       "key": "母海豚背幼崽尸体游数日不离不弃",
@@ -149819,13 +149821,13 @@
       "key": "谢贤去世后张柏芝首次公开露面",
       "title": "谢贤去世后张柏芝首次公开露面",
       "firstSeenAt": "2026-07-29 13:42",
-      "lastSeenAt": "2026-07-29 13:42",
-      "seenCount": 1,
-      "lastScore": 5336924,
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 2,
+      "lastScore": 416331,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "喀什一景区厕所外部玻璃可直视马桶": {
       "key": "喀什一景区厕所外部玻璃可直视马桶",
@@ -150282,12 +150284,869 @@
         "微博"
       ],
       "lifecycle": "新增"
+    },
+    "智驾小蓝灯将被禁用": {
+      "key": "智驾小蓝灯将被禁用",
+      "title": "智驾“小蓝灯”将被禁用",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 29490268,
+      "platforms": [
+        "百度",
+        "今日头条",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "开盖有奖咋一开盖就变味儿了": {
+      "key": "开盖有奖咋一开盖就变味儿了",
+      "title": "“开盖有奖” 咋一开盖就变味儿了",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 4455290,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "中方回应美禁止进口中国新型机器人": {
+      "key": "中方回应美禁止进口中国新型机器人",
+      "title": "中方回应美禁止进口中国新型机器人",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 4077886,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "汽车改装新政出台": {
+      "key": "汽车改装新政出台",
+      "title": "汽车改装新政出台",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 4936683,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "山姆已下架泸溪河坚果桃酥": {
+      "key": "山姆已下架泸溪河坚果桃酥",
+      "title": "山姆已下架泸溪河坚果桃酥",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 6499601,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "银行大面积调整营业时间": {
+      "key": "银行大面积调整营业时间",
+      "title": "银行大面积调整营业时间",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 7488049,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "粉笔投资亏损超5600万元": {
+      "key": "粉笔投资亏损超5600万元",
+      "title": "粉笔投资亏损超5600万元",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 7044259,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "南昌市市长高世文被罢免人大代表职务": {
+      "key": "南昌市市长高世文被罢免人大代表职务",
+      "title": "南昌市市长高世文被罢免人大代表职务",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 18610513,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "日本强震医院爆满停电病房像战区": {
+      "key": "日本强震医院爆满停电病房像战区",
+      "title": "日本强震医院爆满停电病房“像战区”",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 7004776,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "从三组外贸数据读懂中国机遇20": {
+      "key": "从三组外贸数据读懂中国机遇20",
+      "title": "从三组外贸数据读懂中国机遇2.0",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 16839488,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "儿子换一种方式回来看妈妈了": {
+      "key": "儿子换一种方式回来看妈妈了",
+      "title": "“儿子换一种方式回来看妈妈了”",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 3809273,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "大爷杀死剧毒眼镜蛇被离断蛇头咬伤": {
+      "key": "大爷杀死剧毒眼镜蛇被离断蛇头咬伤",
+      "title": "大爷杀死剧毒眼镜蛇 被离断蛇头咬伤",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 5620608,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "反网络暴力法公开征求意见": {
+      "key": "反网络暴力法公开征求意见",
+      "title": "反网络暴力法公开征求意见",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 314627,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "小区电梯突然失控从31楼下坠到负2楼": {
+      "key": "小区电梯突然失控从31楼下坠到负2楼",
+      "title": "小区电梯突然失控从31楼下坠到负2楼",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 15236999,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "交费4万5包进郑州胖东来客服回应": {
+      "key": "交费4万5包进郑州胖东来客服回应",
+      "title": "交费4万5包进郑州胖东来？客服回应",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 12475000,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "女子高铁叫嚣全家体制内官方通报": {
+      "key": "女子高铁叫嚣全家体制内官方通报",
+      "title": "女子高铁叫嚣全家体制内 官方通报",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 11287846,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "长鑫科技大涨1266": {
+      "key": "长鑫科技大涨1266",
+      "title": "长鑫科技大涨12.66%",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 4751933,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "去医院医生的暗示你知道吗": {
+      "key": "去医院医生的暗示你知道吗",
+      "title": "去医院医生的暗示你知道吗",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 315896,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "向往的生活取景地院子荒废": {
+      "key": "向往的生活取景地院子荒废",
+      "title": "《向往的生活》取景地院子荒废",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 10213666,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "山体崩塌失联00后网格员确认遇难": {
+      "key": "山体崩塌失联00后网格员确认遇难",
+      "title": "山体崩塌失联00后网格员确认遇难",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 9241707,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "万物皆可低gi": {
+      "key": "万物皆可低gi",
+      "title": "万物皆可低GI",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 3221641,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "普通人的一生到底在追求什么": {
+      "key": "普通人的一生到底在追求什么",
+      "title": "普通人的一生到底在追求什么",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 198157,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "经中央军委批准制胜即将播出": {
+      "key": "经中央军委批准制胜即将播出",
+      "title": "经中央军委批准 《制胜》即将播出",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 7712694,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "夏日防中暑防护指南请收藏": {
+      "key": "夏日防中暑防护指南请收藏",
+      "title": "夏日防中暑 防护指南请收藏",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 7616421,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "喀什经开区零地价供地免租金不实": {
+      "key": "喀什经开区零地价供地免租金不实",
+      "title": "“喀什经开区零地价供地免租金”不实",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 7566470,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "配图5只虾外卖到手仅一只": {
+      "key": "配图5只虾外卖到手仅一只",
+      "title": "配图5只虾外卖到手仅一只",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 7428711,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "重庆失联00后网格员龚宝冬确认遇难": {
+      "key": "重庆失联00后网格员龚宝冬确认遇难",
+      "title": "重庆失联00后网格员龚宝冬确认遇难",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 7332234,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "下班了年轻人赶着去做副业": {
+      "key": "下班了年轻人赶着去做副业",
+      "title": "下班了 年轻人赶着去做副业",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 7141809,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "喀什经开区零地价供地系谣言": {
+      "key": "喀什经开区零地价供地系谣言",
+      "title": "“喀什经开区零地价供地”系谣言",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 6852224,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "律师谈电梯打斗事件有概率定为互殴": {
+      "key": "律师谈电梯打斗事件有概率定为互殴",
+      "title": "律师谈电梯打斗事件：有概率定为互殴",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 6562121,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "abb店名怎么越来越多了": {
+      "key": "abb店名怎么越来越多了",
+      "title": "“ABB”店名怎么越来越多了",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 6371281,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "近两层楼高的花瓶": {
+      "key": "近两层楼高的花瓶",
+      "title": "近两层楼高的花瓶",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 6279682,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "想去东北避暑结果东北人也去避暑了": {
+      "key": "想去东北避暑结果东北人也去避暑了",
+      "title": "想去东北避暑 结果东北人也去避暑了",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 6088331,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "王戟是谁": {
+      "key": "王戟是谁",
+      "title": "王戟是谁",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 5526598,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "两老人求助小伙修手机一左一右扇风": {
+      "key": "两老人求助小伙修手机一左一右扇风",
+      "title": "两老人求助小伙修手机 一左一右扇风",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 5427451,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "明星为什么愿意把脸卖给ai": {
+      "key": "明星为什么愿意把脸卖给ai",
+      "title": "明星为什么愿意把脸“卖”给AI",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 5230724,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "印度两男子涉嫌轮奸被警察当街暴打": {
+      "key": "印度两男子涉嫌轮奸被警察当街暴打",
+      "title": "印度两男子涉嫌轮奸被警察当街暴打",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 5071956,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "乒超王楚钦梁靖崑双队长领衔出阵": {
+      "key": "乒超王楚钦梁靖崑双队长领衔出阵",
+      "title": "乒超：王楚钦梁靖崑双队长领衔出阵",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 5025397,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "中方对日本熊本地震遇难者表示哀悼": {
+      "key": "中方对日本熊本地震遇难者表示哀悼",
+      "title": "中方对日本熊本地震遇难者表示哀悼",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 4654575,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "王耀庆下跪求支持年会不能停2": {
+      "key": "王耀庆下跪求支持年会不能停2",
+      "title": "王耀庆下跪求支持《年会不能停2》",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 4576070,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "地铁广告被吐槽像朝乘客竖中指": {
+      "key": "地铁广告被吐槽像朝乘客竖中指",
+      "title": "地铁广告被吐槽“像朝乘客竖中指”",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 4382002,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "15万机票退432元天价退票费合理吗": {
+      "key": "15万机票退432元天价退票费合理吗",
+      "title": "1.5万机票退432元 天价退票费合理吗",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 4152566,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "头部餐饮集体卖汉堡": {
+      "key": "头部餐饮集体卖汉堡",
+      "title": "头部餐饮集体卖汉堡",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 3995458,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "乒超王艺迪钱天一携手出击": {
+      "key": "乒超王艺迪钱天一携手出击",
+      "title": "乒超：王艺迪钱天一携手出击",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 3898545,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "卖酒女一个多月诱导六旬汉买20箱白酒": {
+      "key": "卖酒女一个多月诱导六旬汉买20箱白酒",
+      "title": "卖酒女一个多月诱导六旬汉买20箱白酒",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 3757397,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "乒超山东鲁能vs天津729": {
+      "key": "乒超山东鲁能vs天津729",
+      "title": "乒超：山东鲁能vs天津729",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 3513325,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "乒超米粒乒乓特长生vs四川丰谷": {
+      "key": "乒超米粒乒乓特长生vs四川丰谷",
+      "title": "乒超：米粒乒乓特长生vs四川丰谷",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 3334366,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "乒超黄石东楚vs山东鲁能": {
+      "key": "乒超黄石东楚vs山东鲁能",
+      "title": "乒超：黄石东楚vs山东鲁能",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 3126383,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "长鑫科技累计换手率超107": {
+      "key": "长鑫科技累计换手率超107",
+      "title": "长鑫科技累计换手率超107%",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 2278976,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "贪6253万老虎徐宪平被判15年": {
+      "key": "贪6253万老虎徐宪平被判15年",
+      "title": "贪6253万 “老虎”徐宪平被判15年",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 2062103,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "外交部回应美禁止进口中国新型机器人": {
+      "key": "外交部回应美禁止进口中国新型机器人",
+      "title": "外交部回应美禁止进口中国新型机器人",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 1865868,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "初中生曝光侵华日军罪证被威胁": {
+      "key": "初中生曝光侵华日军罪证被威胁",
+      "title": "初中生曝光侵华日军罪证被威胁",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 1688307,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "吉林汪清县采取五停措施": {
+      "key": "吉林汪清县采取五停措施",
+      "title": "吉林汪清县采取“五停”措施",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 1382269,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "外交部中方将捍卫历史真相与正义": {
+      "key": "外交部中方将捍卫历史真相与正义",
+      "title": "外交部：中方将捍卫历史真相与正义",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 1250729,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "邹市明回应婚姻质疑": {
+      "key": "邹市明回应婚姻质疑",
+      "title": "邹市明回应婚姻质疑",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 1024010,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "乐事薯片废料回收被当食用淀粉原料": {
+      "key": "乐事薯片废料回收被当食用淀粉原料",
+      "title": "乐事薯片废料回收被当食用淀粉原料",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 926562,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "航母到底有多大": {
+      "key": "航母到底有多大",
+      "title": "航母到底有多大",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 838388,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中俄正讨论建立公民永久免签制度": {
+      "key": "中俄正讨论建立公民永久免签制度",
+      "title": "中俄正讨论建立公民永久免签制度",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 686414,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "博主牛市会延续": {
+      "key": "博主牛市会延续",
+      "title": "博主：牛市会延续",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 621093,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "c919高原型今日首飞": {
+      "key": "c919高原型今日首飞",
+      "title": "c919高原型今日首飞",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 616238,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "老人不听劝阻执意带娃玩游乐设施": {
+      "key": "老人不听劝阻执意带娃玩游乐设施",
+      "title": "老人不听劝阻执意带娃玩游乐设施",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 561988,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "已经忘了微信是怎么取代qq的了": {
+      "key": "已经忘了微信是怎么取代qq的了",
+      "title": "已经忘了微信是怎么取代QQ的了",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 466930,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "卢旺达青年团的中国情缘": {
+      "key": "卢旺达青年团的中国情缘",
+      "title": "卢旺达青年团的中国情缘",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 376712,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "公职人员称遭单位领导私下打探病情": {
+      "key": "公职人员称遭单位领导私下打探病情",
+      "title": "公职人员称遭单位领导私下打探病情",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 340863,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "千万不要把手机交给商家写好评": {
+      "key": "千万不要把手机交给商家写好评",
+      "title": "千万不要把手机交给商家写好评",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 326351,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "周峻炜还在坚持全手搓": {
+      "key": "周峻炜还在坚持全手搓",
+      "title": "周峻炜还在坚持全手搓",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 325516,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "莫氏鸡煲首轮遭淘汰": {
+      "key": "莫氏鸡煲首轮遭淘汰",
+      "title": "莫氏鸡煲首轮遭淘汰",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 322719,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "上班攒够多少才能辞职休息": {
+      "key": "上班攒够多少才能辞职休息",
+      "title": "上班攒够多少才能辞职休息",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 321834,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "修杰楷开庭认罪请求缓刑": {
+      "key": "修杰楷开庭认罪请求缓刑",
+      "title": "修杰楷开庭认罪请求缓刑",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 316510,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "杨幂逛夜市被认出来": {
+      "key": "杨幂逛夜市被认出来",
+      "title": "杨幂逛夜市被认出来",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 316299,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "粉笔网炒股巨额亏损": {
+      "key": "粉笔网炒股巨额亏损",
+      "title": "粉笔网炒股巨额亏损",
+      "firstSeenAt": "2026-07-29 19:13",
+      "lastSeenAt": "2026-07-29 19:13",
+      "seenCount": 1,
+      "lastScore": 315042,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-07-29 13:42",
+  "lastUpdatedAt": "2026-07-29 19:13",
   "stats": {
-    "new": 62,
-    "continued": 18,
-    "dropped": 63
+    "new": 71,
+    "continued": 9,
+    "dropped": 136
   }
 }

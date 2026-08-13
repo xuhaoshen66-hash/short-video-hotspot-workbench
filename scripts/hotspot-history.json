@@ -4678,8 +4678,8 @@
       "key": "国务院关于推行常住地提供基本公共服务的实施意见",
       "title": "国务院关于推行常住地提供基本公共服务的实施意见",
       "firstSeenAt": "2026-05-22 18:37",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 256,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 257,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -36981,8 +36981,8 @@
       "key": "国务院关于印发实施就业优先战略十五五规划的通知",
       "title": "国务院关于印发《实施就业优先战略“十五五”规划》的通知",
       "firstSeenAt": "2026-06-17 21:01",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 217,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 218,
       "lastScore": 56200000,
       "platforms": [
         "中国政府网"
@@ -69887,8 +69887,8 @@
       "key": "退役军人就业创业促进条例",
       "title": "退役军人就业创业促进条例",
       "firstSeenAt": "2026-06-30 19:38",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 172,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 173,
       "lastScore": 38650000,
       "platforms": [
         "中国政府网"
@@ -105561,8 +105561,8 @@
       "key": "国务院关于扩大消费十五五规划的批复",
       "title": "国务院关于《扩大消费“十五五”规划》的批复",
       "firstSeenAt": "2026-07-13 19:51",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 121,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 122,
       "lastScore": 56200000,
       "platforms": [
         "中国政府网"
@@ -191015,14 +191015,14 @@
       "key": "香港打击街头卖淫20名女子被捕",
       "title": "香港打击街头卖淫20名女子被捕",
       "firstSeenAt": "2026-08-12 17:53",
-      "lastSeenAt": "2026-08-12 17:53",
-      "seenCount": 1,
-      "lastScore": 8099156,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 2,
+      "lastScore": 1125325,
       "platforms": [
         "百度",
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "曝大众酝酿把中国新能源车卖到欧洲": {
       "key": "曝大众酝酿把中国新能源车卖到欧洲",
@@ -191136,14 +191136,14 @@
       "key": "原来姚安娜是艺名",
       "title": "原来姚安娜是艺名",
       "firstSeenAt": "2026-08-12 17:53",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 3,
-      "lastScore": 1327379,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 4,
+      "lastScore": 1855348,
       "platforms": [
         "今日头条",
         "微博"
       ],
-      "lifecycle": "热度下降"
+      "lifecycle": "热度上升"
     },
     "41国联名吓唬谁中国试射不看谁脸色": {
       "key": "41国联名吓唬谁中国试射不看谁脸色",
@@ -191631,9 +191631,9 @@
       "key": "朱镕基同志逝世",
       "title": "朱镕基同志逝世",
       "firstSeenAt": "2026-08-12 20:43",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 2,
-      "lastScore": 68208335,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 3,
+      "lastScore": 83863539,
       "platforms": [
         "百度",
         "今日头条",
@@ -191657,13 +191657,14 @@
       "key": "新能源汽车迎来两个首次突破",
       "title": "新能源汽车迎来两个“首次”突破",
       "firstSeenAt": "2026-08-12 20:43",
-      "lastSeenAt": "2026-08-12 20:43",
-      "seenCount": 1,
-      "lastScore": 3296156,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 2,
+      "lastScore": 61440702,
       "platforms": [
-        "百度"
+        "百度",
+        "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "朱镕基同志遗像发布": {
       "key": "朱镕基同志遗像发布",
@@ -191765,12 +191766,13 @@
       "key": "银行能办结婚证了",
       "title": "银行能办结婚证了",
       "firstSeenAt": "2026-08-12 20:43",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 2,
-      "lastScore": 7523084,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 3,
+      "lastScore": 57632733,
       "platforms": [
         "微博",
-        "百度"
+        "百度",
+        "今日头条"
       ],
       "lifecycle": "热度上升"
     },
@@ -192224,28 +192226,28 @@
       "key": "胖东来许昌老店关闭周边商户发声",
       "title": "胖东来许昌老店关闭周边商户发声",
       "firstSeenAt": "2026-08-13 09:06",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 1,
-      "lastScore": 52723189,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 2,
+      "lastScore": 75393718,
       "platforms": [
         "百度",
         "今日头条",
         "微博"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "机器人手机发布首日官网商城售罄": {
       "key": "机器人手机发布首日官网商城售罄",
       "title": "机器人手机发布首日官网商城售罄",
       "firstSeenAt": "2026-08-13 09:06",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 1,
-      "lastScore": 44530025,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 2,
+      "lastScore": 2767854,
       "platforms": [
         "百度",
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "电车真的比油车更省钱吗": {
       "key": "电车真的比油车更省钱吗",
@@ -192324,26 +192326,26 @@
       "key": "浙江一公司收到美国262亿元关税退税",
       "title": "浙江一公司收到美国2.62亿元关税退税",
       "firstSeenAt": "2026-08-13 09:06",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 1,
-      "lastScore": 9227833,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 2,
+      "lastScore": 1678788,
       "platforms": [
         "百度",
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "李雪健已完全听不见": {
       "key": "李雪健已完全听不见",
       "title": "李雪健已完全听不见",
       "firstSeenAt": "2026-08-13 09:06",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 1,
-      "lastScore": 21828285,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 2,
+      "lastScore": 22602771,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "持续上榜"
     },
     "微信回应群聊可彻底关闭通知": {
       "key": "微信回应群聊可彻底关闭通知",
@@ -192482,14 +192484,14 @@
       "key": "李雪健已经完全听不见了",
       "title": "李雪健已经完全听不见了",
       "firstSeenAt": "2026-08-13 09:06",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 1,
-      "lastScore": 7644498,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 2,
+      "lastScore": 6662510,
       "platforms": [
         "百度",
         "微博"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "持续上榜"
     },
     "欢迎来龙餐馆为何好看": {
       "key": "欢迎来龙餐馆为何好看",
@@ -192543,14 +192545,14 @@
       "key": "胖东来弃租背后房东的话事权转移",
       "title": "胖东来弃租背后房东的“话事权”转移",
       "firstSeenAt": "2026-08-13 09:06",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 1,
-      "lastScore": 5621107,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 2,
+      "lastScore": 3810358,
       "platforms": [
         "百度",
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "宇树科技中签股民计划全款提车": {
       "key": "宇树科技中签股民计划全款提车",
@@ -192592,13 +192594,13 @@
       "key": "天然气公司要求热水器满8年必须换",
       "title": "天然气公司要求热水器满8年必须换",
       "firstSeenAt": "2026-08-13 09:06",
-      "lastSeenAt": "2026-08-13 09:06",
-      "seenCount": 1,
-      "lastScore": 6475948,
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 2,
+      "lastScore": 4945277,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "女孩在自家店里完成12部位颠球": {
       "key": "女孩在自家店里完成12部位颠球",
@@ -193032,12 +193034,786 @@
         "微博"
       ],
       "lifecycle": "新增"
+    },
+    "医保局公布住院人次排名第一的疾病": {
+      "key": "医保局公布住院人次排名第一的疾病",
+      "title": "医保局公布住院人次排名第一的疾病",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 4847937,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "两弹一星元勋王希季逝世": {
+      "key": "两弹一星元勋王希季逝世",
+      "title": "“两弹一星”元勋王希季逝世",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 55593846,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "日本草莓仙人挑衅中国人": {
+      "key": "日本草莓仙人挑衅中国人",
+      "title": "日本“草莓仙人”挑衅中国人",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 46800923,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国退役军人受邀训练国外安保员工": {
+      "key": "中国退役军人受邀训练国外安保员工",
+      "title": "中国退役军人受邀训练国外安保员工",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 38265464,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国印尼首次台岛以东联演有何深意": {
+      "key": "中国印尼首次台岛以东联演有何深意",
+      "title": "中国印尼首次台岛以东联演有何深意",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 37265669,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子欠31万不还把百万货款转母亲账户": {
+      "key": "男子欠31万不还把百万货款转母亲账户",
+      "title": "男子欠31万不还把百万货款转母亲账户",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 22737230,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "梁家辉人民日报撰文": {
+      "key": "梁家辉人民日报撰文",
+      "title": "梁家辉人民日报撰文",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 27607087,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "不能让消费者做试车员": {
+      "key": "不能让消费者做试车员",
+      "title": "不能让消费者做试车员",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 5792524,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "造谣网约车司机猝死两人被罚": {
+      "key": "造谣网约车司机猝死两人被罚",
+      "title": "造谣网约车司机猝死 两人被罚",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 24979925,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子飞两万公里到南美洲以为到四川": {
+      "key": "男子飞两万公里到南美洲以为到四川",
+      "title": "男子飞两万公里到南美洲以为到四川",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 20451833,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "5年10万亿元消费增量目标怎样实现": {
+      "key": "5年10万亿元消费增量目标怎样实现",
+      "title": "5年10万亿元消费增量目标怎样实现",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 7616128,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "3万全款买40平房是机会还是坑": {
+      "key": "3万全款买40平房是机会还是坑",
+      "title": "3万全款买40平房是机会还是坑",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 18505584,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "新规来了禁止在居民楼开油烟餐饮": {
+      "key": "新规来了禁止在居民楼开油烟餐饮",
+      "title": "新规来了：禁止在居民楼开油烟餐饮",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 7712296,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子双腿被绞断20个月后恢复行走": {
+      "key": "男子双腿被绞断20个月后恢复行走",
+      "title": "男子双腿被绞断 20个月后恢复行走",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 6565056,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "少东家直播带货曲美付32万服务费": {
+      "key": "少东家直播带货曲美付32万服务费",
+      "title": "少东家直播带货 曲美付32万服务费",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 4170423,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "黑龙江二龙湖上演鱼跃龙门奇观": {
+      "key": "黑龙江二龙湖上演鱼跃龙门奇观",
+      "title": "黑龙江二龙湖上演鱼跃龙门奇观",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 15151090,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "女子花8万做试管被推进简易房手术": {
+      "key": "女子花8万做试管被推进简易房手术",
+      "title": "女子花8万做试管被推进简易房手术",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 13836278,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "普京盯上的跨境索道有何特别": {
+      "key": "普京盯上的跨境索道有何特别",
+      "title": "普京盯上的跨境索道有何特别",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 13709273,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "谷歌首席科学家离职现场遭围堵": {
+      "key": "谷歌首席科学家离职现场遭围堵",
+      "title": "谷歌首席科学家离职现场遭围堵",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 4078030,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "海南文昌发布禁飞通告": {
+      "key": "海南文昌发布禁飞通告",
+      "title": "海南文昌发布禁飞通告",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 12404663,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "面馆火了却歇业老板流量太大避风头": {
+      "key": "面馆火了却歇业老板流量太大避风头",
+      "title": "面馆火了却歇业 老板：流量太大避风头",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 6085566,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "波兰女童从五楼坠落邻居拉毯子接住": {
+      "key": "波兰女童从五楼坠落邻居拉毯子接住",
+      "title": "波兰女童从五楼坠落邻居拉毯子接住",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 11224204,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "救援队把船留给居民后蹚进齐腰深的水": {
+      "key": "救援队把船留给居民后蹚进齐腰深的水",
+      "title": "救援队把船留给居民后蹚进齐腰深的水",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 1519030,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "想买中国存储芯片苹果也得排队": {
+      "key": "想买中国存储芯片苹果也得排队",
+      "title": "想买中国存储芯片 苹果也得排队",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 3243832,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "阚清子产后8个月首次开机": {
+      "key": "阚清子产后8个月首次开机",
+      "title": "阚清子产后8个月首次开机",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 9189601,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "重罚台风请假员工公司多年0人参保": {
+      "key": "重罚台风请假员工公司多年0人参保",
+      "title": "重罚台风请假员工公司多年0人参保",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 7673094,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "邹市明45岁重返拳击赛场": {
+      "key": "邹市明45岁重返拳击赛场",
+      "title": "邹市明45岁重返拳击赛场",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 7133886,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "任敏漂亮到不敢认": {
+      "key": "任敏漂亮到不敢认",
+      "title": "任敏漂亮到不敢认",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 8315094,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "英国17岁男孩胁迫117名女孩自残": {
+      "key": "英国17岁男孩胁迫117名女孩自残",
+      "title": "英国17岁男孩胁迫117名女孩自残",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 7523809,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "胖东来不怕搬家": {
+      "key": "胖东来不怕搬家",
+      "title": "胖东来不怕搬家",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 7424196,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "张雪机车获红杉中国独家新一轮投资": {
+      "key": "张雪机车获红杉中国独家新一轮投资",
+      "title": "张雪机车获红杉中国独家新一轮投资",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 7237623,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "货车凌晨被城管车拦停罚款1400": {
+      "key": "货车凌晨被城管车拦停罚款1400",
+      "title": "货车凌晨被城管车拦停“罚款”1400",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 7143876,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "暑期网上冲浪这份安全提示请收好": {
+      "key": "暑期网上冲浪这份安全提示请收好",
+      "title": "暑期网上冲浪 这份安全提示请收好",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 6849698,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "张家口民众追忆郭兰英": {
+      "key": "张家口民众追忆郭兰英",
+      "title": "张家口民众追忆郭兰英",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 6807823,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "美国汽油和柴油价格均创历年同期新高": {
+      "key": "美国汽油和柴油价格均创历年同期新高",
+      "title": "美国汽油和柴油价格均创历年同期新高",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 682544,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "杭州最美厕所走红": {
+      "key": "杭州最美厕所走红",
+      "title": "杭州最美厕所走红",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 6377182,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "蒯曼1天内3战全胜": {
+      "key": "蒯曼1天内3战全胜",
+      "title": "蒯曼1天内3战全胜",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 6285034,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "沈腾感谢榜一大姐马丽": {
+      "key": "沈腾感谢榜一大姐马丽",
+      "title": "沈腾感谢榜一大姐马丽",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 6190874,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "赵雅芝哈尔滨的热情让人念念不忘": {
+      "key": "赵雅芝哈尔滨的热情让人念念不忘",
+      "title": "赵雅芝：哈尔滨的热情让人念念不忘",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 6159973,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "女子花1万5找情感专家遭扑倒": {
+      "key": "女子花1万5找情感专家遭扑倒",
+      "title": "女子花1万5找“情感专家”遭扑倒",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 5896903,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "飞两万公里去南美洲以为到了四川": {
+      "key": "飞两万公里去南美洲以为到了四川",
+      "title": "飞两万公里去南美洲 以为到了四川",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 5716644,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "湖北咸宁民警王丽在职病故享年47岁": {
+      "key": "湖北咸宁民警王丽在职病故享年47岁",
+      "title": "湖北咸宁民警王丽在职病故 享年47岁",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 5573774,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "73岁奶奶将成中国首批太空游客": {
+      "key": "73岁奶奶将成中国首批太空游客",
+      "title": "73岁奶奶将成中国首批太空游客",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 5513542,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "魏家凉皮贵了1块钱": {
+      "key": "魏家凉皮贵了1块钱",
+      "title": "魏家凉皮贵了1块钱",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 5316729,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "找你25年了民警吃饭时认出逃犯": {
+      "key": "找你25年了民警吃饭时认出逃犯",
+      "title": "“找你25年了”民警吃饭时认出逃犯",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 5217143,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "海底捞终于原谅i人了": {
+      "key": "海底捞终于原谅i人了",
+      "title": "海底捞终于原谅i人了",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 5136305,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子装空调坠亡家属称系免费帮朋友": {
+      "key": "男子装空调坠亡家属称系免费帮朋友",
+      "title": "男子装空调坠亡家属称系免费帮朋友",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 5043360,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "11岁小孩哥为游客拍照情绪价值拉满": {
+      "key": "11岁小孩哥为游客拍照情绪价值拉满",
+      "title": "11岁小孩哥为游客拍照情绪价值拉满",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 4739827,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "狄龙获终身成就荣誉": {
+      "key": "狄龙获终身成就荣誉",
+      "title": "狄龙获终身成就荣誉",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 4563420,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "骑行辅警被刺死父亲发声": {
+      "key": "骑行辅警被刺死父亲发声",
+      "title": "骑行辅警被刺死 父亲发声",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 4478775,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "5179亿罚单携程反垄断内幕": {
+      "key": "5179亿罚单携程反垄断内幕",
+      "title": "51.79亿罚单 携程反垄断内幕",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 4382800,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "全国家乡减脂美食地图": {
+      "key": "全国家乡减脂美食地图",
+      "title": "全国家乡减脂美食地图",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 4129153,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "卖车亏百万的4s店集体爆改": {
+      "key": "卖车亏百万的4s店集体爆改",
+      "title": "卖车亏百万的4S店集体“爆改”",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 3888289,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "赵海燕闫光明喊你pk唱功ai来点评": {
+      "key": "赵海燕闫光明喊你pk唱功ai来点评",
+      "title": "赵海燕闫光明喊你PK唱功 AI来点评",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 3614362,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "英国首相拟让男犯进女子监狱服刑": {
+      "key": "英国首相拟让男犯进女子监狱服刑",
+      "title": "英国首相拟让男犯进女子监狱服刑",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 3529858,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子打卡五代国门我们强大起来了": {
+      "key": "男子打卡五代国门我们强大起来了",
+      "title": "男子打卡五代国门：我们强大起来了",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 3393363,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "出租车司机120元收251被罚1000": {
+      "key": "出租车司机120元收251被罚1000",
+      "title": "出租车司机120元收251被罚1000",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 3380665,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "珍妮巴斯将继续担任湖人掌门人": {
+      "key": "珍妮巴斯将继续担任湖人掌门人",
+      "title": "珍妮·巴斯将继续担任湖人掌门人",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 2504458,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "年内超2200万外国人涌入中国": {
+      "key": "年内超2200万外国人涌入中国",
+      "title": "年内超2200万外国人涌入中国",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 2266127,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "王艺迪陈熠回应晋级8强": {
+      "key": "王艺迪陈熠回应晋级8强",
+      "title": "王艺迪陈熠回应晋级8强",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 2050477,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "平顶山北汝河汝州段出现超警戒水位": {
+      "key": "平顶山北汝河汝州段出现超警戒水位",
+      "title": "平顶山北汝河汝州段出现超警戒水位",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 1374475,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "美军航母超长部署状态越来越差": {
+      "key": "美军航母超长部署状态越来越差",
+      "title": "美军航母超长部署状态越来越差",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 1243677,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "足协裁判委员会克雷桑绝杀球有效": {
+      "key": "足协裁判委员会克雷桑绝杀球有效",
+      "title": "足协裁判委员会：克雷桑绝杀球有效",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 1018236,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "马斯克豪言未来特斯拉全系标配星链": {
+      "key": "马斯克豪言未来特斯拉全系标配星链",
+      "title": "马斯克豪言未来特斯拉全系标配星链",
+      "firstSeenAt": "2026-08-13 12:44",
+      "lastSeenAt": "2026-08-13 12:44",
+      "seenCount": 1,
+      "lastScore": 833661,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-08-13 09:06",
+  "lastUpdatedAt": "2026-08-13 12:44",
   "stats": {
-    "new": 67,
-    "continued": 13,
-    "dropped": 242
+    "new": 64,
+    "continued": 16,
+    "dropped": 66
   }
 }

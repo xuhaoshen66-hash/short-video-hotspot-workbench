@@ -4678,8 +4678,8 @@
       "key": "国务院关于推行常住地提供基本公共服务的实施意见",
       "title": "国务院关于推行常住地提供基本公共服务的实施意见",
       "firstSeenAt": "2026-05-22 18:37",
-      "lastSeenAt": "2026-08-15 11:30",
-      "seenCount": 265,
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 266,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -36981,8 +36981,8 @@
       "key": "国务院关于印发实施就业优先战略十五五规划的通知",
       "title": "国务院关于印发《实施就业优先战略“十五五”规划》的通知",
       "firstSeenAt": "2026-06-17 21:01",
-      "lastSeenAt": "2026-08-15 11:30",
-      "seenCount": 226,
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 227,
       "lastScore": 56200000,
       "platforms": [
         "中国政府网"
@@ -69887,8 +69887,8 @@
       "key": "退役军人就业创业促进条例",
       "title": "退役军人就业创业促进条例",
       "firstSeenAt": "2026-06-30 19:38",
-      "lastSeenAt": "2026-08-15 11:30",
-      "seenCount": 181,
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 182,
       "lastScore": 38650000,
       "platforms": [
         "中国政府网"
@@ -105561,8 +105561,8 @@
       "key": "国务院关于扩大消费十五五规划的批复",
       "title": "国务院关于《扩大消费“十五五”规划》的批复",
       "firstSeenAt": "2026-07-13 19:51",
-      "lastSeenAt": "2026-08-15 11:30",
-      "seenCount": 130,
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 131,
       "lastScore": 56200000,
       "platforms": [
         "中国政府网"
@@ -198367,9 +198367,9 @@
       "key": "印尼发生77级强震",
       "title": "印尼发生7.7级强震",
       "firstSeenAt": "2026-08-15 08:38",
-      "lastSeenAt": "2026-08-15 11:30",
-      "seenCount": 2,
-      "lastScore": 12540376,
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 3,
+      "lastScore": 810661,
       "platforms": [
         "今日头条"
       ],
@@ -199597,13 +199597,14 @@
       "key": "胖东来首批刑释职工30人无一离职",
       "title": "胖东来首批刑释职工30人无一离职",
       "firstSeenAt": "2026-08-15 11:30",
-      "lastSeenAt": "2026-08-15 11:30",
-      "seenCount": 1,
-      "lastScore": 617524,
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 2,
+      "lastScore": 7362816,
       "platforms": [
-        "微博"
+        "微博",
+        "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "周跃龙成中国公开赛独苗": {
       "key": "周跃龙成中国公开赛独苗",
@@ -199693,13 +199694,13 @@
       "key": "王嘉尔吃自己的瓜",
       "title": "王嘉尔吃自己的瓜",
       "firstSeenAt": "2026-08-15 11:30",
-      "lastSeenAt": "2026-08-15 11:30",
-      "seenCount": 1,
-      "lastScore": 320081,
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 2,
+      "lastScore": 359763,
       "platforms": [
         "微博"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "曝内娱把热度高的大ip拍完了": {
       "key": "曝内娱把热度高的大ip拍完了",
@@ -199724,12 +199725,890 @@
         "微博"
       ],
       "lifecycle": "新增"
+    },
+    "手机为什么越卖越贵了": {
+      "key": "手机为什么越卖越贵了",
+      "title": "手机为什么越卖越贵了",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 3338299,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "旅行社为啥不受欢迎了": {
+      "key": "旅行社为啥不受欢迎了",
+      "title": "旅行社为啥不受欢迎了",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 7048190,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "地铁站也能办结婚证了上万人赶来": {
+      "key": "地铁站也能办结婚证了上万人赶来",
+      "title": "地铁站也能办结婚证了 上万人赶来",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 4642952,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "妈妈路上不慎弄丢儿子录取通知书": {
+      "key": "妈妈路上不慎弄丢儿子录取通知书",
+      "title": "妈妈路上不慎弄丢儿子录取通知书",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 895919,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "绿色承诺一以贯之": {
+      "key": "绿色承诺一以贯之",
+      "title": "绿色承诺一以贯之",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 15809578,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "老人看病2天被拔21颗牙": {
+      "key": "老人看病2天被拔21颗牙",
+      "title": "老人看病2天被拔21颗牙",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 4954804,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "印尼77级强震行人被震得跌坐路边": {
+      "key": "印尼77级强震行人被震得跌坐路边",
+      "title": "印尼7.7级强震行人被震得跌坐路边",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 5697416,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "美国为什么干预日元汇率": {
+      "key": "美国为什么干预日元汇率",
+      "title": "美国为什么干预日元汇率",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 491691,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "我们为什么总是容易相信谣言": {
+      "key": "我们为什么总是容易相信谣言",
+      "title": "我们为什么总是容易相信谣言",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 11291191,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "美国为什么造不出宇树机器人": {
+      "key": "美国为什么造不出宇树机器人",
+      "title": "美国为什么造不出宇树机器人",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 6373643,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "拿大结果成为互联网最新成功学": {
+      "key": "拿大结果成为互联网最新成功学",
+      "title": "“拿大结果”成为互联网最新成功学",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 3130478,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "河南周口溃口封堵现场现三蹦子": {
+      "key": "河南周口溃口封堵现场现三蹦子",
+      "title": "河南周口溃口封堵现场现“三蹦子”",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 12062431,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中方这个人一贯攻击抹黑中国": {
+      "key": "中方这个人一贯攻击抹黑中国",
+      "title": "中方：这个人一贯攻击抹黑中国",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 5222827,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "原来恭喜恭喜是庆祝抗战胜利": {
+      "key": "原来恭喜恭喜是庆祝抗战胜利",
+      "title": "原来《恭喜恭喜》是庆祝抗战胜利",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 10914538,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "谁杀死了驾校": {
+      "key": "谁杀死了驾校",
+      "title": "谁“杀死”了驾校",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 8508547,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "北京启动糖尿病标准化防治项目": {
+      "key": "北京启动糖尿病标准化防治项目",
+      "title": "北京启动糖尿病标准化防治项目",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 1804161,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "旺旺重大经营危机": {
+      "key": "旺旺重大经营危机",
+      "title": "旺旺 重大经营危机",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 7714181,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "为什么我们要不断重温这段历史": {
+      "key": "为什么我们要不断重温这段历史",
+      "title": "为什么我们要不断重温这段历史",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 7618878,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子彩票中598万没告诉妻子孩子父母": {
+      "key": "男子彩票中598万没告诉妻子孩子父母",
+      "title": "男子彩票中598万 没告诉妻子孩子父母",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 7520462,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "宇树科技场外暗盘交易火了谁在豪赌": {
+      "key": "宇树科技场外暗盘交易火了谁在豪赌",
+      "title": "宇树科技场外暗盘交易火了 谁在豪赌",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 7316234,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "高市早苗遥拜靖国神社": {
+      "key": "高市早苗遥拜靖国神社",
+      "title": "高市早苗遥拜靖国神社",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 6947995,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "各地游客到上海参观四行仓库抗战旧址": {
+      "key": "各地游客到上海参观四行仓库抗战旧址",
+      "title": "各地游客到上海参观四行仓库抗战旧址",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 6620002,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "这个正在读初三的女生订婚了": {
+      "key": "这个正在读初三的女生订婚了",
+      "title": "“这个正在读初三的女生订婚了”",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 6571016,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "年轻人回村卷起了自建房": {
+      "key": "年轻人回村卷起了自建房",
+      "title": "年轻人回村“卷”起了自建房",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 6280577,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "牛来排片暴涨": {
+      "key": "牛来排片暴涨",
+      "title": "《牛来》排片暴涨",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 6179334,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "印尼77级强震海面出现巨大漩涡": {
+      "key": "印尼77级强震海面出现巨大漩涡",
+      "title": "印尼7.7级强震 海面出现巨大漩涡",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 6094445,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "李连杰谈女儿心理问题": {
+      "key": "李连杰谈女儿心理问题",
+      "title": "李连杰谈女儿心理问题",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 6000498,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "婴儿在姑姑家失踪36年后找到家人": {
+      "key": "婴儿在姑姑家失踪36年后找到家人",
+      "title": "婴儿在姑姑家失踪 36年后找到家人",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 5990025,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "这些养肝习惯可能正在伤肝": {
+      "key": "这些养肝习惯可能正在伤肝",
+      "title": "这些“养肝习惯”可能正在伤肝",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 5905407,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "年轻人为什么喜欢手洗一辆车": {
+      "key": "年轻人为什么喜欢手洗一辆车",
+      "title": "年轻人为什么喜欢“手洗一辆车”",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 5797205,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "外国女子倒车落下山崖女儿不幸身亡": {
+      "key": "外国女子倒车落下山崖女儿不幸身亡",
+      "title": "外国女子倒车落下山崖 女儿不幸身亡",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 5608826,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "重庆14名市管一把手被调整": {
+      "key": "重庆14名市管一把手被调整",
+      "title": "重庆：14名市管“一把手”被调整",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 5419999,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "皇阿玛送考五阿哥": {
+      "key": "皇阿玛送考五阿哥",
+      "title": "皇阿玛送考五阿哥",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 5416960,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "身体有这5种表现说明骨头在变脆": {
+      "key": "身体有这5种表现说明骨头在变脆",
+      "title": "身体有这5种表现说明骨头在变脆",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 5324258,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "牛被电死后印度人疯狂破坏变压器": {
+      "key": "牛被电死后印度人疯狂破坏变压器",
+      "title": "牛被电死后印度人疯狂破坏变压器",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 5030547,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "大树疼痛的声音可以听见了": {
+      "key": "大树疼痛的声音可以听见了",
+      "title": "大树疼痛的声音可以听见了",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 4762586,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "现实版葫芦娃救爷爷": {
+      "key": "现实版葫芦娃救爷爷",
+      "title": "现实版“葫芦娃救爷爷”",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 4453131,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "山东人为追朱之文有多拼": {
+      "key": "山东人为追朱之文有多拼",
+      "title": "山东人为追朱之文有多拼",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 4169923,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "胖东来首批刑释职工无一人离职": {
+      "key": "胖东来首批刑释职工无一人离职",
+      "title": "胖东来首批刑释职工无一人离职",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 4015234,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "车企集体逃离新车发布会": {
+      "key": "车企集体逃离新车发布会",
+      "title": "车企集体“逃离”新车发布会",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 3782474,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "重庆市民纪念日本无条件投降81周年": {
+      "key": "重庆市民纪念日本无条件投降81周年",
+      "title": "重庆市民纪念日本无条件投降81周年",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 3633134,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "儿童动画变成了毒药": {
+      "key": "儿童动画变成了毒药",
+      "title": "儿童动画变成了“毒药”",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 3431746,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "为何说旺旺最大竞争对手是糖": {
+      "key": "为何说旺旺最大竞争对手是糖",
+      "title": "为何说旺旺最大竞争对手是糖",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 3287395,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "德比斯中国人比法国人更懂礼貌": {
+      "key": "德比斯中国人比法国人更懂礼貌",
+      "title": "德比斯：中国人比法国人更懂礼貌",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 2974558,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "高市早苗未提反省战争": {
+      "key": "高市早苗未提反省战争",
+      "title": "高市早苗未提“反省战争”",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 2691492,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "河南周口贾鲁河堤防溃口抢险持续推进": {
+      "key": "河南周口贾鲁河堤防溃口抢险持续推进",
+      "title": "河南周口贾鲁河堤防溃口抢险持续推进",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 2435362,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "金价还会继续涨吗": {
+      "key": "金价还会继续涨吗",
+      "title": "金价还会继续涨吗",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 2203607,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "牛来票房暴涨1000倍": {
+      "key": "牛来票房暴涨1000倍",
+      "title": "牛来票房暴涨1000倍",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 1853479,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "山东省检察院原检察长吴鹏飞逝世": {
+      "key": "山东省检察院原检察长吴鹏飞逝世",
+      "title": "山东省检察院原检察长吴鹏飞逝世",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 1477122,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "首例ai自主入侵事件能否敲响安全警钟": {
+      "key": "首例ai自主入侵事件能否敲响安全警钟",
+      "title": "首例AI自主入侵事件能否敲响安全警钟",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 1094279,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "这一天值得每一名中国人铭记": {
+      "key": "这一天值得每一名中国人铭记",
+      "title": "这一天值得每一名中国人铭记",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 1005789,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "815京东家电周年庆低至815折": {
+      "key": "815京东家电周年庆低至815折",
+      "title": "815京东家电周年庆 低至8.15折",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 999712,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "胖东来刑释人员": {
+      "key": "胖东来刑释人员",
+      "title": "胖东来 刑释人员",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 988908,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "妈妈去世多少年才能不难过": {
+      "key": "妈妈去世多少年才能不难过",
+      "title": "妈妈去世多少年才能不难过",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 873100,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "牛来导演亲友发声": {
+      "key": "牛来导演亲友发声",
+      "title": "牛来导演亲友发声",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 866673,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "抗战馆举办八一五主题社教活动": {
+      "key": "抗战馆举办八一五主题社教活动",
+      "title": "抗战馆举办“八·一五”主题社教活动",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 733517,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "房主任大女儿否认被妈妈打压": {
+      "key": "房主任大女儿否认被妈妈打压",
+      "title": "房主任大女儿否认被妈妈打压",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 663713,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "一滴瑞珠护眼所营业中": {
+      "key": "一滴瑞珠护眼所营业中",
+      "title": "一滴瑞珠护眼所营业中",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 594685,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "疯狂动物城3官宣": {
+      "key": "疯狂动物城3官宣",
+      "title": "疯狂动物城3官宣",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 554042,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "小伙穿戚家军盔甲登顶泰山迎日出": {
+      "key": "小伙穿戚家军盔甲登顶泰山迎日出",
+      "title": "小伙穿戚家军盔甲登顶泰山迎日出",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 543402,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "终于明白减重减肥减脂区别": {
+      "key": "终于明白减重减肥减脂区别",
+      "title": "终于明白减重减肥减脂区别",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 507950,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "李飞说左航没有独立判断能力": {
+      "key": "李飞说左航没有独立判断能力",
+      "title": "李飞说左航没有独立判断能力",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 445509,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "哈工大攻克轮胎节油技术": {
+      "key": "哈工大攻克轮胎节油技术",
+      "title": "哈工大攻克轮胎节油技术",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 444900,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "海太长江隧道右线掘进突破7000米": {
+      "key": "海太长江隧道右线掘进突破7000米",
+      "title": "海太长江隧道右线掘进突破7000米",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 402562,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "邓超给初代跑男合照签名": {
+      "key": "邓超给初代跑男合照签名",
+      "title": "邓超给初代跑男合照签名",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 380151,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国游客亲历印尼强震头撞墙出血": {
+      "key": "中国游客亲历印尼强震头撞墙出血",
+      "title": "中国游客亲历印尼强震头撞墙出血",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 364253,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "公司空调已经做到这种程度了": {
+      "key": "公司空调已经做到这种程度了",
+      "title": "公司空调已经做到这种程度了",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 339145,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "14万元核雕手串寄递受损赔偿陷纠纷": {
+      "key": "14万元核雕手串寄递受损赔偿陷纠纷",
+      "title": "1.4万元核雕手串寄递受损 赔偿陷纠纷",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 329590,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "高中生回应因收集日军罪证遭威胁": {
+      "key": "高中生回应因收集日军罪证遭威胁",
+      "title": "高中生回应因收集日军罪证遭威胁",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 298225,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "九门大结局只有九爷不在了": {
+      "key": "九门大结局只有九爷不在了",
+      "title": "九门大结局只有九爷不在了",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 274846,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "歼35a有多强": {
+      "key": "歼35a有多强",
+      "title": "歼-35A有多强",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 269845,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "手机涨得快买不起了": {
+      "key": "手机涨得快买不起了",
+      "title": "手机涨得快买不起了",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 234784,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "天津已经进化成这样了吗": {
+      "key": "天津已经进化成这样了吗",
+      "title": "天津已经进化成这样了吗",
+      "firstSeenAt": "2026-08-15 17:16",
+      "lastSeenAt": "2026-08-15 17:16",
+      "seenCount": 1,
+      "lastScore": 233833,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-08-15 11:30",
+  "lastUpdatedAt": "2026-08-15 17:16",
   "stats": {
-    "new": 55,
-    "continued": 25,
-    "dropped": 55
+    "new": 73,
+    "continued": 7,
+    "dropped": 128
   }
 }

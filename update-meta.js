@@ -1,10 +1,10 @@
 window.UPDATE_META = {
-  lastUpdatedAt: "2026-08-20T20:26:55+08:00",
+  lastUpdatedAt: "2026-08-21T08:42:16+08:00",
   updateMode: "live-public-pages",
   stats: {
-  "new": 53,
-  "continued": 27,
-  "dropped": 170
+  "new": 65,
+  "continued": 15,
+  "dropped": 235
 },
-  note: "Fetched 83 hotspots from public pages. Sources: 中国政府网:5, 百度:52, 今日头条:50, 微博:52.",
+  note: "Fetched 80 hotspots from public pages. Sources: 中国政府网:5, 百度:52, 今日头条:50, 微博:51.",
 };

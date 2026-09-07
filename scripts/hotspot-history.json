@@ -36982,8 +36982,8 @@
       "key": "国务院关于印发实施就业优先战略十五五规划的通知",
       "title": "国务院关于印发《实施就业优先战略“十五五”规划》的通知",
       "firstSeenAt": "2026-06-17 21:01",
-      "lastSeenAt": "2026-09-07 15:41",
-      "seenCount": 304,
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 305,
       "lastScore": 56200000,
       "platforms": [
         "中国政府网"
@@ -69889,8 +69889,8 @@
       "key": "退役军人就业创业促进条例",
       "title": "退役军人就业创业促进条例",
       "firstSeenAt": "2026-06-30 19:38",
-      "lastSeenAt": "2026-09-07 15:41",
-      "seenCount": 259,
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 260,
       "lastScore": 38650000,
       "platforms": [
         "中国政府网"
@@ -105563,8 +105563,8 @@
       "key": "国务院关于扩大消费十五五规划的批复",
       "title": "国务院关于《扩大消费“十五五”规划》的批复",
       "firstSeenAt": "2026-07-13 19:51",
-      "lastSeenAt": "2026-09-07 15:41",
-      "seenCount": 208,
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 209,
       "lastScore": 56200000,
       "platforms": [
         "中国政府网"
@@ -208273,8 +208273,8 @@
       "key": "国务院关于修改住房公积金管理条例的决定",
       "title": "国务院关于修改《住房公积金管理条例》的决定",
       "firstSeenAt": "2026-08-18 17:21",
-      "lastSeenAt": "2026-09-07 15:41",
-      "seenCount": 66,
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 67,
       "lastScore": 53950000,
       "platforms": [
         "中国政府网"
@@ -257139,14 +257139,14 @@
       "key": "华为时隔六年再次发布高性能芯片",
       "title": "华为时隔六年再次发布高性能芯片",
       "firstSeenAt": "2026-09-07 15:41",
-      "lastSeenAt": "2026-09-07 15:41",
-      "seenCount": 1,
-      "lastScore": 21772855,
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 2,
+      "lastScore": 5038509,
       "platforms": [
         "百度",
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "华为发布会": {
       "key": "华为发布会",
@@ -257301,13 +257301,14 @@
       "key": "阔折叠手机为什么火了",
       "title": "阔折叠手机为什么火了",
       "firstSeenAt": "2026-09-07 15:41",
-      "lastSeenAt": "2026-09-07 15:41",
-      "seenCount": 1,
-      "lastScore": 8470098,
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 2,
+      "lastScore": 5514477,
       "platforms": [
-        "今日头条"
+        "今日头条",
+        "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "收费员听到卖西瓜秒提醒可走绿通": {
       "key": "收费员听到卖西瓜秒提醒可走绿通",
@@ -257385,13 +257386,13 @@
       "key": "曝井柏然刘雯结婚",
       "title": "曝井柏然刘雯结婚",
       "firstSeenAt": "2026-09-07 15:41",
-      "lastSeenAt": "2026-09-07 15:41",
-      "seenCount": 1,
-      "lastScore": 6934730,
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 2,
+      "lastScore": 782144,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "毁草原种枸杞系谣言": {
       "key": "毁草原种枸杞系谣言",
@@ -257945,12 +257946,895 @@
         "微博"
       ],
       "lifecycle": "新增"
+    },
+    "英国政府要求民众提前存粮存水": {
+      "key": "英国政府要求民众提前存粮存水",
+      "title": "英国政府要求民众提前存粮存水",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 18876109,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "智能眼镜卖疯了退货率却高达70": {
+      "key": "智能眼镜卖疯了退货率却高达70",
+      "title": "智能眼镜卖疯了 退货率却高达70%",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 5602347,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "山姆会员店三文鱼寿司被曝含寄生虫": {
+      "key": "山姆会员店三文鱼寿司被曝含寄生虫",
+      "title": "山姆会员店三文鱼寿司被曝含寄生虫",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 4462921,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "刘德华幽默带货三折叠不好用找余总": {
+      "key": "刘德华幽默带货三折叠不好用找余总",
+      "title": "刘德华幽默带货：三折叠不好用找余总",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 20286107,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "9月起你的工资有变": {
+      "key": "9月起你的工资有变",
+      "title": "9月起你的工资有变",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 7058863,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "小米18fold售价10999元起": {
+      "key": "小米18fold售价10999元起",
+      "title": "小米18 Fold售价10999元起",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 17362003,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "高息存款密集到期": {
+      "key": "高息存款密集到期",
+      "title": "高息存款密集到期",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 4946187,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国元首外交的思想启迪": {
+      "key": "中国元首外交的思想启迪",
+      "title": "中国元首外交的思想启迪",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 15809344,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "小米澎程suv售价公布": {
+      "key": "小米澎程suv售价公布",
+      "title": "小米澎程SUV售价公布",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 15709790,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "江西遂川万安这些涉灾信息不实": {
+      "key": "江西遂川万安这些涉灾信息不实",
+      "title": "江西遂川万安这些涉灾信息不实",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 13242256,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "普通人卖脸一次100元": {
+      "key": "普通人卖脸一次100元",
+      "title": "普通人“卖脸”一次100元",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 5416042,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "让青春在科技强国征途中闪闪发光": {
+      "key": "让青春在科技强国征途中闪闪发光",
+      "title": "让青春在科技强国征途中闪闪发光",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 14214806,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "刚退休就意外离世交的社保怎么办": {
+      "key": "刚退休就意外离世交的社保怎么办",
+      "title": "刚退休就意外离世交的社保怎么办",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 2126088,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "雷军展示折叠机的坟场": {
+      "key": "雷军展示折叠机的坟场",
+      "title": "雷军展示“折叠机的坟场”",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 9444427,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "郑钦文美网大逆转已锁定322万奖金": {
+      "key": "郑钦文美网大逆转已锁定322万奖金",
+      "title": "郑钦文美网大逆转已锁定322万奖金",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 10530587,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "余承东建议苹果用户买华为当备用机": {
+      "key": "余承东建议苹果用户买华为当备用机",
+      "title": "余承东建议苹果用户买华为当备用机",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 9528469,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "连一杆秤都管不住算什么大品牌": {
+      "key": "连一杆秤都管不住算什么大品牌",
+      "title": "连“一杆秤”都管不住算什么大品牌",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 8621715,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "葫芦娃爷爷隔壁咖啡店遭大量差评": {
+      "key": "葫芦娃爷爷隔壁咖啡店遭大量差评",
+      "title": "葫芦娃爷爷隔壁咖啡店遭大量差评",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 7202634,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "性侵10人博士生被指另强奸虐待7人": {
+      "key": "性侵10人博士生被指另强奸虐待7人",
+      "title": "性侵10人博士生被指另强奸虐待7人",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 7050267,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "雷军发布小米迄今最贵手机": {
+      "key": "雷军发布小米迄今最贵手机",
+      "title": "雷军发布小米迄今最贵手机",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 7807903,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "厄尔尼诺将对我国有何影响": {
+      "key": "厄尔尼诺将对我国有何影响",
+      "title": "厄尔尼诺将对我国有何影响",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 7801251,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "湖南卫视一只ai猴子闹出133亿": {
+      "key": "湖南卫视一只ai猴子闹出133亿",
+      "title": "湖南卫视一只“AI猴子”闹出133亿",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 7712506,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "学成了希望你们能够回来": {
+      "key": "学成了希望你们能够回来",
+      "title": "“学成了 希望你们能够回来”",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 7619513,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "上汽奥迪放弃四环": {
+      "key": "上汽奥迪放弃四环",
+      "title": "上汽奥迪放弃“四环”",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 7329616,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "北上广的地铁好像没那么挤了": {
+      "key": "北上广的地铁好像没那么挤了",
+      "title": "北上广的地铁好像没那么挤了",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 7135398,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "浙江104岁老人每天睡觉18个小时": {
+      "key": "浙江104岁老人每天睡觉18个小时",
+      "title": "浙江104岁老人每天睡觉18个小时",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 7041411,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "小米澎程n70pro版售价2099万": {
+      "key": "小米澎程n70pro版售价2099万",
+      "title": "小米澎程N70 Pro版售价20.99万",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 6943469,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "废品回收被中国人做成万亿级产业": {
+      "key": "废品回收被中国人做成万亿级产业",
+      "title": "废品回收被中国人做成万亿级产业",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 6760249,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "女子在公厕生下女婴后独自离开": {
+      "key": "女子在公厕生下女婴后独自离开",
+      "title": "女子在公厕生下女婴后独自离开",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 6662714,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "余承东建议苹果用户买华为备用机": {
+      "key": "余承东建议苹果用户买华为备用机",
+      "title": "余承东建议苹果用户买华为备用机",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 6560106,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "雷军称小米澎程价格有压倒式优势": {
+      "key": "雷军称小米澎程价格有压倒式优势",
+      "title": "雷军称小米澎程价格有压倒式优势",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 296776,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "小米18fold中折叠手机售价10999起": {
+      "key": "小米18fold中折叠手机售价10999起",
+      "title": "小米18 Fold中折叠手机售价10999起",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 6285504,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "gucci回应8200元的鞋穿没5次就破损": {
+      "key": "gucci回应8200元的鞋穿没5次就破损",
+      "title": "Gucci回应8200元的鞋穿没5次就破损",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 6182216,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "余承东演示三折叠物理防偷窥": {
+      "key": "余承东演示三折叠物理防偷窥",
+      "title": "余承东演示三折叠物理防偷窥",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 6097310,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "2岁萌娃逛故宫看到啥都让爸爸买": {
+      "key": "2岁萌娃逛故宫看到啥都让爸爸买",
+      "title": "2岁萌娃逛故宫看到啥都让爸爸买",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 5998806,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "小米澎程n70集齐冰箱彩电大沙发": {
+      "key": "小米澎程n70集齐冰箱彩电大沙发",
+      "title": "小米澎程N70集齐“冰箱彩电大沙发”",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 5797784,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "女子扔刀刚好刺死前夫获刑3年2个月": {
+      "key": "女子扔刀刚好刺死前夫获刑3年2个月",
+      "title": "女子扔刀刚好刺死前夫获刑3年2个月",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 5779308,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "女子称在餐厅被4岁男童摸臀": {
+      "key": "女子称在餐厅被4岁男童摸臀",
+      "title": "女子称在餐厅被4岁男童摸臀",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 5712652,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "刘德华也有年龄焦虑": {
+      "key": "刘德华也有年龄焦虑",
+      "title": "刘德华也有年龄焦虑",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 4188604,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "小米澎程n90max售价2699万元": {
+      "key": "小米澎程n90max售价2699万元",
+      "title": "小米澎程N90 Max售价26.99万元",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 5332847,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "多地鼓励高校买房当宿舍": {
+      "key": "多地鼓励高校买房当宿舍",
+      "title": "多地鼓励高校买房当宿舍",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 4837144,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "女子买新能源车电池却是租来的": {
+      "key": "女子买新能源车电池却是租来的",
+      "title": "女子买新能源车电池却是“租来的”",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 4751766,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "赵一鸣零食店被查印证了什么": {
+      "key": "赵一鸣零食店被查印证了什么",
+      "title": "赵一鸣零食店被查印证了什么",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 4731697,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "霸王洗发水从超市c位跌到货架角落": {
+      "key": "霸王洗发水从超市c位跌到货架角落",
+      "title": "霸王洗发水从超市C位跌到货架角落",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 4655192,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "台游客想买花生被拒店家主动送": {
+      "key": "台游客想买花生被拒店家主动送",
+      "title": "台游客想买花生被拒 店家主动送",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 4569692,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "11岁小男孩掌勺柴火鸡": {
+      "key": "11岁小男孩掌勺柴火鸡",
+      "title": "11岁小男孩掌勺柴火鸡",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 4363700,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "华为新款折叠屏手机售价19999元起": {
+      "key": "华为新款折叠屏手机售价19999元起",
+      "title": "华为新款折叠屏手机售价19999元起",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 4281417,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "小区住户朝楼下火锅店泼黄色液体": {
+      "key": "小区住户朝楼下火锅店泼黄色液体",
+      "title": "小区住户朝楼下火锅店泼黄色液体",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 4187625,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "印尼火山喷发致17万旅客滞留": {
+      "key": "印尼火山喷发致17万旅客滞留",
+      "title": "印尼火山喷发致17万旅客滞留",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 4087331,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "村规旧俗致女子19万补偿款变4万": {
+      "key": "村规旧俗致女子19万补偿款变4万",
+      "title": "村规旧俗致女子19万补偿款变4万",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 3999536,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "频繁口臭可能是感染幽门螺旋杆菌": {
+      "key": "频繁口臭可能是感染幽门螺旋杆菌",
+      "title": "频繁口臭可能是感染幽门螺旋杆菌",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 3873986,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "华为最新三折叠售价19999元起": {
+      "key": "华为最新三折叠售价19999元起",
+      "title": "华为最新三折叠售价19999元起",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 3679128,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "华为阔直板手机售价": {
+      "key": "华为阔直板手机售价",
+      "title": "华为阔直板手机售价",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 3601986,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "郑丽文再次呼吁推动两岸和平": {
+      "key": "郑丽文再次呼吁推动两岸和平",
+      "title": "郑丽文再次呼吁推动两岸和平",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 3505328,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "费大厨该摘下大厨了": {
+      "key": "费大厨该摘下大厨了",
+      "title": "费大厨该摘下“大厨”了",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 3488772,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "小米推出5个内存版本平板电脑": {
+      "key": "小米推出5个内存版本平板电脑",
+      "title": "小米推出5个内存版本平板电脑",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 3171752,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "川航集团原董事长李海鹰被查": {
+      "key": "川航集团原董事长李海鹰被查",
+      "title": "川航集团原董事长李海鹰被查",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 3122629,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "众泰汽车召开2026年第四次临时股东会": {
+      "key": "众泰汽车召开2026年第四次临时股东会",
+      "title": "众泰汽车召开2026年第四次临时股东会",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 2869919,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "北京明日最高气温将达下半年以来新低": {
+      "key": "北京明日最高气温将达下半年以来新低",
+      "title": "北京明日最高气温将达下半年以来新低",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 2596810,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "刘德华现身华为发布会金句频出": {
+      "key": "刘德华现身华为发布会金句频出",
+      "title": "刘德华现身华为发布会金句频出",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 2349691,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "梅艳芳大哥称已申请禁令阻止梅妈火化": {
+      "key": "梅艳芳大哥称已申请禁令阻止梅妈火化",
+      "title": "梅艳芳大哥称已申请禁令阻止梅妈火化",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 1740694,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "华为要打ai底层仗": {
+      "key": "华为要打ai底层仗",
+      "title": "华为要打AI底层仗",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 1575045,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "儿子见母亲最后一面一声妈让人心碎": {
+      "key": "儿子见母亲最后一面一声妈让人心碎",
+      "title": "儿子见母亲最后一面一声妈让人心碎",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 1425160,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "院士寄语当代青年": {
+      "key": "院士寄语当代青年",
+      "title": "院士寄语当代青年",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 1329381,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "小米澎程suv今晚上市": {
+      "key": "小米澎程suv今晚上市",
+      "title": "小米澎程SUV今晚上市",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 1318524,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "小米澎程系列新车首测": {
+      "key": "小米澎程系列新车首测",
+      "title": "小米澎程系列新车首测",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 1289538,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "华为小米苹果对决万元机": {
+      "key": "华为小米苹果对决万元机",
+      "title": "华为小米苹果对决“万元机”",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 1166822,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "华为苹果小米发布新品各自特点是什么": {
+      "key": "华为苹果小米发布新品各自特点是什么",
+      "title": "华为苹果小米发布新品各自特点是什么",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 1055784,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "余承东说上手华为阔直板爱不释手": {
+      "key": "余承东说上手华为阔直板爱不释手",
+      "title": "余承东说上手华为阔直板爱不释手",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 864403,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "张雅琪后继有人了": {
+      "key": "张雅琪后继有人了",
+      "title": "张雅琪后继有人了",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 859538,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "我在北京时装周现场": {
+      "key": "我在北京时装周现场",
+      "title": "我在北京时装周现场",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 833845,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "a股易中天集体大涨": {
+      "key": "a股易中天集体大涨",
+      "title": "A股“易中天”集体大涨",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 707713,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "余承东演示三折叠纯物理防偷窥": {
+      "key": "余承东演示三折叠纯物理防偷窥",
+      "title": "余承东演示三折叠纯物理防偷窥",
+      "firstSeenAt": "2026-09-07 22:35",
+      "lastSeenAt": "2026-09-07 22:35",
+      "seenCount": 1,
+      "lastScore": 640365,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-09-07 15:41",
+  "lastUpdatedAt": "2026-09-07 22:35",
   "stats": {
-    "new": 68,
-    "continued": 12,
-    "dropped": 69
+    "new": 73,
+    "continued": 7,
+    "dropped": 142
   }
 }

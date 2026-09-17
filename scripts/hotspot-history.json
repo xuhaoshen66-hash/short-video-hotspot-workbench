@@ -36982,8 +36982,8 @@
       "key": "国务院关于印发实施就业优先战略十五五规划的通知",
       "title": "国务院关于印发《实施就业优先战略“十五五”规划》的通知",
       "firstSeenAt": "2026-06-17 21:01",
-      "lastSeenAt": "2026-09-16 21:52",
-      "seenCount": 332,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 333,
       "lastScore": 56200000,
       "platforms": [
         "中国政府网"
@@ -69889,8 +69889,8 @@
       "key": "退役军人就业创业促进条例",
       "title": "退役军人就业创业促进条例",
       "firstSeenAt": "2026-06-30 19:38",
-      "lastSeenAt": "2026-09-16 21:52",
-      "seenCount": 287,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 288,
       "lastScore": 38650000,
       "platforms": [
         "中国政府网"
@@ -105563,8 +105563,8 @@
       "key": "国务院关于扩大消费十五五规划的批复",
       "title": "国务院关于《扩大消费“十五五”规划》的批复",
       "firstSeenAt": "2026-07-13 19:51",
-      "lastSeenAt": "2026-09-16 21:52",
-      "seenCount": 236,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 237,
       "lastScore": 56200000,
       "platforms": [
         "中国政府网"
@@ -107352,13 +107352,14 @@
       "key": "美股三大指数集体收跌",
       "title": "美股三大指数集体收跌",
       "firstSeenAt": "2026-07-14 09:27",
-      "lastSeenAt": "2026-07-14 09:27",
-      "seenCount": 1,
-      "lastScore": 4601799,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 2,
+      "lastScore": 3702771,
       "platforms": [
-        "今日头条"
+        "今日头条",
+        "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "京东健康减重大赛报名即送千元奖金": {
       "key": "京东健康减重大赛报名即送千元奖金",
@@ -208273,9 +208274,9 @@
       "key": "国务院关于修改住房公积金管理条例的决定",
       "title": "国务院关于修改《住房公积金管理条例》的决定",
       "firstSeenAt": "2026-08-18 17:21",
-      "lastSeenAt": "2026-09-16 21:52",
-      "seenCount": 94,
-      "lastScore": 53050000,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 95,
+      "lastScore": 52950000,
       "platforms": [
         "中国政府网"
       ],
@@ -265182,9 +265183,9 @@
       "key": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "title": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "firstSeenAt": "2026-09-10 21:12",
-      "lastSeenAt": "2026-09-16 21:52",
-      "seenCount": 19,
-      "lastScore": 56650000,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 20,
+      "lastScore": 56550000,
       "platforms": [
         "中国政府网"
       ],
@@ -278836,15 +278837,15 @@
       "key": "退休副省长家丢了243万元茅台名酒",
       "title": "退休副省长家丢了243万元茅台名酒",
       "firstSeenAt": "2026-09-16 16:03",
-      "lastSeenAt": "2026-09-16 21:52",
-      "seenCount": 2,
-      "lastScore": 7873888,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 3,
+      "lastScore": 1895953,
       "platforms": [
         "今日头条",
         "微博",
         "百度"
       ],
-      "lifecycle": "热度上升"
+      "lifecycle": "热度下降"
     },
     "香港全面壮大离岸人民币业务规模": {
       "key": "香港全面壮大离岸人民币业务规模",
@@ -278946,14 +278947,14 @@
       "key": "妈妈忘接孩子男孩淡定躺台阶吃东西",
       "title": "妈妈忘接孩子 男孩淡定躺台阶吃东西",
       "firstSeenAt": "2026-09-16 16:03",
-      "lastSeenAt": "2026-09-16 16:03",
-      "seenCount": 1,
-      "lastScore": 10546683,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 2,
+      "lastScore": 1552275,
       "platforms": [
         "百度",
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "32岁教师因病去世朋友圈留绝笔信": {
       "key": "32岁教师因病去世朋友圈留绝笔信",
@@ -279082,13 +279083,13 @@
       "key": "张一鸣成亚洲首富",
       "title": "张一鸣成亚洲首富",
       "firstSeenAt": "2026-09-16 16:03",
-      "lastSeenAt": "2026-09-16 21:52",
-      "seenCount": 2,
-      "lastScore": 3678791,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 3,
+      "lastScore": 6760292,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "热度下降"
+      "lifecycle": "热度上升"
     },
     "为工作23年未见父母也算先进事迹吗": {
       "key": "为工作23年未见父母也算先进事迹吗",
@@ -279346,13 +279347,13 @@
       "key": "适当饿一点好处竟然这么多",
       "title": "适当饿一点好处竟然这么多",
       "firstSeenAt": "2026-09-16 16:03",
-      "lastSeenAt": "2026-09-16 16:03",
-      "seenCount": 1,
-      "lastScore": 2120439,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 2,
+      "lastScore": 1149954,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "中国女排击败菲律宾斩获亚运开门红": {
       "key": "中国女排击败菲律宾斩获亚运开门红",
@@ -279637,13 +279638,13 @@
       "key": "民政部组织国盛民安补贴工程不实",
       "title": "“民政部组织国盛民安补贴工程”不实",
       "firstSeenAt": "2026-09-16 21:52",
-      "lastSeenAt": "2026-09-16 21:52",
-      "seenCount": 1,
-      "lastScore": 5382380,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 2,
+      "lastScore": 5153736,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "持续上榜"
     },
     "全球三年约6000万人告别奢侈品": {
       "key": "全球三年约6000万人告别奢侈品",
@@ -279710,26 +279711,27 @@
       "key": "官方辟谣国盛民安养老补贴惠民工程",
       "title": "官方辟谣国盛民安养老补贴惠民工程",
       "firstSeenAt": "2026-09-16 21:52",
-      "lastSeenAt": "2026-09-16 21:52",
-      "seenCount": 1,
-      "lastScore": 6855831,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 2,
+      "lastScore": 6857575,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "持续上榜"
     },
     "拆迁查户口发现父亲有个16岁私生子": {
       "key": "拆迁查户口发现父亲有个16岁私生子",
       "title": "拆迁查户口发现父亲有个16岁私生子",
       "firstSeenAt": "2026-09-16 21:52",
-      "lastSeenAt": "2026-09-16 21:52",
-      "seenCount": 1,
-      "lastScore": 7539176,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 2,
+      "lastScore": 9390720,
       "platforms": [
         "百度",
-        "微博"
+        "微博",
+        "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "中国十大消费县排行": {
       "key": "中国十大消费县排行",
@@ -279831,13 +279833,13 @@
       "key": "女子在加勒比海买海螺竟开出万元珠",
       "title": "女子在加勒比海买海螺 竟开出万元珠",
       "firstSeenAt": "2026-09-16 21:52",
-      "lastSeenAt": "2026-09-16 21:52",
-      "seenCount": 1,
-      "lastScore": 4763441,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 2,
+      "lastScore": 4260550,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "持续上榜"
     },
     "南方医科大学通报": {
       "key": "南方医科大学通报",
@@ -279939,13 +279941,13 @@
       "key": "倪虹洁模仿闫妮微醺",
       "title": "倪虹洁模仿闫妮“微醺”",
       "firstSeenAt": "2026-09-16 21:52",
-      "lastSeenAt": "2026-09-16 21:52",
-      "seenCount": 1,
-      "lastScore": 7046160,
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 2,
+      "lastScore": 3778904,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "亚运开门红国足21逆转朝鲜": {
       "key": "亚运开门红国足21逆转朝鲜",
@@ -280450,12 +280452,794 @@
         "微博"
       ],
       "lifecycle": "新增"
+    },
+    "时隔3年多美联储加息25个基点": {
+      "key": "时隔3年多美联储加息25个基点",
+      "title": "时隔3年多 美联储加息25个基点",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 21818282,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "豆包二代手机开售": {
+      "key": "豆包二代手机开售",
+      "title": "豆包二代手机开售",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 3600416,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "终于不会点外卖就稀里糊涂负债了": {
+      "key": "终于不会点外卖就稀里糊涂负债了",
+      "title": "终于不会点外卖就稀里糊涂“负债”了",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 5896735,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子买鹦鹉后家中73岁老人确诊鹦鹉": {
+      "key": "男子买鹦鹉后家中73岁老人确诊鹦鹉",
+      "title": "男子买鹦鹉后家中73岁老人确诊鹦鹉",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 6181175,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "鄂尔多斯遭遇冰雹街道如冰河": {
+      "key": "鄂尔多斯遭遇冰雹街道如冰河",
+      "title": "鄂尔多斯遭遇冰雹 街道如冰河",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 7144041,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "美智库美对台战略模糊政策难以维持": {
+      "key": "美智库美对台战略模糊政策难以维持",
+      "title": "美智库：美对台战略模糊政策难以维持",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 697482,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "颁布首个五年规划的香港会有何改变": {
+      "key": "颁布首个五年规划的香港会有何改变",
+      "title": "颁布首个五年规划的香港会有何改变",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 256589,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "倪萍写信告别敬一丹": {
+      "key": "倪萍写信告别敬一丹",
+      "title": "倪萍写信告别敬一丹",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 14351447,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子遭蜂群围攻全身残留近千根毒刺": {
+      "key": "男子遭蜂群围攻全身残留近千根毒刺",
+      "title": "男子遭蜂群围攻 全身残留近千根毒刺",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 4859142,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "英国三个地区真想脱英吗": {
+      "key": "英国三个地区真想脱英吗",
+      "title": "英国三个地区真想“脱英”吗",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 12676147,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "文玩玉米从9块9包邮到上万元一根": {
+      "key": "文玩玉米从9块9包邮到上万元一根",
+      "title": "文玩玉米 从9块9包邮到上万元一根",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 6082937,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "各地多措并举护航粮食稳产增收": {
+      "key": "各地多措并举护航粮食稳产增收",
+      "title": "各地多措并举护航粮食稳产增收",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 11469852,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "美联储突然加息意味着什么": {
+      "key": "美联储突然加息意味着什么",
+      "title": "美联储突然加息意味着什么",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 10378351,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "敬一丹告别仪式": {
+      "key": "敬一丹告别仪式",
+      "title": "敬一丹告别仪式",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 8497075,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "一车人都买错票车站12306有新显示": {
+      "key": "一车人都买错票车站12306有新显示",
+      "title": "一车人都买错票车站 12306有新显示",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 7712325,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "2000多年了我们为什么执着于挖运河": {
+      "key": "2000多年了我们为什么执着于挖运河",
+      "title": "2000多年了 我们为什么执着于挖运河",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 7619238,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "车市上演疯狂星期三": {
+      "key": "车市上演疯狂星期三",
+      "title": "车市上演“疯狂星期三”",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 7520628,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "太阳正式成为中国第一大电源": {
+      "key": "太阳正式成为中国第一大电源",
+      "title": "太阳正式成为中国第一大“电源”",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 7331347,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "日本高市内阁全体阁僚提交辞呈": {
+      "key": "日本高市内阁全体阁僚提交辞呈",
+      "title": "日本高市内阁全体阁僚提交辞呈",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 7044875,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "石蒜为何会有彼岸花这个名字": {
+      "key": "石蒜为何会有彼岸花这个名字",
+      "title": "石蒜为何会有“彼岸花”这个名字",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 6956817,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "理想i9上市售价3698万元": {
+      "key": "理想i9上市售价3698万元",
+      "title": "理想i9上市 售价36.98万元",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 6294788,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "小伙记录下妈妈留在世上最后的14天": {
+      "key": "小伙记录下妈妈留在世上最后的14天",
+      "title": "小伙记录下妈妈留在世上最后的14天",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 5811576,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "如字泛滥锦字刷屏": {
+      "key": "如字泛滥锦字刷屏",
+      "title": "“如”字泛滥 “锦”字刷屏",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 5715398,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "美联储加息落地但鹰还没落地": {
+      "key": "美联储加息落地但鹰还没落地",
+      "title": "美联储加息落地 但“鹰”还没落地",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 5695760,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "老人手机130个流氓软件疯狂弹广告": {
+      "key": "老人手机130个流氓软件疯狂弹广告",
+      "title": "老人手机130个流氓软件疯狂弹广告",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 5612687,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国人吃得起蓝莓居然让他们气坏了": {
+      "key": "中国人吃得起蓝莓居然让他们气坏了",
+      "title": "中国人吃得起蓝莓 居然让他们气坏了",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 5509760,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "要脱保的电车换电池换车哪个划算": {
+      "key": "要脱保的电车换电池换车哪个划算",
+      "title": "要脱保的电车 换电池换车哪个划算",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 5319001,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "iphoneduo上手": {
+      "key": "iphoneduo上手",
+      "title": "iPhone Duo上手",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 4936289,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "阿根廷外长最新涉华表态": {
+      "key": "阿根廷外长最新涉华表态",
+      "title": "阿根廷外长最新涉华表态",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 4758200,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "国乒滞留名古屋机场画面曝光": {
+      "key": "国乒滞留名古屋机场画面曝光",
+      "title": "国乒滞留名古屋机场画面曝光",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 4652174,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "魔法士干脆面创始人去世": {
+      "key": "魔法士干脆面创始人去世",
+      "title": "魔法士干脆面创始人去世",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 4557028,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "这5个小妙招特别长脑子": {
+      "key": "这5个小妙招特别长脑子",
+      "title": "这5个小妙招 特别“长脑子”",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 4362697,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子酒驾发生事故主动报警自首": {
+      "key": "男子酒驾发生事故主动报警自首",
+      "title": "男子酒驾发生事故主动报警“自首”",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 4219522,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "全国入秋进程图": {
+      "key": "全国入秋进程图",
+      "title": "全国入秋进程图",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 4182418,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "20万人在线催救猪黑猪已救起": {
+      "key": "20万人在线催救猪黑猪已救起",
+      "title": "20万人在线“催救猪” 黑猪已救起",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 4083648,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子从28楼抛掷厨余垃圾袋和空瓶": {
+      "key": "男子从28楼抛掷厨余垃圾袋和空瓶",
+      "title": "男子从28楼抛掷厨余垃圾袋和空瓶",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 3969432,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "休产假的妈妈带2个月大的娃去上班": {
+      "key": "休产假的妈妈带2个月大的娃去上班",
+      "title": "休产假的妈妈带2个月大的娃去上班",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 3817982,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "台风杜鹃已生成": {
+      "key": "台风杜鹃已生成",
+      "title": "台风杜鹃已生成",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 3500834,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "美联储预计年底前还将加息一次": {
+      "key": "美联储预计年底前还将加息一次",
+      "title": "美联储预计年底前还将加息一次",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 3454653,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "于东来晒张雪机车买家秀": {
+      "key": "于东来晒张雪机车买家秀",
+      "title": "于东来晒张雪机车“买家秀”",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 3420742,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "香山论坛多国防长代表与董军握手交谈": {
+      "key": "香山论坛多国防长代表与董军握手交谈",
+      "title": "香山论坛多国防长代表与董军握手交谈",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 3307425,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "平陆运河改变了什么": {
+      "key": "平陆运河改变了什么",
+      "title": "平陆运河改变了什么",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 3125899,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "研究员台湾问题是不可逾越的红线": {
+      "key": "研究员台湾问题是不可逾越的红线",
+      "title": "研究员：台湾问题是不可逾越的红线",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 2828430,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "女演员心脏骤停康复5年后重新拍戏": {
+      "key": "女演员心脏骤停康复5年后重新拍戏",
+      "title": "女演员心脏骤停康复5年后重新拍戏",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 2559269,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "韩红基金会千万元捐赠落地青海玉树": {
+      "key": "韩红基金会千万元捐赠落地青海玉树",
+      "title": "韩红基金会千万元捐赠落地青海玉树",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 2315723,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "举手式睡姿是身体在求救": {
+      "key": "举手式睡姿是身体在求救",
+      "title": "举手式睡姿是身体在求救",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 2292444,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "32万岚图新车十天频发故障": {
+      "key": "32万岚图新车十天频发故障",
+      "title": "32万岚图新车十天频发故障",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 2095353,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "奢华限量版iphone18pro售51万起": {
+      "key": "奢华限量版iphone18pro售51万起",
+      "title": "奢华限量版iPhone 18 Pro售5.1万起",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 1715529,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "吴艳妮即将出征名古屋亚运会": {
+      "key": "吴艳妮即将出征名古屋亚运会",
+      "title": "吴艳妮即将出征名古屋亚运会",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 1270895,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "vogue肖战十月刊封面": {
+      "key": "vogue肖战十月刊封面",
+      "title": "VOGUE肖战十月刊封面",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 1138561,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "多举措发力推动经济持续向好": {
+      "key": "多举措发力推动经济持续向好",
+      "title": "多举措发力推动经济持续向好",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 963627,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "oppo系统coloros17发布": {
+      "key": "oppo系统coloros17发布",
+      "title": "OPPO系统ColorOS17发布",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 959755,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "芒果一口气推出89部大剧": {
+      "key": "芒果一口气推出89部大剧",
+      "title": "芒果一口气推出89部大剧",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 953162,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "沙特为何对输油管道遭袭保持隐忍": {
+      "key": "沙特为何对输油管道遭袭保持隐忍",
+      "title": "沙特为何对输油管道遭袭保持隐忍",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 851906,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "长海警方出警守护斑海豹娜娜": {
+      "key": "长海警方出警守护斑海豹娜娜",
+      "title": "长海警方出警守护斑海豹“娜娜”",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 770837,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "影视飓风tim反掰iphoneduo被质疑": {
+      "key": "影视飓风tim反掰iphoneduo被质疑",
+      "title": "影视飓风Tim反掰iPhoneDuo被质疑",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 712140,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "孙颖莎被困机场期间锻炼身体": {
+      "key": "孙颖莎被困机场期间锻炼身体",
+      "title": "孙颖莎被困机场期间锻炼身体",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 695834,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "豆包手机正式发售": {
+      "key": "豆包手机正式发售",
+      "title": "“豆包手机”正式发售",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 631108,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国u20女足无缘世界杯八强": {
+      "key": "中国u20女足无缘世界杯八强",
+      "title": "中国U20女足无缘世界杯八强",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 571050,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "国乒女队力争包揽男队面临挑战": {
+      "key": "国乒女队力争包揽男队面临挑战",
+      "title": "国乒女队力争包揽 男队面临挑战",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 516707,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "侵华日军暴行视频证据": {
+      "key": "侵华日军暴行视频证据",
+      "title": "侵华日军暴行视频证据",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 504614,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "假警察收礼14万捞人受害人也是骗子": {
+      "key": "假警察收礼14万捞人受害人也是骗子",
+      "title": "假警察收礼14万捞人 受害人也是骗子",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 423044,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "tim吐槽iphoneduo录视频发热严重": {
+      "key": "tim吐槽iphoneduo录视频发热严重",
+      "title": "tim吐槽iPhoneDuo录视频发热严重",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 403135,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "女子20年后发视频感谢当年捐助人": {
+      "key": "女子20年后发视频感谢当年捐助人",
+      "title": "女子20年后发视频感谢当年捐助人",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 382786,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "谭松韵打破了女主遇事硬扛的套路": {
+      "key": "谭松韵打破了女主遇事硬扛的套路",
+      "title": "谭松韵打破了女主遇事硬扛的套路",
+      "firstSeenAt": "2026-09-17 10:26",
+      "lastSeenAt": "2026-09-17 10:26",
+      "seenCount": 1,
+      "lastScore": 381088,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-09-16 21:52",
+  "lastUpdatedAt": "2026-09-17 10:26",
   "stats": {
-    "new": 68,
-    "continued": 12,
-    "dropped": 137
+    "new": 65,
+    "continued": 15,
+    "dropped": 203
   }
 }

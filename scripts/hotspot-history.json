@@ -1,5 +1,17 @@
 {
   "topics": {
+    "918": {
+      "key": "918",
+      "title": "918",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 5944979,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
     "中共中央办公厅国务院办公厅关于加强新就业群体服务管理的意见": {
       "key": "中共中央办公厅国务院办公厅关于加强新就业群体服务管理的意见",
       "title": "中共中央办公厅 国务院办公厅关于加强新就业群体服务管理的意见",
@@ -36982,8 +36994,8 @@
       "key": "国务院关于印发实施就业优先战略十五五规划的通知",
       "title": "国务院关于印发《实施就业优先战略“十五五”规划》的通知",
       "firstSeenAt": "2026-06-17 21:01",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 335,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 336,
       "lastScore": 56200000,
       "platforms": [
         "中国政府网"
@@ -69889,8 +69901,8 @@
       "key": "退役军人就业创业促进条例",
       "title": "退役军人就业创业促进条例",
       "firstSeenAt": "2026-06-30 19:38",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 290,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 291,
       "lastScore": 38650000,
       "platforms": [
         "中国政府网"
@@ -105563,8 +105575,8 @@
       "key": "国务院关于扩大消费十五五规划的批复",
       "title": "国务院关于《扩大消费“十五五”规划》的批复",
       "firstSeenAt": "2026-07-13 19:51",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 239,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 240,
       "lastScore": 56200000,
       "platforms": [
         "中国政府网"
@@ -208274,8 +208286,8 @@
       "key": "国务院关于修改住房公积金管理条例的决定",
       "title": "国务院关于修改《住房公积金管理条例》的决定",
       "firstSeenAt": "2026-08-18 17:21",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 97,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 98,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -265183,9 +265195,9 @@
       "key": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "title": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "firstSeenAt": "2026-09-10 21:12",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 22,
-      "lastScore": 56550000,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 23,
+      "lastScore": 56450000,
       "platforms": [
         "中国政府网"
       ],
@@ -281241,9 +281253,9 @@
       "key": "机顶盒将成为历史",
       "title": "机顶盒将成为历史",
       "firstSeenAt": "2026-09-17 16:09",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 2,
-      "lastScore": 20469126,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 3,
+      "lastScore": 1807009,
       "platforms": [
         "百度",
         "今日头条"
@@ -282085,13 +282097,14 @@
       "key": "中医暂不纳入首批医保医疗服务目录",
       "title": "中医暂不纳入首批医保医疗服务目录",
       "firstSeenAt": "2026-09-17 21:56",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 1,
-      "lastScore": 33747884,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 2,
+      "lastScore": 4749755,
       "platforms": [
-        "今日头条"
+        "今日头条",
+        "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "猪景房8888元一晚还送一头猪": {
       "key": "猪景房8888元一晚还送一头猪",
@@ -282109,13 +282122,13 @@
       "key": "小孩哥手搓语文书太有才了",
       "title": "小孩哥手搓语文书太有才了",
       "firstSeenAt": "2026-09-17 21:56",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 1,
-      "lastScore": 25001047,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 2,
+      "lastScore": 1211274,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "管家转卖退休副省长家酒水获刑": {
       "key": "管家转卖退休副省长家酒水获刑",
@@ -282181,25 +282194,25 @@
       "key": "于东来建议给家人花钱不超3成收入",
       "title": "于东来建议给家人花钱不超3成收入",
       "firstSeenAt": "2026-09-17 21:56",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 1,
-      "lastScore": 8322125,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 2,
+      "lastScore": 24329104,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "女孩为照顾弟弟错失保研被骂扶弟魔": {
       "key": "女孩为照顾弟弟错失保研被骂扶弟魔",
       "title": "女孩为照顾弟弟错失保研被骂扶弟魔",
       "firstSeenAt": "2026-09-17 21:56",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 1,
-      "lastScore": 5042638,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 2,
+      "lastScore": 3505211,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "外卖员向餐食吐口水摆拍案细节披露": {
       "key": "外卖员向餐食吐口水摆拍案细节披露",
@@ -282301,25 +282314,25 @@
       "key": "全款买房的人越来越多了",
       "title": "全款买房的人越来越多了",
       "firstSeenAt": "2026-09-17 21:56",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 1,
-      "lastScore": 7808466,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 2,
+      "lastScore": 4447097,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "夏粮旺季收购基本结束": {
       "key": "夏粮旺季收购基本结束",
       "title": "夏粮旺季收购基本结束",
       "firstSeenAt": "2026-09-17 21:56",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 1,
-      "lastScore": 7616325,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 2,
+      "lastScore": 7619338,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "持续上榜"
     },
     "中方敦促波兰停止为非法裁决站台": {
       "key": "中方敦促波兰停止为非法裁决站台",
@@ -282385,13 +282398,13 @@
       "key": "网传外卖员向餐食吐口水系摆拍",
       "title": "网传“外卖员向餐食吐口水”系摆拍",
       "firstSeenAt": "2026-09-17 21:56",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 1,
-      "lastScore": 6852497,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 2,
+      "lastScore": 6852016,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "持续上榜"
     },
     "56岁保安遭业主拳击头部后死亡": {
       "key": "56岁保安遭业主拳击头部后死亡",
@@ -282529,13 +282542,13 @@
       "key": "楼市进入二手房时代",
       "title": "楼市进入“二手房时代”",
       "firstSeenAt": "2026-09-17 21:56",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 1,
-      "lastScore": 5427239,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 2,
+      "lastScore": 7233984,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "苹果三星谷歌被查": {
       "key": "苹果三星谷歌被查",
@@ -282565,13 +282578,13 @@
       "key": "婚服299元婚车自家车极简婚礼火了",
       "title": "婚服29.9元婚车自家车 极简婚礼火了",
       "firstSeenAt": "2026-09-17 21:56",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 1,
-      "lastScore": 5144506,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 2,
+      "lastScore": 6175535,
       "platforms": [
         "百度"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "榴莲配酒堪比头孢配酒": {
       "key": "榴莲配酒堪比头孢配酒",
@@ -282830,13 +282843,13 @@
       "key": "第23届东博会峰会",
       "title": "第23届东博会峰会",
       "firstSeenAt": "2026-09-17 21:56",
-      "lastSeenAt": "2026-09-17 21:56",
-      "seenCount": 1,
-      "lastScore": 916395,
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 2,
+      "lastScore": 1111903,
       "platforms": [
         "微博"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "小鹏g9l今晚上市": {
       "key": "小鹏g9l今晚上市",
@@ -282885,12 +282898,773 @@
         "微博"
       ],
       "lifecycle": "新增"
+    },
+    "九一八事变爆发95周年": {
+      "key": "九一八事变爆发95周年",
+      "title": "九一八事变爆发95周年",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 56705026,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "宁德时代正在经历至暗时刻": {
+      "key": "宁德时代正在经历至暗时刻",
+      "title": "宁德时代正在经历至暗时刻",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 44330518,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子碾轧民警被核准死刑": {
+      "key": "男子碾轧民警被核准死刑",
+      "title": "男子碾轧民警被核准死刑",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 40362661,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "见证勿忘九一八撞钟鸣警仪式": {
+      "key": "见证勿忘九一八撞钟鸣警仪式",
+      "title": "见证“勿忘九一八”撞钟鸣警仪式",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 36294758,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "亚运会半决赛中国男篮对阵日本": {
+      "key": "亚运会半决赛中国男篮对阵日本",
+      "title": "亚运会半决赛中国男篮对阵日本",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 29715635,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "韩国54万青年陷入孤立隐居": {
+      "key": "韩国54万青年陷入孤立隐居",
+      "title": "韩国54万青年陷入孤立隐居",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 4659567,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "沈阳全城点亮大屏缅怀先烈": {
+      "key": "沈阳全城点亮大屏缅怀先烈",
+      "title": "沈阳全城点亮大屏缅怀先烈",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 26887818,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "68受访物理学家质疑时间始于大爆炸": {
+      "key": "68受访物理学家质疑时间始于大爆炸",
+      "title": "68%受访物理学家质疑时间始于大爆炸",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 22013883,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "我们为何依然要拉响防空警报": {
+      "key": "我们为何依然要拉响防空警报",
+      "title": "我们为何依然要拉响防空警报",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 19918985,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "警方破获特大明星行程黑产": {
+      "key": "警方破获特大明星行程黑产",
+      "title": "警方破获特大明星行程黑产",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 18023443,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "英特尔市值一夜暴涨2729亿元": {
+      "key": "英特尔市值一夜暴涨2729亿元",
+      "title": "英特尔市值一夜暴涨2729亿元",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 5698292,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "公安机关依法打击涉党史谣言": {
+      "key": "公安机关依法打击涉党史谣言",
+      "title": "公安机关依法打击涉党史谣言",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 16308286,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "勿忘九一八历史不容虚无": {
+      "key": "勿忘九一八历史不容虚无",
+      "title": "勿忘“九一八”：历史不容虚无",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 14756347,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "上门女婿创业翻身改儿子姓氏起争议": {
+      "key": "上门女婿创业翻身改儿子姓氏起争议",
+      "title": "上门女婿创业翻身改儿子姓氏起争议",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 7374470,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "母女扔掉装存单黄金床头柜民警帮找回": {
+      "key": "母女扔掉装存单黄金床头柜民警帮找回",
+      "title": "母女扔掉装存单黄金床头柜 民警帮找回",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 13352095,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "十一高铁票涨价": {
+      "key": "十一高铁票涨价",
+      "title": "十一 高铁票涨价",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 6952018,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "管家转卖退休副省长家名酒获利243万": {
+      "key": "管家转卖退休副省长家名酒获利243万",
+      "title": "管家转卖退休副省长家名酒获利243万",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 212897,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "业内人士称iphoneduo维修费8000元": {
+      "key": "业内人士称iphoneduo维修费8000元",
+      "title": "业内人士称iPhone Duo维修费8000元",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 12081475,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "坠亡幼童母亲称丈夫直到买墓地才悲伤": {
+      "key": "坠亡幼童母亲称丈夫直到买墓地才悲伤",
+      "title": "坠亡幼童母亲称丈夫直到买墓地才悲伤",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 3608003,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "马来西亚女子昆明认出外公照片": {
+      "key": "马来西亚女子昆明认出外公照片",
+      "title": "马来西亚女子昆明认出外公照片",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 8305090,
+      "platforms": [
+        "今日头条",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "iphoneduo维修费8000": {
+      "key": "iphoneduo维修费8000",
+      "title": "iPhoneDuo维修费8000",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 8060270,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "统派中国人不打中国人台独例外": {
+      "key": "统派中国人不打中国人台独例外",
+      "title": "统派：中国人不打中国人“台独”例外",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 8950177,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "永和豆浆视频被指擦边": {
+      "key": "永和豆浆视频被指擦边",
+      "title": "永和豆浆视频被指擦边",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 7427403,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "川籍小红军为救人倒在会师前夜": {
+      "key": "川籍小红军为救人倒在会师前夜",
+      "title": "川籍小红军为救人倒在会师前夜",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 7327785,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "新疆阿勒泰34万余只羊排队洗香香": {
+      "key": "新疆阿勒泰34万余只羊排队洗香香",
+      "title": "新疆阿勒泰34万余只羊排队洗香香",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 7327533,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "宁德时代至暗时刻": {
+      "key": "宁德时代至暗时刻",
+      "title": "宁德时代 至暗时刻",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 7044738,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "直击iphone18pro首销门店排长队": {
+      "key": "直击iphone18pro首销门店排长队",
+      "title": "直击iPhone 18 Pro首销：门店排长队",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 6757592,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国和俄罗斯投下反对票": {
+      "key": "中国和俄罗斯投下反对票",
+      "title": "中国和俄罗斯投下反对票",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 6658807,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "胡歌直言做综艺压力很大": {
+      "key": "胡歌直言做综艺压力很大",
+      "title": "胡歌直言做综艺压力很大",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 6630454,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "前人欠债凭啥我还市委书记错在哪": {
+      "key": "前人欠债凭啥我还市委书记错在哪",
+      "title": "前人欠债凭啥我还？市委书记错在哪",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 6561321,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "国产大飞机c929有新进展": {
+      "key": "国产大飞机c929有新进展",
+      "title": "国产大飞机C929有新进展",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 6381625,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "国产榴莲大丰收": {
+      "key": "国产榴莲大丰收",
+      "title": "国产榴莲大丰收",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 6287174,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "沈阳市9时18分全城鸣响防空警报": {
+      "key": "沈阳市9时18分全城鸣响防空警报",
+      "title": "沈阳市9时18分全城鸣响防空警报",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 6087962,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "美中期选举砸钱榜单曝光": {
+      "key": "美中期选举砸钱榜单曝光",
+      "title": "美中期选举“砸钱榜单”曝光",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 5999483,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "苹果最贵手机还没开售就翻车了吗": {
+      "key": "苹果最贵手机还没开售就翻车了吗",
+      "title": "苹果最贵手机还没开售就翻车了吗",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 5906975,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "女子花20万做面部线雕后头痛欲裂": {
+      "key": "女子花20万做面部线雕后头痛欲裂",
+      "title": "女子花20万做面部线雕后头痛欲裂",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 5609690,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "曼德海峡附近激战制高点几度易手": {
+      "key": "曼德海峡附近激战制高点几度易手",
+      "title": "曼德海峡附近激战 制高点几度易手",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 5503631,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "中方反对在安理会强推恢复对伊制裁": {
+      "key": "中方反对在安理会强推恢复对伊制裁",
+      "title": "中方反对在安理会强推恢复对伊制裁",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 5428556,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "9999元起iphone18pro系列开卖": {
+      "key": "9999元起iphone18pro系列开卖",
+      "title": "9999元起！iPhone 18 Pro系列开卖",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 5412136,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "一张领尸证背后的血泪与信仰": {
+      "key": "一张领尸证背后的血泪与信仰",
+      "title": "一张领尸证背后的血泪与信仰",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 5335524,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "今日亚运会半决赛中国男篮对阵日本": {
+      "key": "今日亚运会半决赛中国男篮对阵日本",
+      "title": "今日亚运会半决赛中国男篮对阵日本",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 5043499,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "马来西亚女子昆明街头认出外公照片": {
+      "key": "马来西亚女子昆明街头认出外公照片",
+      "title": "马来西亚女子昆明街头认出外公照片",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 4933744,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "齐鲁好儿女踏上奔赴军营的列车": {
+      "key": "齐鲁好儿女踏上奔赴军营的列车",
+      "title": "齐鲁好儿女踏上奔赴军营的列车",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 4911961,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "勿忘九一八撞钟鸣警仪式在沈阳举行": {
+      "key": "勿忘九一八撞钟鸣警仪式在沈阳举行",
+      "title": "勿忘九一八撞钟鸣警仪式在沈阳举行",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 4841037,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "打不掉的高校考试作弊群": {
+      "key": "打不掉的高校考试作弊群",
+      "title": "打不掉的高校考试作弊群",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 4561969,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "桂林铁匠救下红军两家情谊延续至今": {
+      "key": "桂林铁匠救下红军两家情谊延续至今",
+      "title": "桂林铁匠救下红军 两家情谊延续至今",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 4444526,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "阿勒泰现不明发光飞行物摄影师回应": {
+      "key": "阿勒泰现不明发光飞行物摄影师回应",
+      "title": "阿勒泰现不明发光飞行物？摄影师回应",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 4257009,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "黄仁勋明年英伟达芯片销量将翻倍": {
+      "key": "黄仁勋明年英伟达芯片销量将翻倍",
+      "title": "黄仁勋：明年英伟达芯片销量将翻倍",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 4178804,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "广东惠州公安查获42公斤散装柴油": {
+      "key": "广东惠州公安查获42公斤散装柴油",
+      "title": "广东惠州公安查获42公斤散装柴油",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 4021573,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "警惕外卖来电泄露门牌号": {
+      "key": "警惕外卖来电泄露门牌号",
+      "title": "警惕外卖来电泄露门牌号",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 3973570,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "喝水这件小事里藏着哪些健康大事": {
+      "key": "喝水这件小事里藏着哪些健康大事",
+      "title": "喝水这件小事里藏着哪些健康大事",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 3810808,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "年轻人都觉得台湾没有未来": {
+      "key": "年轻人都觉得台湾没有未来",
+      "title": "“年轻人都觉得台湾没有未来”",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 3215211,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "全军各部队开展多形式活动缅怀先烈": {
+      "key": "全军各部队开展多形式活动缅怀先烈",
+      "title": "全军各部队开展多形式活动缅怀先烈",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 2979255,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子标记沉陷井盖被城管要求清除": {
+      "key": "男子标记沉陷井盖被城管要求清除",
+      "title": "男子标记沉陷井盖被城管要求清除",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 2439207,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "专家九一八的历史启示跨越国界": {
+      "key": "专家九一八的历史启示跨越国界",
+      "title": "专家：“九一八”的历史启示跨越国界",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 2207086,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "姆巴佩在巴黎最后一年确实很难": {
+      "key": "姆巴佩在巴黎最后一年确实很难",
+      "title": "姆巴佩：在巴黎最后一年确实很难",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 1997054,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "美联储加息25个基点释放什么信号": {
+      "key": "美联储加息25个基点释放什么信号",
+      "title": "美联储加息25个基点释放什么信号",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 1479454,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "白举纲在敦煌举行婚礼": {
+      "key": "白举纲在敦煌举行婚礼",
+      "title": "白举纲在敦煌举行婚礼",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 1338665,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "博主乌军无人机攻势落败": {
+      "key": "博主乌军无人机攻势落败",
+      "title": "博主：乌军无人机攻势落败",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 991707,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "918鸣笛": {
+      "key": "918鸣笛",
+      "title": "918鸣笛",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 945403,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "国安部披露ai抱团劫持网站": {
+      "key": "国安部披露ai抱团劫持网站",
+      "title": "国安部披露AI抱团“劫持”网站",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 897334,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "安洗莹距王莲香46冠纪录一步之遥": {
+      "key": "安洗莹距王莲香46冠纪录一步之遥",
+      "title": "安洗莹距王莲香46冠纪录一步之遥",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 811941,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "上1休1上5休3": {
+      "key": "上1休1上5休3",
+      "title": "上1休1上5休3",
+      "firstSeenAt": "2026-09-18 10:12",
+      "lastSeenAt": "2026-09-18 10:12",
+      "seenCount": 1,
+      "lastScore": 737685,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-09-17 21:56",
+  "lastUpdatedAt": "2026-09-18 10:12",
   "stats": {
-    "new": 67,
-    "continued": 13,
-    "dropped": 138
+    "new": 64,
+    "continued": 16,
+    "dropped": 202
   }
 }

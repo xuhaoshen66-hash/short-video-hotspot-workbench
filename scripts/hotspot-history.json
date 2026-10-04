@@ -105577,8 +105577,8 @@
       "key": "国务院关于扩大消费十五五规划的批复",
       "title": "国务院关于《扩大消费“十五五”规划》的批复",
       "firstSeenAt": "2026-07-13 19:51",
-      "lastSeenAt": "2026-10-04 11:25",
-      "seenCount": 284,
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 285,
       "lastScore": 56200000,
       "platforms": [
         "中国政府网"
@@ -208288,8 +208288,8 @@
       "key": "国务院关于修改住房公积金管理条例的决定",
       "title": "国务院关于修改《住房公积金管理条例》的决定",
       "firstSeenAt": "2026-08-18 17:21",
-      "lastSeenAt": "2026-10-04 11:25",
-      "seenCount": 142,
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 143,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -265197,8 +265197,8 @@
       "key": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "title": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "firstSeenAt": "2026-09-10 21:12",
-      "lastSeenAt": "2026-10-04 11:25",
-      "seenCount": 67,
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 68,
       "lastScore": 54850000,
       "platforms": [
         "中国政府网"
@@ -284446,8 +284446,8 @@
       "key": "国务院办公厅转发文化和旅游部等部门关于促进房车消费的若干措施的通知",
       "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
       "firstSeenAt": "2026-09-18 21:15",
-      "lastSeenAt": "2026-10-04 11:25",
-      "seenCount": 27,
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 28,
       "lastScore": 54350000,
       "platforms": [
         "中国政府网"
@@ -309246,8 +309246,8 @@
       "key": "国务院关于医疗康复护理扩容提升工程实施方案的批复",
       "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "firstSeenAt": "2026-09-29 23:13",
-      "lastSeenAt": "2026-10-04 11:25",
-      "seenCount": 11,
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 12,
       "lastScore": 47650000,
       "platforms": [
         "中国政府网"
@@ -310846,8 +310846,8 @@
       "key": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "firstSeenAt": "2026-09-30 23:27",
-      "lastSeenAt": "2026-10-04 11:25",
-      "seenCount": 9,
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 10,
       "lastScore": 55550000,
       "platforms": [
         "中国政府网"
@@ -317323,14 +317323,14 @@
       "key": "男足亚运摘铜登上新闻联播",
       "title": "男足亚运摘铜登上《新闻联播》",
       "firstSeenAt": "2026-10-04 11:25",
-      "lastSeenAt": "2026-10-04 11:25",
-      "seenCount": 1,
-      "lastScore": 32721956,
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 2,
+      "lastScore": 3719328,
       "platforms": [
         "百度",
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "补贴贴息激发假日消费活力": {
       "key": "补贴贴息激发假日消费活力",
@@ -317433,15 +317433,15 @@
       "key": "苹果将为受影响用户免费更换新机",
       "title": "苹果将为受影响用户免费更换新机",
       "firstSeenAt": "2026-10-04 11:25",
-      "lastSeenAt": "2026-10-04 11:25",
-      "seenCount": 1,
-      "lastScore": 12394741,
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 2,
+      "lastScore": 2041210,
       "platforms": [
         "百度",
         "今日头条",
         "微博"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "于子迪成为亚运史上最年轻mvp": {
       "key": "于子迪成为亚运史上最年轻mvp",
@@ -317543,13 +317543,14 @@
       "key": "张玉宁在赛后冲突中被掐脖子",
       "title": "张玉宁在赛后冲突中被掐脖子",
       "firstSeenAt": "2026-10-04 11:25",
-      "lastSeenAt": "2026-10-04 11:25",
-      "seenCount": 1,
-      "lastScore": 7425507,
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 2,
+      "lastScore": 1238056,
       "platforms": [
-        "百度"
+        "百度",
+        "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "13岁于子迪当选亚运女子mvp": {
       "key": "13岁于子迪当选亚运女子mvp",
@@ -318078,12 +318079,870 @@
         "微博"
       ],
       "lifecycle": "新增"
+    },
+    "中国人民银行公开征求意见": {
+      "key": "中国人民银行公开征求意见",
+      "title": "中国人民银行公开征求意见",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 6660967,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "ai回答得太快居然也是个bug": {
+      "key": "ai回答得太快居然也是个bug",
+      "title": "AI回答得太快 居然也是个“bug”",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 4097839,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "官方通报阿尔山景区200一晚酒店": {
+      "key": "官方通报阿尔山景区200一晚酒店",
+      "title": "官方通报“阿尔山景区200一晚酒店”",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 4573310,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "耐克为何失宠": {
+      "key": "耐克为何失宠",
+      "title": "耐克为何“失宠”",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 5230847,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "国庆景区热度前10被小城包揽": {
+      "key": "国庆景区热度前10被小城包揽",
+      "title": "国庆景区热度前10被小城包揽",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 15796522,
+      "platforms": [
+        "今日头条",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "多人练闪身步进医院": {
+      "key": "多人练闪身步进医院",
+      "title": "多人练“闪身步”进医院",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 6777058,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "河南万岁山只见人不见山": {
+      "key": "河南万岁山只见人不见山",
+      "title": "河南万岁山只见人不见“山”",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 15323888,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "网上叫救援700元差点打水漂": {
+      "key": "网上叫救援700元差点打水漂",
+      "title": "网上叫救援 700元差点打水漂",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 3889604,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "台当局危险驱离大陆渔船致船只受损": {
+      "key": "台当局危险驱离大陆渔船致船只受损",
+      "title": "台当局危险驱离大陆渔船致船只受损",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 13647319,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "全国客流持续高位运行": {
+      "key": "全国客流持续高位运行",
+      "title": "全国客流持续高位运行",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 7618110,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "美债5高利率为何没砸动美股": {
+      "key": "美债5高利率为何没砸动美股",
+      "title": "美债5%高利率为何没砸动美股",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 1368264,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "有娃后消费观突然就变了": {
+      "key": "有娃后消费观突然就变了",
+      "title": "有娃后消费观突然就变了",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 212636,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "张本美和说通过休息调整状态": {
+      "key": "张本美和说通过休息调整状态",
+      "title": "张本美和说通过休息调整状态",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 11173480,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国体育代表团蝉联金牌榜榜首": {
+      "key": "中国体育代表团蝉联金牌榜榜首",
+      "title": "中国体育代表团蝉联金牌榜榜首",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 10110183,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "高知家庭养出营养不良娃": {
+      "key": "高知家庭养出营养不良娃",
+      "title": "高知家庭养出营养不良娃",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 289145,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "粤j2888t来老君山了": {
+      "key": "粤j2888t来老君山了",
+      "title": "粤J2888T来老君山了",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 9148072,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "小孩哥在花坛发现2枚恐龙蛋化石": {
+      "key": "小孩哥在花坛发现2枚恐龙蛋化石",
+      "title": "小孩哥在花坛发现2枚恐龙蛋化石",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 7885311,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "西安肉夹馍师傅已忙到3秒夹一个": {
+      "key": "西安肉夹馍师傅已忙到3秒夹一个",
+      "title": "西安肉夹馍师傅已忙到3秒夹一个",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 7712614,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "星巴克化身星巴扎扎了谁的心": {
+      "key": "星巴克化身星巴扎扎了谁的心",
+      "title": "星巴克化身星巴扎扎了谁的心",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 6399194,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国代表团超23运动员首次征战亚运": {
+      "key": "中国代表团超23运动员首次征战亚运",
+      "title": "中国代表团超2/3运动员首次征战亚运",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 7489808,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "日本197人专案组连夜抓捕驻日美士兵": {
+      "key": "日本197人专案组连夜抓捕驻日美士兵",
+      "title": "日本197人专案组连夜抓捕驻日美士兵",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 7135585,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "闫妮回应微醺人设": {
+      "key": "闫妮回应微醺人设",
+      "title": "闫妮回应“微醺”人设",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 5788633,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "亚运银牌回家也得掰苞米": {
+      "key": "亚运银牌回家也得掰苞米",
+      "title": "亚运银牌 回家也得掰苞米",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 6945864,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "国庆出行警惕票务诈骗陷阱": {
+      "key": "国庆出行警惕票务诈骗陷阱",
+      "title": "国庆出行警惕票务诈骗陷阱",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 6851231,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "全世界都在找中国游客拍照": {
+      "key": "全世界都在找中国游客拍照",
+      "title": "全世界都在找中国游客拍照",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 6753891,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "菜市场成了年轻人旅游打卡地": {
+      "key": "菜市场成了年轻人旅游打卡地",
+      "title": "菜市场成了年轻人旅游打卡地",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 6569821,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "江苏高速临时开放500公里应急车道": {
+      "key": "江苏高速临时开放500公里应急车道",
+      "title": "江苏高速临时开放500公里应急车道",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 6473374,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "没人住的老房子为什么老的快": {
+      "key": "没人住的老房子为什么老的快",
+      "title": "没人住的老房子 为什么老的快",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 6369041,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "女子报冰岛外国团除了导游全是中国人": {
+      "key": "女子报冰岛外国团除了导游全是中国人",
+      "title": "女子报冰岛外国团除了导游全是中国人",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 6132136,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "宁波花岙岛滩涂被质疑圈占收费赶海": {
+      "key": "宁波花岙岛滩涂被质疑圈占收费赶海",
+      "title": "宁波花岙岛滩涂被质疑圈占收费赶海",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 112313,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "重庆市高院检察院公安局联合通告": {
+      "key": "重庆市高院检察院公安局联合通告",
+      "title": "重庆市高院、检察院、公安局联合通告",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 6097796,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "民进党危险驱离大陆渔船媒体发声": {
+      "key": "民进党危险驱离大陆渔船媒体发声",
+      "title": "民进党危险驱离大陆渔船 媒体发声",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 5900906,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "两个孩子创作的这首歌中国人都会唱": {
+      "key": "两个孩子创作的这首歌中国人都会唱",
+      "title": "两个孩子创作的这首歌 中国人都会唱",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 5810861,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "第20届亚运会完整奖牌榜": {
+      "key": "第20届亚运会完整奖牌榜",
+      "title": "第20届亚运会完整奖牌榜",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 5699077,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "宇宙第一大站最短发车间隔40秒": {
+      "key": "宇宙第一大站最短发车间隔40秒",
+      "title": "“宇宙第一大站”最短发车间隔40秒",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 5599133,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "国庆出行购票藏骗局警惕诈骗陷阱": {
+      "key": "国庆出行购票藏骗局警惕诈骗陷阱",
+      "title": "国庆出行购票藏骗局？警惕诈骗陷阱",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 5548586,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "国庆前3天高速新能源车充电近300万次": {
+      "key": "国庆前3天高速新能源车充电近300万次",
+      "title": "国庆前3天高速新能源车充电近300万次",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 4338648,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "永州站手动翻牌火了一朝手搓天下知": {
+      "key": "永州站手动翻牌火了一朝手搓天下知",
+      "title": "永州站手动翻牌火了：一朝手搓天下知",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 5526372,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "莫氏鸡煲国庆又火了全家都来帮忙": {
+      "key": "莫氏鸡煲国庆又火了全家都来帮忙",
+      "title": "莫氏鸡煲国庆又火了 全家都来帮忙",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 5132703,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "韩乔生谈王楚钦登海报有啥争议的": {
+      "key": "韩乔生谈王楚钦登海报有啥争议的",
+      "title": "韩乔生谈王楚钦登海报：有啥争议的",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 5020568,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "济南变挤南成都变成堵": {
+      "key": "济南变挤南成都变成堵",
+      "title": "济南变“挤”南 成都变成“堵”",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 4858159,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "央视迎来新主播": {
+      "key": "央视迎来新主播",
+      "title": "央视迎来新主播",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 4743686,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "百慕大飞波士顿失联飞机残骸已找到": {
+      "key": "百慕大飞波士顿失联飞机残骸已找到",
+      "title": "百慕大飞波士顿失联飞机残骸已找到",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 4542798,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "珠峰堵人不会在国庆假期": {
+      "key": "珠峰堵人不会在国庆假期",
+      "title": "珠峰堵人不会在国庆假期",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 4458283,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "一级市场风向变了": {
+      "key": "一级市场风向变了",
+      "title": "一级市场风向变了",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 4355045,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "雷军一口气刷完7期民间拆车视频": {
+      "key": "雷军一口气刷完7期民间拆车视频",
+      "title": "雷军一口气刷完7期民间拆车视频",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 4257986,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国人开始放心开电车跑长途了吗": {
+      "key": "中国人开始放心开电车跑长途了吗",
+      "title": "中国人开始放心开电车跑长途了吗",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 4110493,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "广西涠洲岛海域出现三龙吸水奇观": {
+      "key": "广西涠洲岛海域出现三龙吸水奇观",
+      "title": "广西涠洲岛海域出现“三龙吸水”奇观",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 3995866,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "动物园老虎晒太阳被传死亡": {
+      "key": "动物园老虎晒太阳被传死亡",
+      "title": "动物园老虎晒太阳被传死亡",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 3813527,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "柬埔寨捣毁电诈窝点头目为泰国人": {
+      "key": "柬埔寨捣毁电诈窝点头目为泰国人",
+      "title": "柬埔寨捣毁电诈窝点 头目为泰国人",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 3617863,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "中网女单一二号种子均已出局": {
+      "key": "中网女单一二号种子均已出局",
+      "title": "中网女单一二号种子均已出局",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 3401213,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "俄前总理西方最大错误就是太怕普京": {
+      "key": "俄前总理西方最大错误就是太怕普京",
+      "title": "俄前总理：西方最大错误就是太怕普京",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 3365387,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "饭后腹痛难忍可能是它在求救": {
+      "key": "饭后腹痛难忍可能是它在求救",
+      "title": "饭后腹痛难忍？可能是它在求救",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 3306003,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "鸠山由纪夫应该让驻日美军撤走": {
+      "key": "鸠山由纪夫应该让驻日美军撤走",
+      "title": "鸠山由纪夫：应该让驻日美军撤走",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 3145098,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "交警上高速指挥守护假期出行顺畅": {
+      "key": "交警上高速指挥守护假期出行顺畅",
+      "title": "交警上高速指挥守护假期出行顺畅",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 3045128,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "高市早苗强烈要求美方配合调查": {
+      "key": "高市早苗强烈要求美方配合调查",
+      "title": "高市早苗强烈要求美方配合调查",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 2755346,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "第20届亚运会闭幕": {
+      "key": "第20届亚运会闭幕",
+      "title": "第20届亚运会闭幕",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 2255886,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "怎么看俄军重型无人坦克演习中陷坑": {
+      "key": "怎么看俄军重型无人坦克演习中陷坑",
+      "title": "怎么看俄军重型无人坦克演习中陷坑",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 1846963,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "北京热门地标持续火": {
+      "key": "北京热门地标持续火",
+      "title": "北京热门地标持续火",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 1671202,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "王艺迪32险胜波尔卡诺娃": {
+      "key": "王艺迪32险胜波尔卡诺娃",
+      "title": "王艺迪3-2险胜波尔卡诺娃",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 1512166,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "终于明白火锅店不爱洗豆芽的原因了": {
+      "key": "终于明白火锅店不爱洗豆芽的原因了",
+      "title": "终于明白火锅店不爱洗豆芽的原因了",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 1140834,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "人大一校友捐资503亿元": {
+      "key": "人大一校友捐资503亿元",
+      "title": "人大一校友捐资5.03亿元",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 1013635,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "降压药服用有哪些常见误区": {
+      "key": "降压药服用有哪些常见误区",
+      "title": "降压药服用有哪些常见误区",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 917175,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "张家齐发了与妈妈合照": {
+      "key": "张家齐发了与妈妈合照",
+      "title": "张家齐发了与妈妈合照",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 846188,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "记住这些意气风发的中国健儿名字": {
+      "key": "记住这些意气风发的中国健儿名字",
+      "title": "记住这些意气风发的中国健儿名字",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 829894,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国正编织六张超级大网": {
+      "key": "中国正编织六张超级大网",
+      "title": "中国正编织六张超级大网",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 775976,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国游客听到china一呼百应": {
+      "key": "中国游客听到china一呼百应",
+      "title": "中国游客听到China一呼百应",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 750919,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "首尔大规模示威反对李在明": {
+      "key": "首尔大规模示威反对李在明",
+      "title": "首尔大规模示威反对李在明",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 713822,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "欧盟将禁强迫劳动商品": {
+      "key": "欧盟将禁强迫劳动商品",
+      "title": "欧盟将禁强迫劳动商品",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 713588,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "德约科维奇2比1兹维列夫": {
+      "key": "德约科维奇2比1兹维列夫",
+      "title": "德约科维奇2比1兹维列夫",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 713450,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "德约阻止兹维列夫冲击世界第一": {
+      "key": "德约阻止兹维列夫冲击世界第一",
+      "title": "德约阻止兹维列夫冲击世界第一",
+      "firstSeenAt": "2026-10-04 22:30",
+      "lastSeenAt": "2026-10-04 22:30",
+      "seenCount": 1,
+      "lastScore": 712955,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-10-04 11:25",
+  "lastUpdatedAt": "2026-10-04 22:30",
   "stats": {
-    "new": 64,
-    "continued": 16,
-    "dropped": 192
+    "new": 71,
+    "continued": 9,
+    "dropped": 71
   }
 }

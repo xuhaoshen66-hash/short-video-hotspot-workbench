@@ -208290,8 +208290,8 @@
       "key": "国务院关于修改住房公积金管理条例的决定",
       "title": "国务院关于修改《住房公积金管理条例》的决定",
       "firstSeenAt": "2026-08-18 17:21",
-      "lastSeenAt": "2026-11-09 11:41",
-      "seenCount": 229,
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 230,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -265199,8 +265199,8 @@
       "key": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "title": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "firstSeenAt": "2026-09-10 21:12",
-      "lastSeenAt": "2026-11-09 11:41",
-      "seenCount": 154,
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 155,
       "lastScore": 54250000,
       "platforms": [
         "中国政府网"
@@ -284448,8 +284448,8 @@
       "key": "国务院办公厅转发文化和旅游部等部门关于促进房车消费的若干措施的通知",
       "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
       "firstSeenAt": "2026-09-18 21:15",
-      "lastSeenAt": "2026-11-09 11:41",
-      "seenCount": 114,
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 115,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -309248,8 +309248,8 @@
       "key": "国务院关于医疗康复护理扩容提升工程实施方案的批复",
       "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "firstSeenAt": "2026-09-29 23:13",
-      "lastSeenAt": "2026-11-09 11:41",
-      "seenCount": 98,
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 99,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -310848,8 +310848,8 @@
       "key": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "firstSeenAt": "2026-09-30 23:27",
-      "lastSeenAt": "2026-11-09 11:41",
-      "seenCount": 96,
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 97,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -386597,15 +386597,16 @@
     },
     "许飞我作茧自缚": {
       "key": "许飞我作茧自缚",
-      "title": "许飞 我作茧自缚",
+      "title": "许飞：我作茧自缚",
       "firstSeenAt": "2026-11-08 23:39",
-      "lastSeenAt": "2026-11-08 23:39",
-      "seenCount": 1,
-      "lastScore": 479086,
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 2,
+      "lastScore": 10333659,
       "platforms": [
-        "微博"
+        "微博",
+        "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "英伟达超7600万元货物失踪专家解读": {
       "key": "英伟达超7600万元货物失踪专家解读",
@@ -387475,12 +387476,902 @@
         "微博"
       ],
       "lifecycle": "新增"
+    },
+    "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见": {
+      "key": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
+      "title": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 54150000,
+      "platforms": [
+        "中国政府网"
+      ],
+      "lifecycle": "新增"
+    },
+    "老人立遗嘱将6亿遗产留给再婚妻子": {
+      "key": "老人立遗嘱将6亿遗产留给再婚妻子",
+      "title": "老人立遗嘱将6亿遗产留给再婚妻子",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 103069801,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "英伟达巨额货物失踪哪些细节值得推敲": {
+      "key": "英伟达巨额货物失踪哪些细节值得推敲",
+      "title": "英伟达巨额货物失踪哪些细节值得推敲",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 93261413,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "油价预计将大幅下调": {
+      "key": "油价预计将大幅下调",
+      "title": "油价预计将大幅下调",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 76355987,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "山姆为何低价甩卖始祖鸟加拿大鹅": {
+      "key": "山姆为何低价甩卖始祖鸟加拿大鹅",
+      "title": "山姆为何低价甩卖始祖鸟加拿大鹅",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 69089754,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "猪肉又便宜了": {
+      "key": "猪肉又便宜了",
+      "title": "猪肉又便宜了",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 61879322,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "猪油被称心血管杀手冤不冤": {
+      "key": "猪油被称心血管杀手冤不冤",
+      "title": "猪油被称“心血管杀手”冤不冤",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 62514994,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中方回应外媒涉60万枚英伟达芯片报道": {
+      "key": "中方回应外媒涉60万枚英伟达芯片报道",
+      "title": "中方回应外媒涉60万枚英伟达芯片报道",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 51182948,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "大二女生称ai毁了她的计算机学位": {
+      "key": "大二女生称ai毁了她的计算机学位",
+      "title": "大二女生称AI毁了她的计算机学位",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 46312247,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "王健林再任万达商管董事长释放何信号": {
+      "key": "王健林再任万达商管董事长释放何信号",
+      "title": "王健林再任万达商管董事长释放何信号",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 41905054,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "6人餐消费51万饭店称小票系伪造": {
+      "key": "6人餐消费51万饭店称小票系伪造",
+      "title": "6人餐消费51万？饭店称小票系伪造",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 28089797,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中央网信办整治科普健康类网络谣言": {
+      "key": "中央网信办整治科普健康类网络谣言",
+      "title": "中央网信办整治科普健康类网络谣言",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 37917261,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "迪丽热巴爸爸20分钟卖了7000单苹果": {
+      "key": "迪丽热巴爸爸20分钟卖了7000单苹果",
+      "title": "迪丽热巴爸爸20分钟卖了7000单苹果",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 34371293,
+      "platforms": [
+        "今日头条",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "养老金要崩盘有压力会崩盘": {
+      "key": "养老金要崩盘有压力会崩盘",
+      "title": "养老金要崩盘？有压力≠会崩盘",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 7809057,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "零食店买烟优先结账": {
+      "key": "零食店买烟优先结账",
+      "title": "零食店买烟优先结账",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 4383239,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "攻击11无人机歼20的黄金搭档": {
+      "key": "攻击11无人机歼20的黄金搭档",
+      "title": "攻击-11无人机：歼20的黄金搭档",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 22997981,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "3元一包的泡面推出799元高端款": {
+      "key": "3元一包的泡面推出799元高端款",
+      "title": "3元一包的泡面推出79.9元高端款",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 3990670,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "菲外交部就涉华言论敲打防长": {
+      "key": "菲外交部就涉华言论敲打防长",
+      "title": "菲外交部就涉华言论敲打防长",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 18829154,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "谷雨收视播放多榜登顶": {
+      "key": "谷雨收视播放多榜登顶",
+      "title": "《谷雨》收视播放多榜登顶",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 17037323,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "几块钱一瓶的尿素霜火了医生提醒": {
+      "key": "几块钱一瓶的尿素霜火了医生提醒",
+      "title": "几块钱一瓶的尿素霜火了 医生提醒",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 6944306,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "坚持制度治党依规治党": {
+      "key": "坚持制度治党依规治党",
+      "title": "坚持制度治党、依规治党",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 15807866,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "片仔癀财报释放什么信号": {
+      "key": "片仔癀财报释放什么信号",
+      "title": "片仔癀财报释放什么信号",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 15416007,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中方驳斥黄仁勋出轨女子为中国工作": {
+      "key": "中方驳斥黄仁勋出轨女子为中国工作",
+      "title": "中方驳斥黄仁勋出轨女子为中国工作",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 13948980,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "环卫工电子工牌惹争议": {
+      "key": "环卫工电子工牌惹争议",
+      "title": "环卫工电子工牌惹争议",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 6661861,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "哈尔滨烤地瓜原价1688到手8元": {
+      "key": "哈尔滨烤地瓜原价1688到手8元",
+      "title": "哈尔滨烤地瓜原价1688到手8元",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 11420459,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "不跑步的人也被跑鞋品牌盯上了": {
+      "key": "不跑步的人也被跑鞋品牌盯上了",
+      "title": "不跑步的人也被跑鞋品牌盯上了",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 4643981,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "山姆正在被自己赶下神坛吗": {
+      "key": "山姆正在被自己赶下神坛吗",
+      "title": "山姆正在被自己赶下神坛吗",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 9350281,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "专家ai已越过超级智能逃逸速度": {
+      "key": "专家ai已越过超级智能逃逸速度",
+      "title": "专家：AI已越过“超级智能逃逸速度”",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 8460484,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "又一地官宣公办普高愿上尽上": {
+      "key": "又一地官宣公办普高愿上尽上",
+      "title": "又一地官宣公办普高“愿上尽上”",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 7713566,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "进博购物车含科量足": {
+      "key": "进博购物车含科量足",
+      "title": "进博“购物车”含“科”量足",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 7617722,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "老人6亿遗产留再婚妻子原配子女起诉": {
+      "key": "老人6亿遗产留再婚妻子原配子女起诉",
+      "title": "老人6亿遗产留再婚妻子 原配子女起诉",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 7522566,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "东北糖葫芦已进化到巨无霸版本": {
+      "key": "东北糖葫芦已进化到巨无霸版本",
+      "title": "东北糖葫芦已进化到“巨无霸”版本",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 7425752,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "花坛白骨涉案人28年间频繁出国": {
+      "key": "花坛白骨涉案人28年间频繁出国",
+      "title": "花坛白骨涉案人28年间频繁出国",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 7140529,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "方程豹钛9顶配版官宣": {
+      "key": "方程豹钛9顶配版官宣",
+      "title": "方程豹钛9顶配版官宣",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 6926858,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "一批违法违规涉军自媒体被通报": {
+      "key": "一批违法违规涉军自媒体被通报",
+      "title": "一批违法违规涉军自媒体被通报",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 6852574,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "山姆低价始祖鸟到底值不值得冲": {
+      "key": "山姆低价始祖鸟到底值不值得冲",
+      "title": "山姆“低价”始祖鸟到底值不值得冲",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 6752129,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "amd涨超8": {
+      "key": "amd涨超8",
+      "title": "AMD涨超8%",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 6564394,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "美股三大股指高开英伟达逆势下跌7": {
+      "key": "美股三大股指高开英伟达逆势下跌7",
+      "title": "美股三大股指高开 英伟达逆势下跌7%",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 6477172,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "这些水果适合冬天热着吃": {
+      "key": "这些水果适合冬天热着吃",
+      "title": "这些水果适合冬天热着吃",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 6188192,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "蛋价上涨蟹价下跌都跟厄尔尼诺有关": {
+      "key": "蛋价上涨蟹价下跌都跟厄尔尼诺有关",
+      "title": "蛋价上涨蟹价下跌 都跟厄尔尼诺有关",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 5992908,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "中方回应黄仁勋婚外情事件": {
+      "key": "中方回应黄仁勋婚外情事件",
+      "title": "中方回应黄仁勋婚外情事件",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 5892538,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "王健林亲自披挂上阵接下烫手山芋": {
+      "key": "王健林亲自披挂上阵接下烫手山芋",
+      "title": "王健林亲自披挂上阵接下烫手山芋",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 5717346,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "网友海边偶遇赵丽颖": {
+      "key": "网友海边偶遇赵丽颖",
+      "title": "网友海边偶遇赵丽颖",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 5671232,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "坐着躺着就能长肌肉的训练服来了": {
+      "key": "坐着躺着就能长肌肉的训练服来了",
+      "title": "坐着躺着就能长肌肉的训练服来了",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 5504505,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "巴拉圭前总统豪宅疑藏秘密金库": {
+      "key": "巴拉圭前总统豪宅疑藏秘密金库",
+      "title": "巴拉圭前总统豪宅疑藏秘密金库",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 5409105,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "马斯克停产cybertruck并非利润原因": {
+      "key": "马斯克停产cybertruck并非利润原因",
+      "title": "马斯克：停产Cybertruck并非利润原因",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 5240584,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "你有没有单独花超100元吃一顿饭": {
+      "key": "你有没有单独花超100元吃一顿饭",
+      "title": "你有没有单独花超100元吃一顿饭",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 5131543,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "摄影棚免费使用横店能等来剧组吗": {
+      "key": "摄影棚免费使用横店能等来剧组吗",
+      "title": "摄影棚免费使用 横店能等来剧组吗",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 5032651,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "ai短剧不该再去赌一部爆款": {
+      "key": "ai短剧不该再去赌一部爆款",
+      "title": "AI短剧不该再去赌一部爆款",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 4952112,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "不痛的智齿还要拔吗": {
+      "key": "不痛的智齿还要拔吗",
+      "title": "不痛的智齿还要拔吗",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 4829463,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "王楚钦世排第4林诗栋第10": {
+      "key": "王楚钦世排第4林诗栋第10",
+      "title": "王楚钦世排第4林诗栋第10",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 4744715,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "朱之文称黑粉打电话求和": {
+      "key": "朱之文称黑粉打电话求和",
+      "title": "朱之文称黑粉打电话求和",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 4643212,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "黄仁勋承认婚外情英伟达还能投吗": {
+      "key": "黄仁勋承认婚外情英伟达还能投吗",
+      "title": "黄仁勋承认婚外情 英伟达还能投吗",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 4550316,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "字节跳动发布seedream55": {
+      "key": "字节跳动发布seedream55",
+      "title": "字节跳动发布Seedream 5.5",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 4284336,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "浙江成都相继官宣阿洛伊西兄弟离任": {
+      "key": "浙江成都相继官宣阿洛伊西兄弟离任",
+      "title": "浙江成都相继官宣阿洛伊西兄弟离任",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 4201352,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "仙剑三美合体亮相w盛典": {
+      "key": "仙剑三美合体亮相w盛典",
+      "title": "“仙剑三美”合体亮相W盛典",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 4184204,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "一通电话叫来黄仁勋黄乐到底是谁": {
+      "key": "一通电话叫来黄仁勋黄乐到底是谁",
+      "title": "一通电话叫来黄仁勋 黄乐到底是谁",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 4066487,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "王传君回应当年我不喜欢言论": {
+      "key": "王传君回应当年我不喜欢言论",
+      "title": "王传君回应当年“我不喜欢”言论",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 3903122,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "黄仁勋出轨还能扯上中国": {
+      "key": "黄仁勋出轨还能扯上中国",
+      "title": "黄仁勋出轨还能扯上中国？",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 3685143,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "顺其自然再捐111万元": {
+      "key": "顺其自然再捐111万元",
+      "title": "“顺其自然”再捐111万元",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 3600850,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "一面残缺铜锣藏着千年秘密": {
+      "key": "一面残缺铜锣藏着千年秘密",
+      "title": "一面残缺铜锣 藏着千年秘密",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 3487620,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "中方回应特朗普政府请求中国帮助": {
+      "key": "中方回应特朗普政府请求中国帮助",
+      "title": "中方回应特朗普政府请求中国帮助",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 3396353,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "国产ai芯片加速蚕食英伟达市场": {
+      "key": "国产ai芯片加速蚕食英伟达市场",
+      "title": "国产AI芯片加速蚕食英伟达市场",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 3112438,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "吴艳妮分享拉伸干货": {
+      "key": "吴艳妮分享拉伸干货",
+      "title": "吴艳妮分享拉伸干货",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 2816250,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "程靖淇不能把问题都归于王楚钦一人": {
+      "key": "程靖淇不能把问题都归于王楚钦一人",
+      "title": "程靖淇：不能把问题都归于王楚钦一人",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 2548248,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "a股新一轮行情还立得住吗": {
+      "key": "a股新一轮行情还立得住吗",
+      "title": "A股新一轮行情还立得住吗",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 2305751,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "刀锋球迷会请有关部门严查蓉城问题": {
+      "key": "刀锋球迷会请有关部门严查蓉城问题",
+      "title": "刀锋球迷会：请有关部门严查蓉城问题",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 2086329,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "10月汽车市场发生了哪些变化": {
+      "key": "10月汽车市场发生了哪些变化",
+      "title": "10月汽车市场发生了哪些变化",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 1887789,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "国际乒联世界排名日乒包揽男单前二": {
+      "key": "国际乒联世界排名日乒包揽男单前二",
+      "title": "国际乒联世界排名：日乒包揽男单前二",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 1708142,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "攻击11实弹发射首发命中": {
+      "key": "攻击11实弹发射首发命中",
+      "title": "攻击-11实弹发射首发命中",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 1545591,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "李若彤与赵雅芝活动同框": {
+      "key": "李若彤与赵雅芝活动同框",
+      "title": "李若彤与赵雅芝活动同框",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 1398508,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "张雪机车米兰展车零件被偷光": {
+      "key": "张雪机车米兰展车零件被偷光",
+      "title": "张雪机车米兰展车零件被偷光",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 1265422,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中俄美元首将会晤外交部回应": {
+      "key": "中俄美元首将会晤外交部回应",
+      "title": "中俄美元首将会晤？外交部回应",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 1145002,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "梁家辉独乘高铁奔赴金鸡奖颁奖典礼": {
+      "key": "梁家辉独乘高铁奔赴金鸡奖颁奖典礼",
+      "title": "梁家辉独乘高铁奔赴金鸡奖颁奖典礼",
+      "firstSeenAt": "2026-11-10 03:19",
+      "lastSeenAt": "2026-11-10 03:19",
+      "seenCount": 1,
+      "lastScore": 1036040,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-11-09 11:41",
+  "lastUpdatedAt": "2026-11-10 03:19",
   "stats": {
-    "new": 63,
-    "continued": 17,
-    "dropped": 136
+    "new": 74,
+    "continued": 6,
+    "dropped": 75
   }
 }

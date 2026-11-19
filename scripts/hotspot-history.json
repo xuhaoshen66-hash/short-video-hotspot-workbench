@@ -208290,8 +208290,8 @@
       "key": "国务院关于修改住房公积金管理条例的决定",
       "title": "国务院关于修改《住房公积金管理条例》的决定",
       "firstSeenAt": "2026-08-18 17:21",
-      "lastSeenAt": "2026-11-19 13:02",
-      "seenCount": 249,
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 250,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -265199,8 +265199,8 @@
       "key": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "title": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "firstSeenAt": "2026-09-10 21:12",
-      "lastSeenAt": "2026-11-19 13:02",
-      "seenCount": 174,
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 175,
       "lastScore": 54250000,
       "platforms": [
         "中国政府网"
@@ -284448,8 +284448,8 @@
       "key": "国务院办公厅转发文化和旅游部等部门关于促进房车消费的若干措施的通知",
       "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
       "firstSeenAt": "2026-09-18 21:15",
-      "lastSeenAt": "2026-11-19 13:02",
-      "seenCount": 134,
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 135,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -309248,8 +309248,8 @@
       "key": "国务院关于医疗康复护理扩容提升工程实施方案的批复",
       "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "firstSeenAt": "2026-09-29 23:13",
-      "lastSeenAt": "2026-11-19 13:02",
-      "seenCount": 118,
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 119,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -310848,8 +310848,8 @@
       "key": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "firstSeenAt": "2026-09-30 23:27",
-      "lastSeenAt": "2026-11-19 13:02",
-      "seenCount": 116,
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 117,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -387481,9 +387481,9 @@
       "key": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
       "title": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
       "firstSeenAt": "2026-11-10 03:19",
-      "lastSeenAt": "2026-11-19 13:02",
-      "seenCount": 20,
-      "lastScore": 53250000,
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 21,
+      "lastScore": 53150000,
       "platforms": [
         "中国政府网"
       ],
@@ -403689,13 +403689,14 @@
       "key": "北大时期张泉灵美成女儿国国王了",
       "title": "北大时期张泉灵美成女儿国国王了",
       "firstSeenAt": "2026-11-19 01:40",
-      "lastSeenAt": "2026-11-19 01:40",
-      "seenCount": 1,
-      "lastScore": 179760,
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 2,
+      "lastScore": 4088458,
       "platforms": [
-        "微博"
+        "微博",
+        "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度上升"
     },
     "暖气不热放放水就热是误区": {
       "key": "暖气不热放放水就热是误区",
@@ -404650,12 +404651,896 @@
         "微博"
       ],
       "lifecycle": "新增"
+    },
+    "中俄美元首和平宣言": {
+      "key": "中俄美元首和平宣言",
+      "title": "中俄美元首和平宣言",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 49513307,
+      "platforms": [
+        "百度",
+        "今日头条",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "马斯克在空军一号看中美元首互动": {
+      "key": "马斯克在空军一号看中美元首互动",
+      "title": "马斯克在空军一号看中美元首互动",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 22483531,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国家庭消费逻辑变了吗": {
+      "key": "中国家庭消费逻辑变了吗",
+      "title": "中国家庭消费逻辑变了吗",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 1504059,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "deepseek二轮融资出资方曝光": {
+      "key": "deepseek二轮融资出资方曝光",
+      "title": "DeepSeek二轮融资出资方曝光",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 6740728,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "牛肉为什么突然贵了": {
+      "key": "牛肉为什么突然贵了",
+      "title": "牛肉为什么突然贵了",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 18323201,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中介指使他人搬空7套待租房源家电": {
+      "key": "中介指使他人搬空7套待租房源家电",
+      "title": "中介指使他人搬空7套待租房源家电",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 3800492,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "apec宴会桌布置设计感拉满": {
+      "key": "apec宴会桌布置设计感拉满",
+      "title": "APEC宴会桌布置设计感拉满",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 14521521,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "流感来了别当感冒治": {
+      "key": "流感来了别当感冒治",
+      "title": "流感来了别当感冒治",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 5124137,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "一湾红树林向亚太讲述共生之道": {
+      "key": "一湾红树林向亚太讲述共生之道",
+      "title": "一湾红树林 向亚太讲述“共生”之道",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 15001768,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "小多吉手术成功": {
+      "key": "小多吉手术成功",
+      "title": "小多吉手术成功",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 3877285,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "华为新机薄出新高度": {
+      "key": "华为新机薄出新高度",
+      "title": "华为新机薄出新高度",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 13574161,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中方回应高市早苗礼宾安排": {
+      "key": "中方回应高市早苗礼宾安排",
+      "title": "中方回应高市早苗礼宾安排",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 11212760,
+      "platforms": [
+        "今日头条",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "官方辟谣要求基金公司上报ai敞口": {
+      "key": "官方辟谣要求基金公司上报ai敞口",
+      "title": "官方辟谣要求基金公司上报AI敞口",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 12282408,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "马天宇回忆原生家庭崩溃大哭": {
+      "key": "马天宇回忆原生家庭崩溃大哭",
+      "title": "马天宇回忆原生家庭崩溃大哭",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 2740575,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "睡前有5种表现要警惕脑梗": {
+      "key": "睡前有5种表现要警惕脑梗",
+      "title": "睡前有5种表现要警惕脑梗",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 10055985,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "比亚迪发布折叠方向盘": {
+      "key": "比亚迪发布折叠方向盘",
+      "title": "比亚迪发布折叠方向盘",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 8140145,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "王毅送别美俄元首后举行记者会": {
+      "key": "王毅送别美俄元首后举行记者会",
+      "title": "王毅送别美俄元首后举行记者会",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 8233144,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "30年第一次叫倡议": {
+      "key": "30年第一次叫倡议",
+      "title": "30年 第一次叫“倡议”",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 7616438,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "普京感谢中方": {
+      "key": "普京感谢中方",
+      "title": "普京：感谢中方",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 7520324,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "普京用中文对与会者说谢谢": {
+      "key": "普京用中文对与会者说谢谢",
+      "title": "普京用中文对与会者说谢谢",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 7449657,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "普京笑着透露三方会晤细节": {
+      "key": "普京笑着透露三方会晤细节",
+      "title": "普京笑着透露三方会晤细节",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 7331618,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "墨西哥总统弹奏中国名曲茉莉花": {
+      "key": "墨西哥总统弹奏中国名曲茉莉花",
+      "title": "墨西哥总统弹奏中国名曲《茉莉花》",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 7137207,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "apec礼物别出心裁": {
+      "key": "apec礼物别出心裁",
+      "title": "APEC礼物别出心裁",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 7047573,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "apec晚宴用荔枝冰酒销量暴增900倍": {
+      "key": "apec晚宴用荔枝冰酒销量暴增900倍",
+      "title": "APEC晚宴用荔枝冰酒销量暴增900倍",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 5813120,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "特朗普点赞深圳这座城市近乎完美": {
+      "key": "特朗普点赞深圳这座城市近乎完美",
+      "title": "特朗普点赞深圳：这座城市近乎完美",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 6950838,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "监管要求上报基金ai敞口不实": {
+      "key": "监管要求上报基金ai敞口不实",
+      "title": "“监管要求上报基金AI敞口”不实",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 6858395,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "深圳市民遇普京车队心跳猛加速": {
+      "key": "深圳市民遇普京车队心跳猛加速",
+      "title": "深圳市民遇普京车队心跳猛加速",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 6664847,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "李在明发文感谢中国": {
+      "key": "李在明发文感谢中国",
+      "title": "李在明发文感谢中国",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 6565500,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "还有30个国家gdp比深圳高": {
+      "key": "还有30个国家gdp比深圳高",
+      "title": "还有30个国家GDP比深圳高",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 6277730,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "拼多多涨近13": {
+      "key": "拼多多涨近13",
+      "title": "拼多多涨近13%",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 6181328,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "黄金价格由什么决定": {
+      "key": "黄金价格由什么决定",
+      "title": "黄金价格由什么决定",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 166654,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "终于看到知否祖孙三人同框了": {
+      "key": "终于看到知否祖孙三人同框了",
+      "title": "终于看到《知否》祖孙三人同框了",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 6090342,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "apec红蓝围巾是两大非遗": {
+      "key": "apec红蓝围巾是两大非遗",
+      "title": "APEC红蓝围巾是两大非遗",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 5604136,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "泰国记者来中国买买买直呼没钱了": {
+      "key": "泰国记者来中国买买买直呼没钱了",
+      "title": "泰国记者来中国买买买直呼没钱了",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 5518842,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "有害减肥神药被叫停16年仍在售": {
+      "key": "有害减肥神药被叫停16年仍在售",
+      "title": "有害“减肥神药”被叫停16年仍在售",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 5513646,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "王菲窦靖童李嫣将合作发歌": {
+      "key": "王菲窦靖童李嫣将合作发歌",
+      "title": "王菲窦靖童李嫣将合作发歌",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 4274541,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "说粤语的泰国总理": {
+      "key": "说粤语的泰国总理",
+      "title": "说粤语的泰国总理",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 5324570,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "网友偶遇泰国总理夫妇逛深圳南头古城": {
+      "key": "网友偶遇泰国总理夫妇逛深圳南头古城",
+      "title": "网友偶遇泰国总理夫妇逛深圳南头古城",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 5047553,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "美再度收紧中国芯片海外代工": {
+      "key": "美再度收紧中国芯片海外代工",
+      "title": "美再度收紧中国芯片海外代工",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 4993654,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "甘薇回应塑料姐妹花上后会友期": {
+      "key": "甘薇回应塑料姐妹花上后会友期",
+      "title": "甘薇回应塑料姐妹花上《后会友期》",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 4927048,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "吴泳铭未来模型训练将依托国产芯片": {
+      "key": "吴泳铭未来模型训练将依托国产芯片",
+      "title": "吴泳铭：未来模型训练将依托国产芯片",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 4842541,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "腾格尔模仿邓丽君唱歌": {
+      "key": "腾格尔模仿邓丽君唱歌",
+      "title": "腾格尔模仿邓丽君唱歌",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 4766601,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "韩国通过发送灾难警报方式抓高考作弊": {
+      "key": "韩国通过发送灾难警报方式抓高考作弊",
+      "title": "韩国通过发送灾难警报方式抓高考作弊",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 4658115,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "特朗普请中国继续保持强大": {
+      "key": "特朗普请中国继续保持强大",
+      "title": "特朗普：请中国继续保持强大",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 4518445,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "自在是日常体面是待客": {
+      "key": "自在是日常体面是待客",
+      "title": "“自在是日常 体面是待客”",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 4288718,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "许飞用唢呐给主持人伴奏": {
+      "key": "许飞用唢呐给主持人伴奏",
+      "title": "许飞用唢呐给主持人伴奏",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 4067539,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "蒋欣杨采钰同框": {
+      "key": "蒋欣杨采钰同框",
+      "title": "蒋欣杨采钰同框",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 3699390,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "特斯拉将继续提高在华产量": {
+      "key": "特斯拉将继续提高在华产量",
+      "title": "特斯拉将继续提高在华产量",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 3411644,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "专家中俄美会晤释放强力积极信号": {
+      "key": "专家中俄美会晤释放强力积极信号",
+      "title": "专家：中俄美会晤释放强力积极信号",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 3347346,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "谷歌将于2029年发射太阳捕手卫星": {
+      "key": "谷歌将于2029年发射太阳捕手卫星",
+      "title": "谷歌将于2029年发射“太阳捕手”卫星",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 3241937,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "赖特美考虑增加对欧柴油与石油出口": {
+      "key": "赖特美考虑增加对欧柴油与石油出口",
+      "title": "赖特：美考虑增加对欧柴油与石油出口",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 3112006,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "姚安娜摆摊卖瓷器被游客砍价": {
+      "key": "姚安娜摆摊卖瓷器被游客砍价",
+      "title": "姚安娜摆摊卖瓷器被游客砍价",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 3028804,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "美过渡版空军一号有何槽点": {
+      "key": "美过渡版空军一号有何槽点",
+      "title": "美过渡版“空军一号”有何槽点",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 2479775,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "王菲时隔17年再唱爱笑的天使": {
+      "key": "王菲时隔17年再唱爱笑的天使",
+      "title": "王菲时隔17年再唱《爱笑的天使》",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 2243793,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "葡媒c罗的致敬仪式像葬礼": {
+      "key": "葡媒c罗的致敬仪式像葬礼",
+      "title": "葡媒：C罗的致敬仪式像葬礼",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 2030268,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "麦克阿瑟扮演者自称深圳人": {
+      "key": "麦克阿瑟扮演者自称深圳人",
+      "title": "麦克阿瑟扮演者自称深圳人",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 912258,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "方程豹钛9正式上市": {
+      "key": "方程豹钛9正式上市",
+      "title": "方程豹钛9正式上市",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 675817,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "对冲基金大幅低配科技股": {
+      "key": "对冲基金大幅低配科技股",
+      "title": "对冲基金大幅低配科技股",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 370896,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "中方回应中日领导人apec是否会晤": {
+      "key": "中方回应中日领导人apec是否会晤",
+      "title": "中方回应中日领导人APEC是否会晤",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 335601,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "当方向盘可以收纳suv座舱会变啥样": {
+      "key": "当方向盘可以收纳suv座舱会变啥样",
+      "title": "当方向盘可以收纳 SUV座舱会变啥样",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 303664,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "apec会议结束大家想带什么回家": {
+      "key": "apec会议结束大家想带什么回家",
+      "title": "APEC会议结束大家想带什么回家",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 224960,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "一图读懂深圳倡议": {
+      "key": "一图读懂深圳倡议",
+      "title": "一图读懂深圳倡议",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 190077,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "比亚迪发布dms超级混动全能平台": {
+      "key": "比亚迪发布dms超级混动全能平台",
+      "title": "比亚迪发布DMS超级混动全能平台",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 184181,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "opporeno17今日开售": {
+      "key": "opporeno17今日开售",
+      "title": "OPPOReno17今日开售",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 182387,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "马斯克从深圳飞到了上海": {
+      "key": "马斯克从深圳飞到了上海",
+      "title": "马斯克从深圳飞到了上海",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 181718,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "泰国总理携夫人在深圳南山吃宵夜": {
+      "key": "泰国总理携夫人在深圳南山吃宵夜",
+      "title": "泰国总理携夫人在深圳南山吃宵夜",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 178485,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "苗苗怀二胎身材走样锻炼时被郑恺逗了一下": {
+      "key": "苗苗怀二胎身材走样锻炼时被郑恺逗了一下",
+      "title": "苗苗怀二胎身材走样锻炼时被郑恺逗了一下",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 173524,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "李在明发文感谢中国热情接待": {
+      "key": "李在明发文感谢中国热情接待",
+      "title": "李在明发文感谢中国热情接待",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 145264,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "许飞说可以和厉娜去观察室了": {
+      "key": "许飞说可以和厉娜去观察室了",
+      "title": "许飞说可以和厉娜去观察室了",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 143462,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "杨超越18年和25年的跳舞对比": {
+      "key": "杨超越18年和25年的跳舞对比",
+      "title": "杨超越18年和25年的跳舞对比",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 142590,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "文吉儿圈内好友没提王子璇": {
+      "key": "文吉儿圈内好友没提王子璇",
+      "title": "文吉儿圈内好友没提王子璇",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 139694,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "青稚回应王栎鑫": {
+      "key": "青稚回应王栎鑫",
+      "title": "青稚回应王栎鑫",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 137997,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "伊能静还是不负众望": {
+      "key": "伊能静还是不负众望",
+      "title": "伊能静还是不负众望",
+      "firstSeenAt": "2026-11-20 01:49",
+      "lastSeenAt": "2026-11-20 01:49",
+      "seenCount": 1,
+      "lastScore": 136472,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-11-19 13:02",
+  "lastUpdatedAt": "2026-11-20 01:49",
   "stats": {
-    "new": 71,
-    "continued": 9,
-    "dropped": 71
+    "new": 73,
+    "continued": 7,
+    "dropped": 144
   }
 }

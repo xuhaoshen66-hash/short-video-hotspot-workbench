@@ -208290,8 +208290,8 @@
       "key": "国务院关于修改住房公积金管理条例的决定",
       "title": "国务院关于修改《住房公积金管理条例》的决定",
       "firstSeenAt": "2026-08-18 17:21",
-      "lastSeenAt": "2026-11-21 12:48",
-      "seenCount": 253,
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 254,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -265199,8 +265199,8 @@
       "key": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "title": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "firstSeenAt": "2026-09-10 21:12",
-      "lastSeenAt": "2026-11-21 12:48",
-      "seenCount": 178,
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 179,
       "lastScore": 54250000,
       "platforms": [
         "中国政府网"
@@ -284448,8 +284448,8 @@
       "key": "国务院办公厅转发文化和旅游部等部门关于促进房车消费的若干措施的通知",
       "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
       "firstSeenAt": "2026-09-18 21:15",
-      "lastSeenAt": "2026-11-21 12:48",
-      "seenCount": 138,
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 139,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -309248,8 +309248,8 @@
       "key": "国务院关于医疗康复护理扩容提升工程实施方案的批复",
       "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "firstSeenAt": "2026-09-29 23:13",
-      "lastSeenAt": "2026-11-21 12:48",
-      "seenCount": 122,
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 123,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -310848,8 +310848,8 @@
       "key": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "firstSeenAt": "2026-09-30 23:27",
-      "lastSeenAt": "2026-11-21 12:48",
-      "seenCount": 120,
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 121,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -387481,9 +387481,9 @@
       "key": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
       "title": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
       "firstSeenAt": "2026-11-10 03:19",
-      "lastSeenAt": "2026-11-21 12:48",
-      "seenCount": 24,
-      "lastScore": 53050000,
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 25,
+      "lastScore": 52950000,
       "platforms": [
         "中国政府网"
       ],
@@ -407468,13 +407468,15 @@
       "key": "顺丰速运被暂停参加全军采购活动",
       "title": "顺丰速运被暂停参加全军采购活动",
       "firstSeenAt": "2026-11-21 12:48",
-      "lastSeenAt": "2026-11-21 12:48",
-      "seenCount": 1,
-      "lastScore": 7711858,
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 2,
+      "lastScore": 378753,
       "platforms": [
-        "百度"
+        "百度",
+        "今日头条",
+        "微博"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "特朗普称赞深圳城市建设": {
       "key": "特朗普称赞深圳城市建设",
@@ -408028,12 +408030,892 @@
         "今日头条"
       ],
       "lifecycle": "新增"
+    },
+    "央行披露10月金融市场运行情况": {
+      "key": "央行披露10月金融市场运行情况",
+      "title": "央行披露10月金融市场运行情况",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 4264213,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "羽绒服生意变天了": {
+      "key": "羽绒服生意变天了",
+      "title": "羽绒服生意变天了",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 7974223,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "买冲锋衣值得为无氟多花钱吗": {
+      "key": "买冲锋衣值得为无氟多花钱吗",
+      "title": "买冲锋衣值得为“无氟”多花钱吗",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 3811843,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "全球pcb供应告急": {
+      "key": "全球pcb供应告急",
+      "title": "全球PCB供应告急",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 6038435,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "多家银行发债按下暂停键": {
+      "key": "多家银行发债按下暂停键",
+      "title": "多家银行发债按下“暂停键”",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 7713033,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "爸爸拔管抱走生病孩子失联已被找回": {
+      "key": "爸爸拔管抱走生病孩子失联已被找回",
+      "title": "爸爸拔管抱走生病孩子失联 已被找回",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 6379558,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "看五十年的中国就来深圳": {
+      "key": "看五十年的中国就来深圳",
+      "title": "看五十年的中国就来深圳",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 15809644,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "爱笑的天使和李嫣荡秋千的男孩近况": {
+      "key": "爱笑的天使和李嫣荡秋千的男孩近况",
+      "title": "《爱笑的天使》和李嫣荡秋千的男孩近况",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 5424745,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "青海地震附近居民感觉房子在晃": {
+      "key": "青海地震附近居民感觉房子在晃",
+      "title": "青海地震 附近居民：感觉房子在晃",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 5044884,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "还40年房贷和租40年房怎么选": {
+      "key": "还40年房贷和租40年房怎么选",
+      "title": "还40年房贷和租40年房怎么选",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 1020920,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "山东确定2026年度养老金计发基数": {
+      "key": "山东确定2026年度养老金计发基数",
+      "title": "山东确定2026年度养老金计发基数",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 138166,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "多家品牌宣布下调金饰克价": {
+      "key": "多家品牌宣布下调金饰克价",
+      "title": "多家品牌宣布下调金饰克价",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 5891739,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "apec晚宴每个厨师团队负责一道菜": {
+      "key": "apec晚宴每个厨师团队负责一道菜",
+      "title": "APEC晚宴每个厨师团队负责一道菜",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 5216333,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "菲总统夸赞中方选曲温暖贴心": {
+      "key": "菲总统夸赞中方选曲温暖贴心",
+      "title": "菲总统夸赞中方选曲温暖贴心",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 7539990,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "深圳展望为何成apec新的里程碑": {
+      "key": "深圳展望为何成apec新的里程碑",
+      "title": "“深圳展望”为何成APEC新的里程碑",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 7618978,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "男子曾用八千赚百万如今负债千万": {
+      "key": "男子曾用八千赚百万如今负债千万",
+      "title": "男子曾用八千赚百万 如今负债千万",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 7427836,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "女生刷到另一个自己鉴定是亲姐妹": {
+      "key": "女生刷到另一个自己鉴定是亲姐妹",
+      "title": "女生刷到“另一个自己”鉴定是亲姐妹",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 7332322,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "两京十五日成毅演技": {
+      "key": "两京十五日成毅演技",
+      "title": "《两京十五日》成毅演技",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 7234782,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "花2万存脐带血12年后发现公司已注销": {
+      "key": "花2万存脐带血12年后发现公司已注销",
+      "title": "花2万存脐带血12年后发现公司已注销",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 7140214,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "王祖蓝46岁已经用上老花镜了": {
+      "key": "王祖蓝46岁已经用上老花镜了",
+      "title": "王祖蓝46岁已经用上老花镜了",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 7046207,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "小雪节气来临两类人要格外当心": {
+      "key": "小雪节气来临两类人要格外当心",
+      "title": "小雪节气来临 两类人要格外当心",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 6946207,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "2名日本人在上海发生冲突1人死亡": {
+      "key": "2名日本人在上海发生冲突1人死亡",
+      "title": "2名日本人在上海发生冲突 1人死亡",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 6755555,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "曝窦唯四婚四娃": {
+      "key": "曝窦唯四婚四娃",
+      "title": "曝窦唯四婚四娃",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 6661605,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "红果短剧使用时长超抖音": {
+      "key": "红果短剧使用时长超抖音",
+      "title": "红果短剧使用时长超抖音",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 5333248,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "老外们在华强北疯狂下单": {
+      "key": "老外们在华强北疯狂下单",
+      "title": "老外们在华强北疯狂下单",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 6186635,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "父亲遇害时43岁破案时女儿也43岁": {
+      "key": "父亲遇害时43岁破案时女儿也43岁",
+      "title": "父亲遇害时43岁破案时女儿也43岁",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 6081178,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "网友扫共享单车半小时15元": {
+      "key": "网友扫共享单车半小时15元",
+      "title": "网友扫共享单车半小时15元",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 5811803,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "西宁等地震感强烈": {
+      "key": "西宁等地震感强烈",
+      "title": "西宁等地震感强烈",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 5704357,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "张雪骑摩托车刚出门就摔倒": {
+      "key": "张雪骑摩托车刚出门就摔倒",
+      "title": "张雪骑摩托车刚出门就摔倒",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 5603330,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "最高检对性侵害未成年人零容忍": {
+      "key": "最高检对性侵害未成年人零容忍",
+      "title": "最高检：对性侵害未成年人零容忍",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 5515459,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "医生提醒切勿盲目尝试开塞露涂脸": {
+      "key": "医生提醒切勿盲目尝试开塞露涂脸",
+      "title": "医生提醒切勿盲目尝试开塞露涂脸",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 4939945,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "青海德令哈地震": {
+      "key": "青海德令哈地震",
+      "title": "青海德令哈地震",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 4843642,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "多地政务窗口提示工作需使用手机": {
+      "key": "多地政务窗口提示工作需使用手机",
+      "title": "多地政务窗口提示工作需使用手机",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 4555738,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "彭昱畅被ai融脸": {
+      "key": "彭昱畅被ai融脸",
+      "title": "彭昱畅被AI融脸",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 4469182,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "一级国保候鸟被捕杀进餐馆": {
+      "key": "一级国保候鸟被捕杀进餐馆",
+      "title": "一级国保候鸟被捕杀进餐馆",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 4359118,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "多国领导人表态恪守一个中国原则": {
+      "key": "多国领导人表态恪守一个中国原则",
+      "title": "多国领导人表态：恪守一个中国原则",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 4083075,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "魏建军在胖东来试骑张雪机车820rr": {
+      "key": "魏建军在胖东来试骑张雪机车820rr",
+      "title": "魏建军在胖东来试骑张雪机车820RR",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 3988001,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "apec外交会见厅山水画是什么来头": {
+      "key": "apec外交会见厅山水画是什么来头",
+      "title": "APEC外交会见厅山水画是什么来头",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 3889707,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "200余名中外人士徒步寻访南京安全区": {
+      "key": "200余名中外人士徒步寻访南京安全区",
+      "title": "200余名中外人士徒步寻访南京安全区",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 3715307,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "apec纪念品爆单": {
+      "key": "apec纪念品爆单",
+      "title": "APEC纪念品爆单",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 3435063,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "最高检发布性侵未成年人抗诉指导案例": {
+      "key": "最高检发布性侵未成年人抗诉指导案例",
+      "title": "最高检发布性侵未成年人抗诉指导案例",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 3298937,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "韩国查实高考作弊举报一次奖1亿韩元": {
+      "key": "韩国查实高考作弊举报一次奖1亿韩元",
+      "title": "韩国查实高考作弊举报一次奖1亿韩元",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 3222974,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "广东英歌舞快闪到哈尔滨中央大街": {
+      "key": "广东英歌舞快闪到哈尔滨中央大街",
+      "title": "广东英歌舞快闪到哈尔滨中央大街",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 3139642,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "apec中国年取得哪些成果": {
+      "key": "apec中国年取得哪些成果",
+      "title": "APEC“中国年”取得哪些成果",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 923767,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "外国人眼里的深圳长什么样": {
+      "key": "外国人眼里的深圳长什么样",
+      "title": "外国人眼里的深圳长什么样",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 756316,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "演员张国强为何突然霸屏": {
+      "key": "演员张国强为何突然霸屏",
+      "title": "演员张国强为何突然霸屏",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 684343,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "建议大家不要一直穿同一双鞋": {
+      "key": "建议大家不要一直穿同一双鞋",
+      "title": "建议大家不要一直穿同一双鞋",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 619219,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "外媒高度关注中俄美元首会晤": {
+      "key": "外媒高度关注中俄美元首会晤",
+      "title": "外媒高度关注中俄美元首会晤",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 583511,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "外国人体验深圳来了就是深圳人": {
+      "key": "外国人体验深圳来了就是深圳人",
+      "title": "外国人体验深圳：来了就是深圳人",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 506974,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "这些神仙岗位都是假的": {
+      "key": "这些神仙岗位都是假的",
+      "title": "这些“神仙岗位”都是假的",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 375575,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "fly奖杯被撞掉": {
+      "key": "fly奖杯被撞掉",
+      "title": "Fly奖杯被撞掉",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 345304,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "方力申刷新港澳横渡纪录": {
+      "key": "方力申刷新港澳横渡纪录",
+      "title": "方力申刷新港澳横渡纪录",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 339835,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "刘宪华抽到亲妹妹": {
+      "key": "刘宪华抽到亲妹妹",
+      "title": "刘宪华抽到亲妹妹",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 336784,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "车澈离婚后狂瘦68斤": {
+      "key": "车澈离婚后狂瘦68斤",
+      "title": "车澈离婚后狂瘦68斤",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 307495,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "顺丰被暂停参加全军采购活动有何影响": {
+      "key": "顺丰被暂停参加全军采购活动有何影响",
+      "title": "顺丰被暂停参加全军采购活动有何影响",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 278233,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "原来转账是可以拦截的": {
+      "key": "原来转账是可以拦截的",
+      "title": "原来转账是可以拦截的",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 259669,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "血压在这一区间的人要尽早干预": {
+      "key": "血压在这一区间的人要尽早干预",
+      "title": "血压在这一区间的人要尽早干预",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 251756,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "失散20年双胞胎回应不找亲生父母": {
+      "key": "失散20年双胞胎回应不找亲生父母",
+      "title": "失散20年双胞胎回应不找亲生父母",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 212628,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "周杰高情商回答穷人该不该生孩子": {
+      "key": "周杰高情商回答穷人该不该生孩子",
+      "title": "周杰高情商回答穷人该不该生孩子",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 211767,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "白小纯远点一穿二": {
+      "key": "白小纯远点一穿二",
+      "title": "白小纯远点一穿二",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 211311,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "王菲李嫣黑白自拍": {
+      "key": "王菲李嫣黑白自拍",
+      "title": "王菲李嫣黑白自拍",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 210552,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "天霸12局6鸡": {
+      "key": "天霸12局6鸡",
+      "title": "天霸12局6鸡",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 209654,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "白小纯青稚同时淘汰": {
+      "key": "白小纯青稚同时淘汰",
+      "title": "白小纯青稚同时淘汰",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 209137,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "武警战士王猛真猛": {
+      "key": "武警战士王猛真猛",
+      "title": "武警战士王猛真猛",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 208239,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "沈腾摔倒现发所有人都在扶": {
+      "key": "沈腾摔倒现发所有人都在扶",
+      "title": "沈腾摔倒现发所有人都在扶",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 207482,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "秦昊当着镜头直接数落伊能静": {
+      "key": "秦昊当着镜头直接数落伊能静",
+      "title": "秦昊当着镜头直接数落伊能静",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 206584,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "bin背小书包是想退役": {
+      "key": "bin背小书包是想退役",
+      "title": "Bin背小书包是想退役",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 206192,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "男生初二觉醒戒断游戏逆袭成年级第二": {
+      "key": "男生初二觉醒戒断游戏逆袭成年级第二",
+      "title": "男生初二觉醒戒断游戏逆袭成年级第二",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 206120,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "青稚今日最高伤害": {
+      "key": "青稚今日最高伤害",
+      "title": "青稚今日最高伤害",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 205829,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "晋妈解释给李勒优开亲密付": {
+      "key": "晋妈解释给李勒优开亲密付",
+      "title": "晋妈解释给李勒优开亲密付",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 205681,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "李亚鹏找李嫣吃饭": {
+      "key": "李亚鹏找李嫣吃饭",
+      "title": "李亚鹏找李嫣吃饭",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 200164,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "白鹿短发跳舞好有少年感": {
+      "key": "白鹿短发跳舞好有少年感",
+      "title": "白鹿短发跳舞好有少年感",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 199016,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "黄景瑜腿绞泰国拳王": {
+      "key": "黄景瑜腿绞泰国拳王",
+      "title": "黄景瑜腿绞泰国拳王",
+      "firstSeenAt": "2026-11-22 00:29",
+      "lastSeenAt": "2026-11-22 00:29",
+      "seenCount": 1,
+      "lastScore": 186505,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-11-21 12:48",
+  "lastUpdatedAt": "2026-11-22 00:29",
   "stats": {
-    "new": 67,
-    "continued": 13,
-    "dropped": 68
+    "new": 73,
+    "continued": 7,
+    "dropped": 141
   }
 }

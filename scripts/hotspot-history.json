@@ -208290,8 +208290,8 @@
       "key": "国务院关于修改住房公积金管理条例的决定",
       "title": "国务院关于修改《住房公积金管理条例》的决定",
       "firstSeenAt": "2026-08-18 17:21",
-      "lastSeenAt": "2026-11-27 02:42",
-      "seenCount": 264,
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 265,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -265199,8 +265199,8 @@
       "key": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "title": "国务院办公厅关于加强中小企业回款难问题治理有关工作的通知",
       "firstSeenAt": "2026-09-10 21:12",
-      "lastSeenAt": "2026-11-27 02:42",
-      "seenCount": 189,
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 190,
       "lastScore": 54250000,
       "platforms": [
         "中国政府网"
@@ -284448,8 +284448,8 @@
       "key": "国务院办公厅转发文化和旅游部等部门关于促进房车消费的若干措施的通知",
       "title": "国务院办公厅转发文化和旅游部等部门《关于促进房车消费的若干措施》的通知",
       "firstSeenAt": "2026-09-18 21:15",
-      "lastSeenAt": "2026-11-27 02:42",
-      "seenCount": 149,
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 150,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -309248,8 +309248,8 @@
       "key": "国务院关于医疗康复护理扩容提升工程实施方案的批复",
       "title": "国务院关于《医疗康复护理扩容提升工程实施方案》的批复",
       "firstSeenAt": "2026-09-29 23:13",
-      "lastSeenAt": "2026-11-27 02:42",
-      "seenCount": 133,
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 134,
       "lastScore": 45150000,
       "platforms": [
         "中国政府网"
@@ -310848,8 +310848,8 @@
       "key": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "title": "国务院办公厅关于发展体育赛事激发消费活力的意见",
       "firstSeenAt": "2026-09-30 23:27",
-      "lastSeenAt": "2026-11-27 02:42",
-      "seenCount": 131,
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 132,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -387481,8 +387481,8 @@
       "key": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
       "title": "国务院办公厅关于适应人工智能技术发展助力构建就业友好型发展方式的意见",
       "firstSeenAt": "2026-11-10 03:19",
-      "lastSeenAt": "2026-11-27 02:42",
-      "seenCount": 35,
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 36,
       "lastScore": 52950000,
       "platforms": [
         "中国政府网"
@@ -416773,13 +416773,14 @@
       "key": "周琦肘击对手被驱逐",
       "title": "周琦肘击对手被驱逐",
       "firstSeenAt": "2026-11-27 02:42",
-      "lastSeenAt": "2026-11-27 02:42",
-      "seenCount": 1,
-      "lastScore": 7138010,
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 2,
+      "lastScore": 3695790,
       "platforms": [
-        "百度"
+        "百度",
+        "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "湖北一网民微信群内造谣被处罚": {
       "key": "湖北一网民微信群内造谣被处罚",
@@ -417145,13 +417146,13 @@
       "key": "高市早苗获颁最佳着装奖遭群嘲",
       "title": "高市早苗获颁最佳着装奖遭群嘲",
       "firstSeenAt": "2026-11-27 02:42",
-      "lastSeenAt": "2026-11-27 02:42",
-      "seenCount": 1,
-      "lastScore": 2974666,
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 2,
+      "lastScore": 1359605,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "曝高市提前抵达深圳是想偶遇特朗普": {
       "key": "曝高市提前抵达深圳是想偶遇特朗普",
@@ -417193,13 +417194,13 @@
       "key": "立陶宛敦促台当局认错",
       "title": "立陶宛敦促台当局认错",
       "firstSeenAt": "2026-11-27 02:42",
-      "lastSeenAt": "2026-11-27 02:42",
-      "seenCount": 1,
-      "lastScore": 1993978,
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 2,
+      "lastScore": 824642,
       "platforms": [
         "今日头条"
       ],
-      "lifecycle": "新增"
+      "lifecycle": "热度下降"
     },
     "宝宝等投喂勺子靠近瞬间嘴巴张最大": {
       "key": "宝宝等投喂勺子靠近瞬间嘴巴张最大",
@@ -417464,12 +417465,870 @@
         "今日头条"
       ],
       "lifecycle": "新增"
+    },
+    "官方谋划增量政策促资本市场发展": {
+      "key": "官方谋划增量政策促资本市场发展",
+      "title": "官方：谋划增量政策促资本市场发展",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 111603,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "国常会稳市ah股集体飙升": {
+      "key": "国常会稳市ah股集体飙升",
+      "title": "国常会“稳市” AH股集体飙升",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 7808634,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "国常会重磅定调a股指数飙升": {
+      "key": "国常会重磅定调a股指数飙升",
+      "title": "国常会重磅定调 A股指数飙升",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 6476060,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "许多年轻人为何开始重新养父母": {
+      "key": "许多年轻人为何开始重新养父母",
+      "title": "许多年轻人为何开始“重新养父母”",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 7331805,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "海康威视取消大小周却遭员工抵制": {
+      "key": "海康威视取消大小周却遭员工抵制",
+      "title": "海康威视取消大小周却遭员工抵制",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 6094112,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "今起电视开机广告没了": {
+      "key": "今起电视开机广告没了",
+      "title": "今起电视开机广告没了",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 9238207,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "追短剧上头大脑真的会变笨吗": {
+      "key": "追短剧上头大脑真的会变笨吗",
+      "title": "追短剧“上头”大脑真的会变笨吗",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 4165618,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "依规治党永远在路上": {
+      "key": "依规治党永远在路上",
+      "title": "依规治党 永远在路上",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 15808260,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "服务贸易发展十五五规划来了": {
+      "key": "服务贸易发展十五五规划来了",
+      "title": "服务贸易发展十五五规划来了",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 417565,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "8万一根的金条一度被买空": {
+      "key": "8万一根的金条一度被买空",
+      "title": "8万一根的金条一度被买空",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 13560950,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "创业板指涨逾10": {
+      "key": "创业板指涨逾10",
+      "title": "创业板指涨逾10%",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 7232579,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "求职季这些风险要避开": {
+      "key": "求职季这些风险要避开",
+      "title": "求职季 这些风险要避开",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 11844357,
+      "platforms": [
+        "百度",
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "三只松鼠员工必须用鼠取名字": {
+      "key": "三只松鼠员工必须用鼠取名字",
+      "title": "三只松鼠员工必须用“鼠”取名字",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 12270454,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "丑狐融脸": {
+      "key": "丑狐融脸",
+      "title": "《丑狐》 融脸",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 6190215,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "两人爬野山迷路获救先问是否收费": {
+      "key": "两人爬野山迷路获救先问是否收费",
+      "title": "两人爬野山迷路获救先问是否收费",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 6093327,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "a股大科技奇迹日": {
+      "key": "a股大科技奇迹日",
+      "title": "A股大科技“奇迹日”",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 5711355,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "延时看神舟二十四号与绚烂朝霞同框": {
+      "key": "延时看神舟二十四号与绚烂朝霞同框",
+      "title": "延时看神舟二十四号与绚烂朝霞同框",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 11102766,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "国常会加力发挥国家队稳市作用": {
+      "key": "国常会加力发挥国家队稳市作用",
+      "title": "国常会：加力发挥“国家队”稳市作用",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 10046198,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "国防部敦促日方立即停止挑衅玩火": {
+      "key": "国防部敦促日方立即停止挑衅玩火",
+      "title": "国防部：敦促日方立即停止挑衅玩火",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 9090176,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "a股爆发": {
+      "key": "a股爆发",
+      "title": "A股爆发",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 8225131,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "失去了文王才知道文王的重要性": {
+      "key": "失去了文王才知道文王的重要性",
+      "title": "失去了文王才知道文王的重要性",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 6880542,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "高市称和普京聊了30分钟俄方否认": {
+      "key": "高市称和普京聊了30分钟俄方否认",
+      "title": "高市称和普京聊了30分钟 俄方否认",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 6826119,
+      "platforms": [
+        "百度",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "大回暖来了暖到发紫": {
+      "key": "大回暖来了暖到发紫",
+      "title": "大回暖来了 暖到发紫",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 7714341,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "新一代通信网承载万物智联": {
+      "key": "新一代通信网承载万物智联",
+      "title": "新一代通信网承载“万物智联”",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 7616052,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "三只松鼠员工用鼠取名": {
+      "key": "三只松鼠员工用鼠取名",
+      "title": "三只松鼠员工用鼠取名",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 7521963,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "东风着陆场准备迎接中外航天员返回": {
+      "key": "东风着陆场准备迎接中外航天员返回",
+      "title": "东风着陆场准备迎接中外航天员返回",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 7442407,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "冰箱里的肉千万别再泡水化冻了": {
+      "key": "冰箱里的肉千万别再泡水化冻了",
+      "title": "冰箱里的肉千万别再泡水化冻了",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 7141728,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "易中天暴涨": {
+      "key": "易中天暴涨",
+      "title": "“易中天”暴涨",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 7047417,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国最大饺子ipo来了": {
+      "key": "中国最大饺子ipo来了",
+      "title": "中国最大饺子IPO来了",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 6943811,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "三只松鼠就员工宿舍脏乱差致歉": {
+      "key": "三只松鼠就员工宿舍脏乱差致歉",
+      "title": "三只松鼠就员工宿舍脏乱差致歉",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 6734168,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "外卖界拼多多来了吗": {
+      "key": "外卖界拼多多来了吗",
+      "title": "“外卖界拼多多”来了吗",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 6666607,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "赵昭仪曝当众被导演开黄腔": {
+      "key": "赵昭仪曝当众被导演开黄腔",
+      "title": "赵昭仪曝当众被导演开黄腔",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 6375848,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "宋茜发布东风日产nx7价格1199万起": {
+      "key": "宋茜发布东风日产nx7价格1199万起",
+      "title": "宋茜发布东风日产NX7价格11.99万起",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 268284,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "电动车撞倒闯红灯路人被认定负全责": {
+      "key": "电动车撞倒闯红灯路人被认定负全责",
+      "title": "电动车撞倒闯红灯路人被认定负全责",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 5794683,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "央视主持人罕见不解质疑郭士强换人": {
+      "key": "央视主持人罕见不解质疑郭士强换人",
+      "title": "央视主持人罕见不解质疑郭士强换人",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 5621368,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "电视回来了观众才能回来": {
+      "key": "电视回来了观众才能回来",
+      "title": "“电视回来了”观众才能回来",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 5513470,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "人民日报别把豆包当医生": {
+      "key": "人民日报别把豆包当医生",
+      "title": "人民日报：别把“豆包”当医生",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 5311175,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "在看不见真人的红果人怎么赚钱": {
+      "key": "在看不见真人的红果人怎么赚钱",
+      "title": "在看不见“真人”的红果 人怎么赚钱",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 5045464,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "211亿基金缩水至400万电话拉票自救": {
+      "key": "211亿基金缩水至400万电话拉票自救",
+      "title": "2.11亿基金缩水至400万 电话拉票自救",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 4948325,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "许飞这段反应可以进北影教材": {
+      "key": "许飞这段反应可以进北影教材",
+      "title": "许飞这段反应可以进北影教材",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 4763462,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "副热带高压反季节北上": {
+      "key": "副热带高压反季节北上",
+      "title": "副热带高压反季节北上",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 4647322,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "胡歌刘涛新剧吻戏路透": {
+      "key": "胡歌刘涛新剧吻戏路透",
+      "title": "胡歌刘涛新剧吻戏路透",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 4514048,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "天将降大任于斯人还是是人": {
+      "key": "天将降大任于斯人还是是人",
+      "title": "天将降大任于“斯人”还是“是人”",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 4478585,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "中国男篮又被逼到悬崖边": {
+      "key": "中国男篮又被逼到悬崖边",
+      "title": "中国男篮又被逼到悬崖边",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 4362897,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "2027款极氪7x正式上市售2168万起": {
+      "key": "2027款极氪7x正式上市售2168万起",
+      "title": "2027款极氪7X正式上市 售21.68万起",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 4256368,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "酒店物件三倍索赔客损岂能漫天要价": {
+      "key": "酒店物件三倍索赔客损岂能漫天要价",
+      "title": "酒店物件三倍索赔 客损岂能漫天要价",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 4071737,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "直20t重磅首秀": {
+      "key": "直20t重磅首秀",
+      "title": "直20T重磅首秀",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 3987943,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "这些习惯正在悄悄伤害你的头发": {
+      "key": "这些习惯正在悄悄伤害你的头发",
+      "title": "这些习惯正在悄悄伤害你的头发",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 3878038,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "海康威视取消大小周遭员工抵制": {
+      "key": "海康威视取消大小周遭员工抵制",
+      "title": "海康威视取消大小周遭员工抵制",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 2663063,
+      "platforms": [
+        "今日头条",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "豆瓣评分80热播剧被指抄袭韩剧": {
+      "key": "豆瓣评分80热播剧被指抄袭韩剧",
+      "title": "豆瓣评分8.0热播剧被指抄袭韩剧",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 3784498,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "厉娜回应爆火后现状": {
+      "key": "厉娜回应爆火后现状",
+      "title": "厉娜回应爆火后现状",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 3685591,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "央视曝光新型黄金诈骗套路": {
+      "key": "央视曝光新型黄金诈骗套路",
+      "title": "央视曝光新型黄金诈骗套路",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 3608381,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "王兴兴中国机器人产量有望超过汽车": {
+      "key": "王兴兴中国机器人产量有望超过汽车",
+      "title": "王兴兴：中国机器人产量有望超过汽车",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 3491255,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "护肝保健品可能正在伤你的肝": {
+      "key": "护肝保健品可能正在伤你的肝",
+      "title": "护肝保健品可能正在伤你的肝",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 3404393,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "人民日报评随地大小直播": {
+      "key": "人民日报评随地大小直播",
+      "title": "人民日报评“随地大小直播”",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 3338249,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "员工住宿难三只松鼠转型更难": {
+      "key": "员工住宿难三只松鼠转型更难",
+      "title": "员工住宿难 三只松鼠转型更难",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 3211817,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "ai演员批量成为偶像练习生": {
+      "key": "ai演员批量成为偶像练习生",
+      "title": "AI演员批量成为“偶像练习生”",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 3103017,
+      "platforms": [
+        "百度"
+      ],
+      "lifecycle": "新增"
+    },
+    "赵昭仪曝被导演开黄腔": {
+      "key": "赵昭仪曝被导演开黄腔",
+      "title": "赵昭仪曝被导演开黄腔",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 1648783,
+      "platforms": [
+        "今日头条",
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "杨毅男篮最后3分钟操作太拙劣了": {
+      "key": "杨毅男篮最后3分钟操作太拙劣了",
+      "title": "杨毅：男篮最后3分钟操作太拙劣了",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 2737908,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "董明珠痛斥汽车产业害虫有何深意": {
+      "key": "董明珠痛斥汽车产业害虫有何深意",
+      "title": "董明珠痛斥汽车产业害虫有何深意",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 2477362,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "航天员黎家盈的载荷任务有什么": {
+      "key": "航天员黎家盈的载荷任务有什么",
+      "title": "航天员黎家盈的“载荷”任务有什么",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 2241609,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "苏群郭士强被全网炮轰一点不冤": {
+      "key": "苏群郭士强被全网炮轰一点不冤",
+      "title": "苏群：郭士强被全网炮轰一点不冤",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 1660625,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "邵永灵特朗普借301调查锁定贸易战": {
+      "key": "邵永灵特朗普借301调查锁定贸易战",
+      "title": "邵永灵：特朗普借301调查锁定贸易战",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 1502596,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "被大疆竞业范围震撼到了": {
+      "key": "被大疆竞业范围震撼到了",
+      "title": "被大疆竞业范围震撼到了",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 1266425,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "高交会尽显中国科技创新活力": {
+      "key": "高交会尽显中国科技创新活力",
+      "title": "高交会尽显中国科技创新活力",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 1201372,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "华为乾崑向你收集用车心愿啦": {
+      "key": "华为乾崑向你收集用车心愿啦",
+      "title": "华为乾崑向你收集用车心愿啦",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 1198153,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "50余人摘走数百斤橘子仅留下10元": {
+      "key": "50余人摘走数百斤橘子仅留下10元",
+      "title": "50余人摘走数百斤橘子仅留下10元",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 1113150,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "刘亦菲黑色短裙造型": {
+      "key": "刘亦菲黑色短裙造型",
+      "title": "刘亦菲黑色短裙造型",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 911370,
+      "platforms": [
+        "今日头条"
+      ],
+      "lifecycle": "新增"
+    },
+    "女子因超40岁被酒店拒办入住": {
+      "key": "女子因超40岁被酒店拒办入住",
+      "title": "女子因超40岁被酒店拒办入住",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 799024,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "文吉儿不止邀请过王子璇": {
+      "key": "文吉儿不止邀请过王子璇",
+      "title": "文吉儿不止邀请过王子璇",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 787067,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
+    },
+    "上汽大众8x交付突破10000台": {
+      "key": "上汽大众8x交付突破10000台",
+      "title": "上汽大众8X交付突破10000台",
+      "firstSeenAt": "2026-11-27 13:51",
+      "lastSeenAt": "2026-11-27 13:51",
+      "seenCount": 1,
+      "lastScore": 751797,
+      "platforms": [
+        "微博"
+      ],
+      "lifecycle": "新增"
     }
   },
-  "lastUpdatedAt": "2026-11-27 02:42",
+  "lastUpdatedAt": "2026-11-27 13:51",
   "stats": {
-    "new": 74,
-    "continued": 6,
-    "dropped": 144
+    "new": 71,
+    "continued": 9,
+    "dropped": 71
   }
 }
